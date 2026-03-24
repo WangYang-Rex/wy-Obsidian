@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "6037829a532a2739",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ee14365f628b3e2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df61ed199f6b403a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Private/钉钉MCP/钉钉文档 MCP.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "钉钉文档 MCP"
+            }
+          },
+          {
+            "id": "c0036f11d57282be",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "openclaw/FACTS.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "FACTS"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c56a1049a0f42738",
+    "type": "split",
+    "children": [
+      {
+        "id": "98e5c9c0a70a2275",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51768f3ffe30af56",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "766a1b7e600fa376",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "ca7a9ccaf80e62dd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.5
+  },
+  "right": {
+    "id": "aa3914b5289c0740",
+    "type": "split",
+    "children": [
+      {
+        "id": "56c70b26fb7608ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9fc9a0ca59578ce3",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-22 11.55.33.excalidraw.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Drawing 2026-03-22 11.55.33.excalidraw 的反向链接列表"
+            }
+          },
+          {
+            "id": "4e1f0377108fdbe7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-22 11.55.33.excalidraw.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Drawing 2026-03-22 11.55.33.excalidraw 的出链列表"
+            }
+          },
+          {
+            "id": "d10b889f03175295",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "1e04b68333e368fb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "添加笔记属性"
+            }
+          },
+          {
+            "id": "01f1e2240418c852",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-03-22 11.55.33.excalidraw.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Drawing 2026-03-22 11.55.33.excalidraw 的大纲"
+            }
+          },
+          {
+            "id": "0b2ad19f93b56403",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:新建数据库": false,
+      "workspaces:管理工作区布局": false,
+      "markdown-importer:打开 Markdown 格式转换器": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false
+    }
+  },
+  "active": "c0036f11d57282be",
+  "lastOpenFiles": [
+    "templates/Knowledge.md",
+    "openclaw/FACTS.md",
+    "openclaw/Memory",
+    "openclaw/index",
+    "openclaw/daily",
+    "openclaw",
+    "templates/标准模板.md",
+    "templates/读书笔记模板.md",
+    "templates/日记模板.md",
+    "templates/未命名a.md",
+    "Private/钉钉MCP/钉钉文档 MCP.md",
+    "Private/钉钉MCP/attachments/Pasted image 20260323180307.png",
+    "Private/钉钉MCP/attachments",
+    "Private/钉钉MCP/附件/Pasted image 20260323180222.png",
+    "Private/钉钉MCP/附件",
+    "Pasted image 20260323175932.png",
+    "王洋个人笔记.base",
+    "OpenClaw 产品调研报告.md",
+    "Private",
+    "Excalidraw/Drawing 2026-03-22 11.55.33.excalidraw.md",
+    "2026-03-22.md",
+    "欢迎.md",
+    "创建链接.md",
+    "openclaw/KnowledgeBase/Personal",
+    "openclaw/knowledge/Finance",
+    "未命名.canvas"
+  ]
+}
