@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "baaf0d78a0ce8b62",
+        "id": "83c62b9463fc5a30",
         "type": "tabs",
         "children": [
           {
-            "id": "fa0df01e1f2c5b69",
+            "id": "941938ed3dad1b98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "knowledge/有成财务报销/报销PRD/产品管理/产品新人须知/产品新人须知.md",
+                "file": "knowledge/有成CRM/有成CRM知识库索引.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "产品新人须知"
+              "title": "有成CRM知识库索引"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "knowledge/有成财务报销/报销PRD/产品管理/产品新人须知/产品新人须知.md",
+                "file": "knowledge/有成CRM/有成CRM知识库索引.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "产品新人须知 的反向链接列表"
+              "title": "有成CRM知识库索引 的反向链接列表"
             }
           },
           {
@@ -182,12 +182,16 @@
       "bases:新建数据库": false
     }
   },
-  "active": "fa0df01e1f2c5b69",
+  "active": "941938ed3dad1b98",
   "lastOpenFiles": [
-    "knowledge/有成财务报销/报销PRD/产品管理/产品分工/产品分工.md",
-    "knowledge/有成财务报销/报销PRD/产品管理/产品新人须知/产品新人须知.md",
+    "knowledge/有成财务报销/有成财务报销知识库索引.md",
     "knowledge/有成CRM/有成CRM知识库索引.md",
+    "knowledge/有成CRM/产品需求文档/业务产品管理/其他.md",
     "knowledge/有成CRM/产品需求文档/AI.md",
+    "FACTS.md",
+    "knowledge/有成财务报销/报销PRD/产品管理/产品新人须知/产品新人须知.md",
+    "knowledge/aa.md",
+    "knowledge/有成财务报销/报销PRD/产品管理/产品分工/产品分工.md",
     "knowledge/有成CRM/产品需求文档/业务产品管理/需求说明/25年规划/25年规划.md",
     "knowledge/有成CRM/产品需求文档/业务产品管理/需求说明/25年规划",
     "knowledge/有成CRM/产品需求文档/业务产品管理/需求说明/与智能表单结合/与智能表单结合.md",
@@ -215,10 +219,6 @@
     "knowledge/有成CRM/产品需求文档/业务产品管理/竞品分析/给销售的/对比销帮帮（概述） 副本/对比销帮帮（概述） 副本.md",
     "knowledge/有成CRM/产品需求文档/业务产品管理/竞品分析/对比探迹/对比探迹.md",
     "knowledge/有成CRM/产品需求文档/业务产品管理/竞品分析/澳洲中小企业CRM软件需求适配性评估.md",
-    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/crm产品培训.md",
-    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/2024.1.11培训/2024.1.11培训.md",
-    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/2024.3.26培训/2024.3.26培训.md",
-    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/2024.5.14培训/2024.5.14培训.md",
-    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/PAAS分享/PAAS分享.md"
+    "knowledge/有成CRM/产品需求文档/业务产品管理/crm产品培训/crm产品培训.md"
   ]
 }
