@@ -1,58 +1,58 @@
 ---
-title: "æ¥éå¬åå¯¹æ¥DING"
+title: "报销催办对接DING"
 tags:
-  - æææ¥é
+  - 有成报销
   - PRD
-  - éæ±è®¾è®¡-å¾å-æ¥éå¬å
+  - 需求设计-待办-报销催�
 created: 2026-03-24
-source: ééææ¡£
+source: 钉钉文档
 original_url: https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0lZOdIdEX0nQYWakx1Z5N?utm_scene=team_space
 node_id: dQPGYqjpJYg0lZOdIdEX0nQYWakx1Z5N
 exported_at: 2026-03-22
 ---
 
-# æ¥éå¬åå¯¹æ¥DING
+# 报销催办对接DING
 
-> ð **åæé¾æ¥**ï¼[æ¥éå¬åå¯¹æ¥DING - ééææ¡£](https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0lZOdIdEX0nQYWakx1Z5N?utm_scene=team_space)
+> 🔗 **原文链接**：[报销催办对接DING - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0lZOdIdEX0nQYWakx1Z5N?utm_scene=team_space)
 
-# æ¥éå¬åå¯¹æ¥DING
+# 报销催办对接DING
 
-| **ä¿®è®¢æ¶é´** | **çæ¬** | **ä¿®è®¢è¯´æ** | **ä½è** |
+| **修订时间** | **版本** | **修订说明** | **作者** |
 |----------------|----------|----------------|----------|
-| 20240313 | v1.0 | æ°å»º | æ­è§ |
+| 20240313 | v1.0 | 新建 | 昭觉 |
 
-## 1ãæ¶åç³»ç»
+## 1、涉及系统
 
-æææ¥é PC & MB   ééç
+有成报销 PC & MB   钉钉版
 
-## 2ãéæ±èæ¯
+## 2、需求背景
 
-å®¢æ·ï¼å¹¿å·å°å¨è®¡ç®æºç§ææéå¬å¸
+客户：广州尚动计算机科技有限公司
 
-## 3ãä¸å¡æµç¨/æ¶æ
+## 3、业务流程/架构
 
-å¦å¤æéæ±ï¼æ¾ç½®ç¸å³æµç¨/æ¶æå¾
+如复杂需求，放置相关流程/架构图
 
-## 4ãåè½æ¸å
+## 4、功能清单
 
-æ ¹æ®ä¸ªäººéè¦è¡¥å
+根据个人需要补充
 
-:::infoæ¥å£ææ¡£ï¼æ¬æ¬¡ä½¿ç¨ 2.0 çæ¬
+:::info接口文档：本次使用 2.0 版本
 
 [<u>https://open.dingtalk.com/document/isvapp/ding-2-0-hair-nail</u>](https://open.dingtalk.com/document/isvapp/ding-2-0-hair-nail)
 
 :::
 
-## 5ãéæ±è¯¦æ
+## 5、需求详情
 
-### 5.1ãéæ±è¯´æ
+### 5.1、需求说明
 
 #### PC
 
 
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jL6V2okOdG/img/7224827f-3f5b-472d-a196-8d2e72c8290d.png?Expires=1774157634&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bBImczQRtDzOHzyZS%2Blh4ZCh7JI%3D "")
 
-åæ®è¯¦æé¡µç¹å»ãå¬åãï¼å±ç¤ºæ°å»º DING å¼¹çªï¼
+单据详情页点击【催办】，展示新建 DING 弹窗：
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jL6V2okOdG/img/a36ae1d1-5e97-4171-89bd-517afe630fa9.png?Expires=1774157634&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JoApVHoE7T%2B%2FHIa0uXdJ%2FyDLLfE%3D "")
@@ -78,17 +78,17 @@ exported_at: 2026-03-22
 
 ![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jL6V2okOdG/img/c5e7e478-c95b-41ae-af40-5c1675d52b32.png?Expires=1774157634&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9ow6XBz0v%2F9%2BU1ZpQzyRe6YcM%2BY%3D "")
 
-#### å­æ®µå¯¹åº
+#### 字段对应
 
 
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jL6V2okOdG/img/d794ac80-744c-4974-9d89-6813421f3747.png?Expires=1774157634&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=eudoBk2nXCuKAhS%2F2BotaFHU0%2FQ%3D "")
 
-| **DING å­æ®µ** | **æ¥éå­æ®µ** | **å¤æ³¨è¯´æ** |
+| **DING 字段** | **报销字段** | **备注说明** |
 |---------------|----------------|----------------|
-| users | å½åå®¡æ¹èç¹å¹éå°çå¨é¨å®¡æ¹äºº |  |
-| corpld | ä¼ä¸ç corpld |  |
-| type | é¾æ¥--å®¡æ¹ä»»å¡è¯¦æé¡µ |  |
-| alertType | æ ¹æ®å¼¹çªéæ©çåæ° |  |
-| alertDate | å®æ¶éåéæ¶é´ |  |
-| text | \{ç³è¯·äºº\}æéæ¨å®¡æ¹\{åæ®åç§°\} |  |
-| bizType | é»è®¤ï¼0 |  |
+| users | 当前审批节点匹配到的全部审批人 |  |
+| corpld | 企业的 corpld |  |
+| type | 链接--审批任务详情页 |  |
+| alertType | 根据弹窗选择的参数 |  |
+| alertDate | 定时钉发送时间 |  |
+| text | \{申请人\}提醒您审批\{单据名称\} |  |
+| bizType | 默认：0 |  |

@@ -1,210 +1,210 @@
 ---
-title: "å¯¹æ¥èèä¼ä¿¡AIæå®¢å©æ/AIæææ "
+title: "对接蚂蚁企信AI拓客助手/AI招投标"
 tags:
-  - ææCRM
+  - 有成CRM
   - PRD
-  - éæ±è®¾è®¡ææ¡£-AI-äº§åè¿
+  - 需求设计文档-AI-产品�
 created: 2026-03-24
-source: ééææ¡£
+source: 钉钉文档
 original_url: https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3ey6R2T24PoepxVBQEx5rG?utm_scene=team_space
 node_id: R1zknDm0WR3ey6R2T24PoepxVBQEx5rG
 exported_at: 2026-03-22
 ---
 
-# å¯¹æ¥èèä¼ä¿¡AIæå®¢å©æ/AIæææ 
+# 对接蚂蚁企信AI拓客助手/AI招投标
 
-> ð **åæé¾æ¥**ï¼[å¯¹æ¥èèä¼ä¿¡AIæå®¢å©æ/AIæææ  - ééææ¡£](https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3ey6R2T24PoepxVBQEx5rG?utm_scene=team_space)
+> 🔗 **原文链接**：[对接蚂蚁企信AI拓客助手/AI招投标 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/R1zknDm0WR3ey6R2T24PoepxVBQEx5rG?utm_scene=team_space)
 
-| ä¿®è®¢æ¶é´ | çæ¬ | ä¿®è®¢äºº | ä¿®è®¢è¯´æ |
+| 修订时间 | 版本 | 修订人 | 修订说明 |
 |-----------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------|
-| 2026-2-25 | v1.0 | é»èºå¹³ | æ°å»º |
+| 2026-2-25 | v1.0 | 黄艺平 | 新建 |
 |  |  |  |  |
 
-## éæ±è¯¦æ
+## 需求详情
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/2160f9e0-6c29-4600-9367-efbbb672e218.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=29aKy6DkpLP3PIb1pAvCmwaorZg%3D "")
 
-| éæ± | æè¿° |
+| 需求 | 描述 |
 |-----------------------------------------------------------------|-----------------------------------------------------------------|
-| æ°å¢ãAIæå®¢å©æã/ãAIæææ ãæ¨¡å | ä¸ãåºç¨å¼å³ä¸­å¢å ãAIæå®¢å©æã/ãAIæææ ãå¼å³ï¼é»è®¤åä¸ºå¼ï¼
+| 新增「AI拓客助手」/「AI招投标」模块 | 一、应用开关中增加「AI拓客助手」/「AI招投标」开关（默认均为开）
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/36c680f2-9172-4cc9-ac08-16eddec1ff6f.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JNY8TNZ5cG4pJRlF6sAyk0bvEXk%3D "")
-äºãåè½æé
-å¢å å¦ä¸åè½æéï¼åè½ä¸çº¿æ¶ï¼
-- åå²ä¼ä¸ï¼é»è®¤ææè§è²åå¾éæ­¤åè½æé
-- æ°ä¼ä¸ï¼ç³»ç»é¢è®¾è§è²ï¼åé»è®¤å¾éæ­¤åè½æé
+二、功能权限
+增加如下功能权限，功能上线时：
+- 历史企业：默认所有角色均勾选此功能权限
+- 新企业：系统预设角色，均默认勾选此功能权限
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/8e77ed1d-3061-4a6b-a094-012b80f0e132.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ziJedTY4bkCP2Lp1neeDRt7VwRQ%3D "")
-ä¸ãèåæåºï¼ä»PCç«¯ï¼
-- æ°ä¼ä¸ï¼ä¾æ¬¡é»è®¤æå¨å®¢æ·ä¸æ¹
-- æ§ä¼ä¸ï¼é»è®¤æå¨æåï¼è®¾ç½®ä¸æ¹ï¼
-~~å¤æ³¨ï¼èåè®¾ç½®ä¸­ä¸å±ç¤ºä¸è¿°ä¸¤ä¸ªèå~~
-åãå¼éå¹¶ä½¿ç¨ãAIæå®¢å©æã
-1ãä¼ä¸æªå¼éãAIæå®¢å©æã
-- ç¹å»ãXXXåè®®ãå¯åºç¨åå¼¹çªé¢è§æ¥çåè®®åå®¹
-- ç¹å»ãå¼éè¯ç¨ãAIæå®¢å©æããï¼ä¸ºä¼ä¸èªå¨åå»ºè¯ç¨è®¢å
-<li style="margin-left:1em">è¿è¥åå°
-<li style="margin-left:2em">ä¼ä¸åç§°ï¼åå½åä¼ä¸
-<li style="margin-left:2em">è®¢åç±»åï¼æå®¢å©â¼¿è¯ç¨ç
-<li style="margin-left:2em">è®¢åéé¢ï¼0
-<li style="margin-left:2em">è´­ä¹°è´¦å·æ°ï¼2
-<li style="margin-left:2em">è´­ä¹°å¹´éï¼-
-<li style="margin-left:2em">çææ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:2em">å¤±ææ¶é´ï¼å¼éæ¶é´\+5å¤©
-<li style="margin-left:2em">å¤æ³¨ï¼-
-<li style="margin-left:2em">ä½åºç¶æï¼æªä½åº
-<li style="margin-left:2em">åå»ºäººï¼ç³»ç»
-<li style="margin-left:2em">åå»ºæ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:1em">å¯¹æ¥ä¼ä¿¡ï¼éè¿åå»ºå©æä¼åæçåæ¥å£ï¼
-<li style="margin-left:2em">å¤é¨ä¸å¡IDï¼ï¼--èèä¸ç´æ²¡ç­å¤
-<li style="margin-left:2em">æå¡åIDï¼RAYCLOUD
-<li style="margin-left:2em">åå®¶IDï¼åä¼ä¸ID
-<li style="margin-left:2em">ä¼ä¿¡ä¼åäº§ååï¼æå®¢å©â¼¿è¯â½¤ç
-<li style="margin-left:2em">çææ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:2em">å¤±ææ¶é´ï¼å¼éæ¶é´\+5å¤©
+三、菜单排序（仅PC端）
+- 新企业：依次默认排在客户下方
+- 旧企业：默认排在最后（设置上方）
+~~备注：菜单设置中不展示上述两个菜单~~
+四、开通并使用「AI拓客助手」
+1、企业未开通「AI拓客助手」
+- 点击【XXX协议】可应用内弹窗预览查看协议内容
+- 点击【开通试用「AI拓客助手」】，为企业自动创建试用订单
+<li style="margin-left:1em">运营后台
+<li style="margin-left:2em">企业名称：取当前企业
+<li style="margin-left:2em">订单类型：拓客助⼿试用版
+<li style="margin-left:2em">订单金额：0
+<li style="margin-left:2em">购买账号数：2
+<li style="margin-left:2em">购买年限：-
+<li style="margin-left:2em">生效时间：取开通时间
+<li style="margin-left:2em">失效时间：开通时间\+5天
+<li style="margin-left:2em">备注：-
+<li style="margin-left:2em">作废状态：未作废
+<li style="margin-left:2em">创建人：系统
+<li style="margin-left:2em">创建时间：取开通时间
+<li style="margin-left:1em">对接企信（通过创建助手会员权益包接口）
+<li style="margin-left:2em">外部业务ID？？--蚂蚁一直没答复
+<li style="margin-left:2em">服务商ID：RAYCLOUD
+<li style="margin-left:2em">商家ID：取企业ID
+<li style="margin-left:2em">企信会员产品包：拓客助⼿试⽤版
+<li style="margin-left:2em">生效时间：取开通时间
+<li style="margin-left:2em">失效时间：开通时间\+5天
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/83e166cd-5858-4780-a31f-ccd83ef937b4.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BvzwPkRjRchY8S%2BbYbcJcqvPdcw%3D "")
-2ãä¼ä¸å·²å¼éãAIæå®¢å©æãä½æ¯æå¡å·²å°æ
-- ç¹å»ãèç³»å®¢æãï¼å¤çååºç¨ä¸­å¿-é³è§é¢è½¬å-èç³»åå¼ï¼ä¾æ®åå¹³å°ï¼
+2、企业已开通「AI拓客助手」但是服务已到期
+- 点击【联系客服】，处理同应用中心-音视频转写-联系充值（依据各平台）
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/fb68cf53-b84b-493d-ba19-3690364e77dc.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uJ651fsfMILKcYZaIoXtJq73X%2B4%3D "")
-3ãä¼ä¸å·²å¼éãAIæå®¢å©æãä½æ¯æå¡æªå°æ
-- ä¸ªäººé´æå¤±è´¥ï¼æªç»å®ææè®¸å¯ï¼ï¼å±ç¤ºå¦ä¸
+3、企业已开通「AI拓客助手」但是服务未到期
+- 个人鉴权失败（未绑定有效许可），展示如下
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/f8a95fe2-4d27-4e23-a13d-6775f8968771.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7fCZvaKl31nr7iPFLx4Bzje8yWs%3D "")
-- é´ææåï¼ä½ä¸ªäººæªææï¼éè¦åææ
+- 鉴权成功，但个人未授权：需要先授权
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/f593002f-2bef-4b97-8a55-d8bb374d9cf9.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=P7qCeC07DKFKFXBqyi3eo5nKDSg%3D "")
-- ä¸ªäººå·²ææï¼æ­£å¸¸ä½¿ç¨
-äºãå¼éå¹¶ä½¿ç¨ãAIæææ ã
-1ãä¼ä¸æªå¼éãAIæå®¢å©æã
-- ç¹å»ãXXXåè®®ãå¯åºç¨åå¼¹çªé¢è§æ¥çåè®®åå®¹
-- ç¹å»ãå¼éè¯ç¨ãAIæææ å©æããï¼ä¸ºä¼ä¸èªå¨åå»ºè¯ç¨è®¢å
-<li style="margin-left:1em">è¿è¥åå°
-<li style="margin-left:2em">ä¼ä¸åç§°ï¼åå½åä¼ä¸
-<li style="margin-left:2em">è®¢åç±»åï¼æææ å©â¼¿è¯ç¨ç
-<li style="margin-left:2em">è®¢åéé¢ï¼0
-<li style="margin-left:2em">è´­ä¹°è´¦å·æ°ï¼1
-<li style="margin-left:2em">è´­ä¹°å¹´éï¼-
-<li style="margin-left:2em">çææ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:2em">å¤±ææ¶é´ï¼å¼éæ¶é´\+15å¤©
-<li style="margin-left:2em">å¤æ³¨ï¼-
-<li style="margin-left:2em">ä½åºç¶æï¼æªä½åº
-<li style="margin-left:2em">åå»ºäººï¼ç³»ç»
-<li style="margin-left:2em">åå»ºæ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:1em">å¯¹æ¥ä¼ä¿¡ï¼éè¿åå»ºå©æä¼åæçåæ¥å£ï¼
-<li style="margin-left:2em">å¤é¨ä¸å¡IDï¼ï¼--èèä¸ç´æ²¡ç­å¤
-<li style="margin-left:2em">æå¡åIDï¼RAYCLOUD
-<li style="margin-left:2em">åå®¶IDï¼åä¼ä¸ID
-<li style="margin-left:2em">ä¼ä¿¡ä¼åäº§ååï¼æææ å©â¼¿è¯ç¨ç
-<li style="margin-left:2em">çææ¶é´ï¼åå¼éæ¶é´
-<li style="margin-left:2em">å¤±ææ¶é´ï¼å¼éæ¶é´\+15å¤©
+- 个人已授权：正常使用
+五、开通并使用「AI招投标」
+1、企业未开通「AI拓客助手」
+- 点击【XXX协议】可应用内弹窗预览查看协议内容
+- 点击【开通试用「AI招投标助手」】，为企业自动创建试用订单
+<li style="margin-left:1em">运营后台
+<li style="margin-left:2em">企业名称：取当前企业
+<li style="margin-left:2em">订单类型：招投标助⼿试用版
+<li style="margin-left:2em">订单金额：0
+<li style="margin-left:2em">购买账号数：1
+<li style="margin-left:2em">购买年限：-
+<li style="margin-left:2em">生效时间：取开通时间
+<li style="margin-left:2em">失效时间：开通时间\+15天
+<li style="margin-left:2em">备注：-
+<li style="margin-left:2em">作废状态：未作废
+<li style="margin-left:2em">创建人：系统
+<li style="margin-left:2em">创建时间：取开通时间
+<li style="margin-left:1em">对接企信（通过创建助手会员权益包接口）
+<li style="margin-left:2em">外部业务ID？？--蚂蚁一直没答复
+<li style="margin-left:2em">服务商ID：RAYCLOUD
+<li style="margin-left:2em">商家ID：取企业ID
+<li style="margin-left:2em">企信会员产品包：招投标助⼿试用版
+<li style="margin-left:2em">生效时间：取开通时间
+<li style="margin-left:2em">失效时间：开通时间\+15天
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/a4aff139-8490-4ab4-8af3-1aec991b0432.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XI2qoFt2u3KBn2aPuvNf%2FC3Sqj4%3D "")
-2ãä¼ä¸å·²å¼éãAIæææ ãä½æ¯æå¡å·²å°æ
-- ç¹å»ãèç³»å®¢æè´­ä¹°ãï¼å¤çååºç¨ä¸­å¿-é³è§é¢è½¬å-èç³»åå¼ï¼ä¾æ®åå¹³å°ï¼
+2、企业已开通「AI招投标」但是服务已到期
+- 点击【联系客服购买】，处理同应用中心-音视频转写-联系充值（依据各平台）
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/621cd8a8-59e4-4ba6-8bc6-a9417e460956.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NkeuTTa9NRoVl3JlFULVp7Y712E%3D "")
-3ãä¼ä¸å·²å¼éãAIæå®¢å©æãä½æ¯æå¡æªå°æ
-åæå®¢å©æï¼åé´æ-\>åçææ ææï¼ä¸è¿°ä¸¤ä¸ªé½æ»¡è¶³ï¼åè¿å¥ä½¿ç¨ |
-| è¿è¥åå° | ä¸ãè¿è¥åå°èåè°æ´ï¼ææå¢å¼æå¡èåéä¸­å¨ä¸ä¸ªä¸çº§èå
-äºãæ°å¢ãAIæå®¢è®¢åãï¼æ¬ææä¸ç®¡éæ¬¾çåºæ¯ï¼ç­å¾åç»­ä¼ä¿¡åæ­¥ä¸çº¿ï¼
-- è®¢åç±»åï¼æ°å»ºæ¶å¯éåªæâæå®¢å©æéç¨çâï¼æ°æ®åºä¸­æä¸¾åå«âæå®¢å©æè¯ç¨çâï¼è¯ç¨çè®©ç¨æ·èªå·±å¨é¡µé¢å¼éï¼
-- è´­ä¹°è´¦å·æ°ï¼åªè½å¡«å\>=2çæ­£æ´æ°ï¼é»è®¤=2ï¼ä¸å¯ç¼è¾ï¼ç½®ç°ï¼
-- è´­ä¹°å¹´éï¼ä¸æéæ©ï¼å¯éâåå¹´âãâ1å¹´âãâ2å¹´âãâ3å¹´âãâ4å¹´âï¼é»è®¤=1å¹´ï¼ä¸å¯ç¼è¾ï¼ç½®ç°ï¼
-- çææ¶é´ï¼é»è®¤=å½åæ¶é´ï¼ä¸å¯ç¼è¾ï¼ç½®ç°ï¼
-- å¤±ææ¶é´ï¼æç§çææ¶é´\+è´­ä¹°å¹´éèªå¨è®¡ç®
-å¤æ³¨ï¼æ­¤å¤ä¸ååï¼éè¦åæ­¥å¨ä¼ä¿¡å¤ä¸å
-ä¸ãæ°å¢ãAIæææ è®¢åã---åãAIæå®¢è®¢åãï¼ä¸åç¹å¦ä¸
-- è®¢åç±»åï¼å½ååªæâæææ å©æéç¨çâï¼æ°æ®åºä¸­æä¸¾åå«âæææ å©æè¯ç¨çâï¼è¯ç¨çè®©ç¨æ·èªå·±å¨é¡µé¢å¼éï¼
-- è´­ä¹°è´¦å·æ°ï¼åªè½å¡«åæ­£æ´æ°ï¼é»è®¤=2ï¼ä¸å¯ç¼è¾ï¼ç½®ç°ï¼
+3、企业已开通「AI拓客助手」但是服务未到期
+同拓客助手：先鉴权-\>再看有无授权，上述两个都满足，则进入使用 |
+| 运营后台 | 一、运营后台菜单调整，所有增值服务菜单集中在一个一级菜单
+二、新增「AI拓客订单」（本期暂不管退款的场景，等待后续企信同步上线）
+- 订单类型：新建时可选只有‘拓客助手通用版’，数据库中枚举包含‘拓客助手试用版’（试用版让用户自己在页面开通）
+- 购买账号数：只能填写\>=2的正整数，默认=2，不可编辑（置灰）
+- 购买年限：下拉选择，可选‘半年’、‘1年’、‘2年’、‘3年’、‘4年’，默认=1年，不可编辑（置灰）
+- 生效时间：默认=当前时间，不可编辑（置灰）
+- 失效时间：按照生效时间\+购买年限自动计算
+备注：此处下单后，需要同步在企信处下单
+三、新增「AI招投标订单」---同「AI拓客订单」，不同点如下
+- 订单类型：当前只有‘招投标助手通用版’，数据库中枚举包含‘招投标助手试用版’（试用版让用户自己在页面开通）
+- 购买账号数：只能填写正整数，默认=2，不可编辑（置灰）
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/7e49e637-2d96-48b8-b361-433666e615b0.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nb9%2B6cvvm7lfCBL0BXqQZBYwN9k%3D "") |
-| ãAIæææ ãå¹¿åå¼¹çª | åè½ä¸çº¿æ¶ï¼åå²ææä¼ä¸ãææç¨æ·å¼¹çªï¼ä»PCç«¯ï¼åªå¼¹1æ¬¡ï¼ï¼ç¹å»ãåå¾æ¥çã
-- ä¼ä¸ãAIæææ ãå·²å³é­ æ ç¨æ·æ å¯¹åºåè½æéï¼ææ æ­¤åè½æéé»è¾æç¤º
-å¤æ³¨ï¼æªæ­¢æ¶é´æ¯ä¸çº¿ä¹æ¥èµ·\+7å¤©
+| 「AI招投标」广告弹窗 | 功能上线时，历史所有企业、所有用户弹窗（仅PC端，只弹1次），点击【前往查看】
+- 企业「AI招投标」已关闭 或 用户无对应功能权限：按无此功能权限逻辑提示
+备注：截止时间是上线之日起\+7天
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/0fc60a0d-47b9-4d6c-9b69-c37c5d7c94a5.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D7q8uWw7OOwZ1EP9yck%2F5ogFIng%3D "") |
-| åºç¨ä¸­å¿ | ä¸ãæ°å¢ãAIæå®¢å©æãå¢å¼æå¡æ¨¡å
-- æªå¼éæ¶ï¼ç¹å»ãç³è¯·å¼éãï¼å¤çåç§ä¸è¿°å¹¿åå¼¹çªä¸­ç¹å»ãåå¾æ¥çã
-- ä½¿ç¨ä¸­/ä½¿ç¨å°æ
-<li style="margin-left:1em">å¤æ­ä¾æ®ï¼éç½®/è®¢åä¸­ï¼è®¢åæ¥è¯¢åè¡¨ä¸­
-<li style="margin-left:2em">æçæä¸­çè®¢åï¼çææ¶é´\<å½åæ¶é´\<å¤±ææ¶é´ï¼ï¼åä¸ºâä½¿ç¨ä¸­â
-<li style="margin-left:2em">æè®¢åä½æ¯ä¸å­å¨çæä¸­çè®¢åï¼å¦åä¸ºâä½¿ç¨å°æâ
+| 应用中心 | 一、新增「AI拓客助手」增值服务模块
+- 未开通时：点击【申请开通】：处理参照上述广告弹窗中点击【前往查看】
+- 使用中/使用到期
+<li style="margin-left:1em">判断依据：配置/订单中，订单查询列表中
+<li style="margin-left:2em">有生效中的订单（生效时间\<当前时间\<失效时间），则为‘使用中’
+<li style="margin-left:2em">有订单但是不存在生效中的订单，否则为‘使用到期’
 ![d5f42e61a6d6e7651eda0fb6c163b790.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/1ec09bc6-5bf2-48c1-9a25-f2921f006f1c.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=cb81zZqrHigQgehJQGCFlHLlJmQ%3D "")
-<li style="margin-left:1em">ç¹å»ãéç½®/è®¢åãå¯æ¥çæå¡éç½®ãè®¢åä¿¡æ¯
-<li style="margin-left:2em">éç½®
-<li style="margin-left:3em">æ¨¡å/æ¨¡æ¿
-<li style="margin-left:4em">æ¨¡åï¼å¿å¡«ï¼å¯éçº¿ç´¢/å®¢æ·/èç³»äºº/é¡¹ç®/éå®æºä¼ï¼åæ´æ¨¡åï¼æ¸é¤ä¸è¿°æéæ¨¡æ¿ãå­æ®µæ å°éç½®
-<li style="margin-left:4em">æ¨¡æ¿ï¼éå¿å¡«ï¼å¯æ¸ç©ºï¼ä¾æ®æéæ¨¡åéæ©å¯¹åºæ¨¡æ¿
-<li style="margin-left:4em">å¶ä»
-<li style="margin-left:5em">å½éæ©çæ¨¡åä¸ºå®¢æ·
-<li style="margin-left:6em">å¯å¾éä¿¡æ¯æ¯å¦åæ­¥è³å¬æµ·ï¼é»è®¤ä¸å¾éï¼å¾éåæå±å¬æµ·å¿å¡«ï¼
-<li style="margin-left:6em">å¯éæ©æå±å¬æµ·ï¼éå¿å¡«
-å¤æ³¨ï¼å¯¹åºå¤çé»è¾ä»¥åï¼ä¸­çææ¡é½å¦ä¸
-æå±å¬æµ·æéæ©ï¼ä¿¡æ¯å¥åºæ¶æå±å¬æµ·åéç½®ä¿¡æ¯
-å¾éäºåæ­¥è³å¬æµ·ï¼ä¿¡æ¯å¥åºæ¶è´è´£äººä¸ºç©º
-<li style="margin-left:5em">å½éæ©çæ¨¡åä¸ºçº¿ç´¢
-<li style="margin-left:6em">å¯å¾éä¿¡æ¯æ¯å¦è¿å¥çº¿ç´¢æ± ï¼é»è®¤ä¸å¾éï¼
-<li style="margin-left:6em">å¯éæ©æå±çº¿ç´¢æ± ï¼å¿å¡«
-å¤æ³¨ï¼å¯¹åºå¤çé»è¾ä»¥åï¼ä¸­çææ¡é½å¦ä¸
-å¾éäºåæ­¥è³çº¿ç´¢æ± ï¼ä¿¡æ¯å¥åºæ¶è´è´£äººä¸ºç©º
-<li style="margin-left:3em">å­æ®µæ å°ï¼åèå·¥åæ¥è¯¢å­æ®µæ å°é»è¾ï¼
-<li style="margin-left:4em">æå®¢å©æå­æ®µ
-<li style="margin-left:5em">ä¼ä¸å¬å¼èç³»æ¹å¼ä¿¡æ¯åè¡¨ï¼å±ç¤ºä¸ºå­æ®µåâå¯ä¿¡èç³»æ¹å¼âï¼å½ä¸ºâææºâç±»å
-<li style="margin-left:5em">ä¼ä¸åç§°ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:5em">ä¼ä¸è¯ä»¶å·ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:5em">ç¸ä¼¼ä¼ä¸åï¼æ°ç»ä¸­ä¼ä¸ååæ¼æ¥ï¼å¦âä¼ä¸1,ä¼ä¸2âï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">ç¸ä¼¼åå ï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">è´­ä¹°ååæ°ï¼âæ´æ°âç±»å
-<li style="margin-left:5em">è´­ä¹°åå¾ååå ï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">æºä¼åæï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">ä¼ä¸å¬å¼æ³äººä¿¡æ¯ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:5em">å¹éåº¦å¾åï¼âæ´æ°âç±»å
-<li style="margin-left:5em">æ¨èçç±ï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">ä¸»è¥åè¡¨ï¼æ°ç»ä¸­ä¸»è¥åå®¹åæ¼æ¥ï¼âå¤è¡ææ¬âç±»å
-<li style="margin-left:5em">æ è®¯å¬ååç§°ï¼ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:4em">CRMå­æ®µ
-<li style="margin-left:5em">ä¾æ®æéæ¨¡å\+æéæå®¢å©æå­æ®µæå±ç±»åï¼å±ç¤ºå¯éå­æ®µ
-<li style="margin-left:3em">é»è®¤éç½®
-<li style="margin-left:4em">æ¨¡åï¼å®¢æ·
-<li style="margin-left:4em">æ¨¡æ¿ï¼é»è®¤æ¨¡æ¿
-<li style="margin-left:4em">å­æ®µæ å°
-<li style="margin-left:5em">å¯ä¿¡èç³»æ¹å¼--\>çµè¯
-<li style="margin-left:5em">ä¼ä¸åç§°--\>ä¼ä¸åç§°
-<li style="margin-left:5em">ä¼ä¸è¯ä»¶å·--\>ç»ä¸ä¿¡ç¨ä»£ç 
-<li style="margin-left:2em">è®¢å
-<li style="margin-left:3em">æ¥è¯¢è¯¥ä¼ä¸å¨ä¼ä¿¡ä¸­è§åå»ºçè®¢åï¼æçææ¶æ¶é´ååºæå
-<li style="margin-left:3em">æ¯æç»å®åå·¥
-<li style="margin-left:4em">å·²è¿æçè®¢åä¸æ¯æãç»å®åå·¥ãæä½
-<li style="margin-left:4em">éæ©åå·¥-ãç¡®å®ãæ¶ï¼æ ¡éªæéäººåæ°é¡»\<=è¯¥è®¢åè´­ä¹°äººæ°ï¼è¶åºåæç¤ºâå½åè®¢åæå¤å¯ç»å®\{è´­ä¹°äººæ°\}äººâ
-<li style="margin-left:3em">å¤æ³¨ï¼ä¼ä¸å¼éè¯ç¨åï¼é»è®¤å¯ä»¥ç»å®2ä¸ªLicenseï¼ç»ä¼ä¿¡ä¸åå¹¶è·åå°Licenseåï¼å¶ä¸­ä¸ä¸ªLicenseé»è®¤ç»å®å¼éäºº
+<li style="margin-left:1em">点击【配置/订单】可查看服务配置、订单信息
+<li style="margin-left:2em">配置
+<li style="margin-left:3em">模块/模板
+<li style="margin-left:4em">模块：必填，可选线索/客户/联系人/项目/销售机会，变更模块，清除下述所选模板、字段映射配置
+<li style="margin-left:4em">模板：非必填，可清空，依据所选模块选择对应模板
+<li style="margin-left:4em">其他
+<li style="margin-left:5em">当选择的模块为客户
+<li style="margin-left:6em">可勾选信息是否同步至公海（默认不勾选，勾选后所属公海必填）
+<li style="margin-left:6em">可选择所属公海，非必填
+备注：对应处理逻辑以及？中的文案都如下
+所属公海有选择：信息入库时所属公海取配置信息
+勾选了同步至公海：信息入库时负责人为空
+<li style="margin-left:5em">当选择的模块为线索
+<li style="margin-left:6em">可勾选信息是否进入线索池（默认不勾选）
+<li style="margin-left:6em">可选择所属线索池，必填
+备注：对应处理逻辑以及？中的文案都如下
+勾选了同步至线索池：信息入库时负责人为空
+<li style="margin-left:3em">字段映射（参考工商查询字段映射逻辑）
+<li style="margin-left:4em">拓客助手字段
+<li style="margin-left:5em">企业公开联系方式信息列表：展示为字段名‘可信联系方式’，归为‘手机’类型
+<li style="margin-left:5em">企业名称：‘单行文本’类型
+<li style="margin-left:5em">企业证件号：‘单行文本’类型
+<li style="margin-left:5em">相似企业名：数组中企业名做拼接，如‘企业1,企业2’，‘多行文本’类型
+<li style="margin-left:5em">相似原因：‘多行文本’类型
+<li style="margin-left:5em">购买力分数：‘整数’类型
+<li style="margin-left:5em">购买力得分原因：‘多行文本’类型
+<li style="margin-left:5em">机会分析：‘多行文本’类型
+<li style="margin-left:5em">企业公开法人信息：‘单行文本’类型
+<li style="margin-left:5em">匹配度得分：‘整数’类型
+<li style="margin-left:5em">推荐理由：‘多行文本’类型
+<li style="margin-left:5em">主营列表：数组中主营内容做拼接，‘多行文本’类型
+<li style="margin-left:5em">标讯公告名称：：‘单行文本’类型
+<li style="margin-left:4em">CRM字段
+<li style="margin-left:5em">依据所选模块\+所选拓客助手字段所属类型，展示可选字段
+<li style="margin-left:3em">默认配置
+<li style="margin-left:4em">模块：客户
+<li style="margin-left:4em">模板：默认模板
+<li style="margin-left:4em">字段映射
+<li style="margin-left:5em">可信联系方式--\>电话
+<li style="margin-left:5em">企业名称--\>企业名称
+<li style="margin-left:5em">企业证件号--\>统一信用代码
+<li style="margin-left:2em">订单
+<li style="margin-left:3em">查询该企业在企信中见创建的订单，按生效时时间倒序排列
+<li style="margin-left:3em">支持绑定员工
+<li style="margin-left:4em">已过期的订单不支持【绑定员工】操作
+<li style="margin-left:4em">选择员工-【确定】时，校验所选人员数须\<=该订单购买人数，超出则提示‘当前订单最多可绑定\{购买人数\}人’
+<li style="margin-left:3em">备注：企业开通试用后，默认可以绑定2个License，给企信下单并获取到License后，其中一个License默认绑定开通人
 ![729c515f74194ba718f2d0ffd3d5d054.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/49882684-2a04-4124-9d6b-723c09e73bde.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D8ADSGFUd8bMEbU8UF6%2FLDBFJXk%3D "")
-äºãæ°å¢ãAIæææ ãå¢å¼æå¡æ¨¡å
-åºæ¬åãAIæææ ãï¼åºå«å¨
-- éç½®
-<li style="margin-left:1em">å­æ®µæ å°
-<li style="margin-left:2em">æå®¢å©æå­æ®µ
-<li style="margin-left:3em">æ è®¯å¬ååç§°ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:3em">æ è®¯è´è´£äººåç§°ï¼âåè¡ææ¬âç±»å
-<li style="margin-left:1em">é»è®¤éç½®
-<li style="margin-left:2em">æ¨¡åï¼çº¿ç´¢
-<li style="margin-left:2em">æ¨¡æ¿ï¼é»è®¤æ¨¡æ¿
-<li style="margin-left:2em">~~å­æ®µæ å°~~
-<li style="margin-left:3em">~~å¯ä¿¡èç³»æ¹å¼--\>çµè¯~~
-<li style="margin-left:3em">~~ä¼ä¸åç§°--\>ä¼ä¸åç§°~~
-<li style="margin-left:3em">~~ä¼ä¸è¯ä»¶å·--\>ç»ä¸ä¿¡ç¨ä»£ç ~~
-- è®¢å
+二、新增「AI招投标」增值服务模块
+基本同「AI招投标」，区别在
+- 配置
+<li style="margin-left:1em">字段映射
+<li style="margin-left:2em">拓客助手字段
+<li style="margin-left:3em">标讯公告名称：‘单行文本’类型
+<li style="margin-left:3em">标讯负责人名称：‘单行文本’类型
+<li style="margin-left:1em">默认配置
+<li style="margin-left:2em">模块：线索
+<li style="margin-left:2em">模板：默认模板
+<li style="margin-left:2em">~~字段映射~~
+<li style="margin-left:3em">~~可信联系方式--\>电话~~
+<li style="margin-left:3em">~~企业名称--\>企业名称~~
+<li style="margin-left:3em">~~企业证件号--\>统一信用代码~~
+- 订单
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/a9b92637-f7ca-4b49-8cad-8db6840c3bb2.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ttIqVAQcg9wRquJF549O2XAhCvQ%3D "") |
-| çº¿ç´¢å¥åº | ä¸ããAIæå®¢å©æã
-ä¾æ®ä¼ä¸ãAIæå®¢å©æãéç½®
-- éæ©æ¨¡æ¿ï¼è¥éç½®ä¸­ï¼æ¨¡æ¿æéæ©ï¼éæ©æ¨¡æ¿é¡µé¢é»è®¤éæ©éç½®çæ¨¡æ¿
-- ä¿¡æ¯å¥åº
-<li style="margin-left:1em">ä¾æ®å­æ®µæ å°éç½®
-<li style="margin-left:1em">è´è´£äººåå¼ï¼è¥å¥åºæ¶éæ©è¿å¥å¬æµ·/çº¿ç´¢æ± çï¼è´è´£äººä¸ºç©ºï¼å¦åï¼åå½åæä½äºº
-å¤æ³¨ï¼
-- å®¢æ·/çº¿ç´¢/èç³»äºº/é¡¹ç®/éå®æºä¼-æ¥æºå¹³å°ä¸­å¢å æä¸¾å¼âä¼ä¿¡æå®¢å©æâï¼ä¿¡æ¯å¥åºæ¶å¨è¯¥å­æ®µä¸­æ è®°ä¿¡æ¯æ¥æºï¼é¡¹ç®/éå®æºä¼å¯¹è±¡è¯¥å­æ®µåå²ä¸å­å¨ï¼æ¬æ¬¡æ°å¢ï¼
-äºããAIæææ ã
-ä¾æ®ä¼ä¸ãAIæææ ãéç½®ï¼å¶ä»åãAIæå®¢å©æã
-å¤æ³¨ï¼ææå¯¹è±¡å¢å å­æ®µï¼éèå­æ®µï¼ï¼ç¨æ¥è®°å½ä¼ä¿¡ä¼ å¥çâå¥åºåå®¹çé¾æ¥å°åâï¼è¯¥å­æ®µæå¼çæ°æ®ï¼è¯¦æé¡µå±ç¤ºä¼ä¿¡çiconï¼å¹¶æ¯æè·³è½¬---æå®¢çé¾æ¥ææ¶æ²¡æï¼ç­ä»ä»¬è¿­ä»£äºä¹ååå­
+| 线索入库 | 一、「AI拓客助手」
+依据企业「AI拓客助手」配置
+- 选择模板：若配置中，模板有选择，选择模板页面默认选择配置的模板
+- 信息入库
+<li style="margin-left:1em">依据字段映射配置
+<li style="margin-left:1em">负责人取值：若入库时选择进入公海/线索池的，负责人为空；否则，取当前操作人
+备注：
+- 客户/线索/联系人/项目/销售机会-来源平台中增加枚举值‘企信拓客助手’，信息入库时在该字段中标记信息来源（项目/销售机会对象该字段历史不存在，本次新增）
+二、「AI招投标」
+依据企业「AI招投标」配置，其他同「AI拓客助手」
+备注：所有对象增加字段（隐藏字段），用来记录企信传入的‘入库内容的链接地址’，该字段有值的数据，详情页展示企信的icon，并支持跳转---拓客的链接暂时没有，等他们迭代了之后再存
 ![8ffb3ef7b071b7c18c5d0d990af968f6.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/dec613c3-2965-4382-9912-2aff9ae9b5ff.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fflsj1vWsycT%2FTJmpO%2FYccJSm5k%3D "") |
-| æ¶æ¯æ¨é | æ¥å¥ä¼ä¿¡æ¶æ¯è®¢éï¼è·åå°æ¶æ¯åæ¨éè³å¯¹åºç¨æ·
-ç¹å»ãæ¥çè¯¦æãè·³è½¬è³ãAIæå®¢å©æã/ãAIæææ ãé¡µé¢
+| 消息推送 | 接入企信消息订阅，获取到消息后推送至对应用户
+点击【查看详情】跳转至「AI拓客助手」/「AI招投标」页面
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Lk3lbmbbEowQ3Om9/img/1b4fa7d9-4b5e-465b-b937-1bff118b8f48.png?Expires=1774165005&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7einrPnLVAlHMvwEdfNA2pknJY%3D "") |
 
 
-éï¼åçicon ,ç¨äºåºç¨ä¸­å¿/åºç¨å¼å³
+附：品牌icon ,用于应用中心/应用开关
 
-[æ è®¯å©æ.zip]
+[标讯助手.zip]
 
-[æ¾å®¢å©æ.zip]
+[找客助手.zip]

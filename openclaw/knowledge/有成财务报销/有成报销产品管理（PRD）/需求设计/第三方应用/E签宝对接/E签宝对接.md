@@ -29,7 +29,7 @@ exported_at: 2026-03-22
 
 ## 2、业务流程/架构
 
-接口文档：[<u>https://www.yuque.com/esign/potnnf/ggggqh#3xchN</u>](https://www.yuque.com/esign/potnnf/ggggqh#3xchN)
+接口文档：[https://www.yuque.com/esign/potnnf/ggggqh#3xchN](https://www.yuque.com/esign/potnnf/ggggqh#3xchN)
 
 对接e签宝，合同线上签署流程：
 
@@ -83,7 +83,7 @@ exported_at: 2026-03-22
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobgWW5ZPlpj/img/acf5df5a-5048-4168-9a98-9f6ff9dfc40e.png?Expires=1774156605&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pOuuNrdhkqFBwgiFmeVUzl7fZFY%3D "")
 
-1. 页面文案：电子合同服务由e签宝提供，开通服务前请确保已安装e签宝微应用；使用手机钉钉扫码，安装e签宝微应用2. 安装二维码：\<span style="color:#DF2A3F"\>后续由e签宝提供安装渠道码\</span\>3. 调用API\<span style="color:#2F8EF4"\>【\</span\>\[获取企业e签宝微应用状态\](https://www.yuque.com/esign/potnnf/ggggqh#8grI5)\<span style="color:#2F8EF4"\>】\</span\>，查询e签宝安装状态1. \*\*未安装\*\*——点击“已扫码安装e签宝”提示：企业还未安装e签宝微应用！
+1. 页面文案：电子合同服务由e签宝提供，开通服务前请确保已安装e签宝微应用；使用手机钉钉扫码，安装e签宝微应用2. 安装二维码：\后续由e签宝提供安装渠道码\</span\>3. 调用API\【\</span\>\[获取企业e签宝微应用状态\](https://www.yuque.com/esign/potnnf/ggggqh#8grI5)\】\</span\>，查询e签宝安装状态1. \*\*未安装\*\*——点击“已扫码安装e签宝”提示：企业还未安装e签宝微应用！
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobgWW5ZPlpj/img/eb6c6df4-67fb-4841-b721-ba9559a03d9d.png?Expires=1774156605&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=atueTcOpYzQAD%2FjtPU7a3VwxOL0%3D "")
@@ -129,7 +129,7 @@ exported_at: 2026-03-22
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobgWW5ZPlpj/img/59a7b773-1583-4b91-b1d2-686ca1eaa288.png?Expires=1774156605&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rEO69NpepNBl2cScQOGqgEbC%2BHM%3D "")
 
-1\. \*\*状态：使用中\*\*2\. \*\*剩余可签署合同数\*\*：调用API\<span style="color:#2F8EF4"\>【\</span\>\[查询套餐余量\](https://www.yuque.com/esign/potnnf/ggggqh#Brt0N)\<span style="color:#2F8EF4"\>】\</span\>3\. \*\*联系客服充值\*\*：点击弹出客服电话
+1\. \*\*状态：使用中\*\*2\. \*\*剩余可签署合同数\*\*：调用API\【\</span\>\[查询套餐余量\](https://www.yuque.com/esign/potnnf/ggggqh#Brt0N)\】\</span\>3\. \*\*联系客服充值\*\*：点击弹出客服电话
 
 
 ![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobgWW5ZPlpj/img/7e756a29-7342-49f3-a350-4e2c88abdeb7.png?Expires=1774156605&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tIUxZy%2F1%2BwZKAgJovcsKiriDhU8%3D "")
@@ -159,7 +159,7 @@ exported_at: 2026-03-22
 **开通e签宝服务后，用户联系客服充值，客服在后台管理-企业管理中，找到企业，完成e签宝合同数充值**
 1. 企业管理中-编辑类型选型增加「e签宝充值」
 2. 编辑页面显示“用户剩余合同数”-不可编辑；充值合同数填写范围：正整数
-3. 点击“确定”，调用API【[<u>套餐转售2（底价结算模式）</u>](https://www.yuque.com/esign/potnnf/ggggqh#6v0Nz)】，传入本次给该企业下单多少份电子合同，e签宝将会充值合同份数到用户账号上
+3. 点击“确定”，调用API【[套餐转售2（底价结算模式）](https://www.yuque.com/esign/potnnf/ggggqh#6v0Nz)】，传入本次给该企业下单多少份电子合同，e签宝将会充值合同份数到用户账号上
 4. 合同底价后续由双方商务对接确定
 
 ### 4.4、合同发起线上签署
@@ -228,7 +228,7 @@ exported_at: 2026-03-22
 | 签署流程-操作人 | operatorAccountName（操作人姓名） |  |
 | 签署流程-操作人操作 | logType |  |
 
-5. 查看用章流程：当\<span style="color:#DF2A3F"\>签署方为组织架构内\</span\> & \<span style="color:#DF2A3F"\>在e签宝侧发起了用章审批流程 \</span\>，点击“查看用章审批”调用API【\[获取流程任务用印审批列表\](https://www.yuque.com/esign/potnnf/ggggqh#06e340c7)】可查看该签署方的用章审批流程详情
+5. 查看用章流程：当\签署方为组织架构内\</span\> & \在e签宝侧发起了用章审批流程 \</span\>，点击“查看用章审批”调用API【\[获取流程任务用印审批列表\](https://www.yuque.com/esign/potnnf/ggggqh#06e340c7)】可查看该签署方的用章审批流程详情
 
 注：审批流程中-审批节点只展示审批完成的节点（状态：审批通过/审批拒绝）
 

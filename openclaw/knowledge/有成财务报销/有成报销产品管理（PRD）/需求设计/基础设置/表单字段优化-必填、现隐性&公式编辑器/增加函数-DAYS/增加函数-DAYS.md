@@ -1,53 +1,53 @@
 ---
-title: "å¢å å½æ°-DAYS"
+title: "增加函数-DAYS"
 tags:
-  - æææ¥é
+  - 有成报销
   - PRD
-  - éæ±è®¾è®¡-åºç¡è®¾ç½®-è¡¨å
+  - 需求设计-基础设置-表�
 created: 2026-03-24
-source: ééææ¡£
+source: 钉钉文档
 original_url: https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space
 node_id: KGZLxjv9VG3RrkNQT79AK9jAV6EDybno
 exported_at: 2026-03-22
 ---
 
-# å¢å å½æ°-DAYS
+# 增加函数-DAYS
 
-> ð **åæé¾æ¥**ï¼[å¢å å½æ°-DAYS - ééææ¡£](https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space)
+> 🔗 **原文链接**：[增加函数-DAYS - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space)
 
-# å¢å å½æ°-DAYS
+# 增加函数-DAYS
 
-| **ä¿®è®¢æ¶é´** | **çæ¬** | **ä¿®è®¢è¯´æ** |
+| **修订时间** | **版本** | **修订说明** |
 |----------------|----------|----------------|
-| 20240806 | v1.0 | æ°å»º |
+| 20240806 | v1.0 | 新建 |
 
-## 1ãéæ±èæ¯
+## 1、需求背景
 
-å®¢æ·ï¼ä¸è¾
+客户：东艾
 
-éæ±æè¿°ï¼è·¨æ¥å³éè¦è®¡ç®ä¸ºä¸å¤©ï¼ä¸èèæ¶é´ï¼ç®åDAY\_DIFFéè¦æ»¡24å°æ¶æè®¡ç®ä¸ºä¸å¤©
+需求描述：跨日即需要计算为一天，不考虑时间，目前DAY\_DIFF需要满24小时才计算为一天
 
-## 2ãéæ±è¯¦æ
+## 2、需求详情
 
-[<u>https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz</u>](https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz) ãç¼è¾å¨å­æ®µãå½æ°åºã
+[<u>https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz</u>](https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz) 《编辑器字段、函数库》
 
 
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/05a9a1ab-9a4f-4636-a207-65a60af04418.png?Expires=1774157048&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=69ayPyr%2FiCDdin4ChiNNO5jzmGY%3D "")
 
-å¢å å½æ°ï¼DAYSï¼æ¾å¨æ¥æå½æ°ä¸­ï¼
+增加函数：DAYS；放在日期函数中：
 
-1ãå½æ°å¨Excelä¸­ç¨äºè®¡ç®ä¸¤ä¸ªæ¥æä¹é´çå¤©æ°å·®å¼ãå®ä¼å¿½ç¥æ¶é´é¨åï¼åªèèæ¥æã
+1、函数在Excel中用于计算两个日期之间的天数差异。它会忽略时间部分，只考虑日期。
 
-2ãå·ä½è§åä¸æè¿°è§ä¸é¢è¡¨æ ¼ä¸­ï¼
+2、具体规则与描述见上面表格中；
 
-3ãå¦ææ¯æä»½èå´ï¼éè¦å°æä»½è½¬æ¢ä¸ä¸ï¼å¼å§æä»½è½¬æ¢ä¸º1å·ï¼ç»ææ¥æè½¬æ¢ä¸ºå½åæä»½çæåä¸å¤©ï¼
+3、如果是月份范围，需要将月份转换一下，开始月份转换为1号，结束日期转换为当前月份的最后一天：
 
-æ¯å¦ï¼202407è³202408ï¼è½¬æ¢ä¸ºï¼2024-07-01è³2024-08-31202407è³2024-09ï¼è½¬æ¢ä¸ºï¼2024-07-01è³2024-09-30
+比如：202407至202408，转换为：2024-07-01至2024-08-31202407至2024-09，转换为：2024-07-01至2024-09-30
 
 
-å®ç°ä¸è¾è®¡ç®å¤©æ°çå½æ°ç¤ºä¾ï¼
+实现东艾计算天数的函数示例：
 
-=DAYS(ç»ææ¥æ,å¼å§æ¥æ)\+1
+=DAYS(结束日期,开始日期)\+1
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/2c2f9b20-4f26-477d-a4f9-cda1b72c8edd.png?Expires=1774157048&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XwsyhSTKwU%2FACrqURqiIdUqxznk%3D "")

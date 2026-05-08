@@ -1,36 +1,36 @@
 ---
-title: "çµèç«¯å¿«æ·è¿å¥crm"
+title: "电脑端快捷进入crm"
 tags:
-  - ææCRM
+  - 有成CRM
   - PRD
-  - éæ±è®¾è®¡ææ¡£-åºæ¯è§£å
+  - 需求设计文档-场景解�
 created: 2026-03-24
-source: ééææ¡£
+source: 钉钉文档
 original_url: https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space
 node_id: QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4
 exported_at: 2026-03-22
 ---
 
-# çµèç«¯å¿«æ·è¿å¥crm
+# 电脑端快捷进入crm
 
-> ð **åæé¾æ¥**ï¼[çµèç«¯å¿«æ·è¿å¥crm - ééææ¡£](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space)
+> 🔗 **原文链接**：[电脑端快捷进入crm - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space)
 
-ééé¾æ¥ï¼[https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1](https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1)
+钉钉链接：[https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1](https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1)
 
 
-**åå»ºæ¡é¢å¿«æ·æ¹å¼**
-    - **Windowsç³»ç»**ï¼
-        1. å³é®æ¡é¢ç©ºç½å¤ï¼éæ©"æ°å»º" -\> "å¿«æ·æ¹å¼"
-        2. å°ä¸è¿°AppLinké¾æ¥ç²è´´å°"ä½ç½®"è¾å¥æ¡
-        3. ç¹å»"ä¸ä¸æ­¥"ï¼è¾å¥å¿«æ·æ¹å¼åç§°ï¼å¦"ææCRM"ï¼
-        4. ç¹å»"å®æ"å³å¯
-    - **macOSç³»ç»**ï¼
-        5. æå¼"èªå¨æä½"åºç¨
-        6. éæ©"åºç¨ç¨åº"æ¨¡æ¿
-        7. æ·»å "è·åæå®URL"å°ä¸è¿°é¾æ¥å°åç²è´´å°URLè¾å¥æ¡
-        8. æ·»å "æ¾ç¤ºç½é¡µ"æä½
-        9. ä¿å­ä¸ºåºç¨ç¨åºå³å¯
+**创建桌面快捷方式**
+    - **Windows系统**：
+        1. 右键桌面空白处，选择"新建" -\> "快捷方式"
+        2. 将上述AppLink链接粘贴到"位置"输入框
+        3. 点击"下一步"，输入快捷方式名称（如"有成CRM"）
+        4. 点击"完成"即可
+    - **macOS系统**：
+        5. 打开"自动操作"应用
+        6. 选择"应用程序"模板
+        7. 添加"获取指定URL"将上述链接地址粘贴到URL输入框
+        8. 添加"显示网页"操作
+        9. 保存为应用程序即可
 
-[macçµèæ¡é¢å¿«æ·è¿å¥crm.mov]
+[mac电脑桌面快捷进入crm.mov]
 
 
