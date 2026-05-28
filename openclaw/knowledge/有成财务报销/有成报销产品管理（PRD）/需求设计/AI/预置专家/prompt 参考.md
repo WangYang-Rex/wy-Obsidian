@@ -1,20 +1,11 @@
 ---
 title: "prompt 参考"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-AI-预置专家
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4?utm_scene=team_space
-node_id: QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4
-exported_at: 2026-03-22
+nodeId: QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4?utm_scene=team_space"
+exportedAt: 2026-04-01T02:09:49.223Z
+source: dingtalk-document-mcp
 ---
-
-# prompt 参考
-
-> 🔗 **原文链接**：[prompt 参考 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4?utm_scene=team_space)
-
 ```
 1、项目利润表
 按照单据日期为报告查询时间，单据状态为已完成，包括未产生费用的项目：

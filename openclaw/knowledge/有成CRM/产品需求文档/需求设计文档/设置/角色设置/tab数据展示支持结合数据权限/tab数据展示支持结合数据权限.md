@@ -1,20 +1,11 @@
 ---
 title: "tab数据展示支持结合数据权限"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-设置-角�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogGdq6lWZd1wyK0?utm_scene=team_space
-node_id: m9bN7RYPWdlgvydeFogGdq6lWZd1wyK0
-exported_at: 2026-03-22
+nodeId: m9bN7RYPWdlgvydeFogGdq6lWZd1wyK0
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogGdq6lWZd1wyK0?utm_scene=team_space"
+exportedAt: 2026-03-31T04:23:33.143Z
+source: dingtalk-document-mcp
 ---
-
-# tab数据展示支持结合数据权限
-
-> 🔗 **原文链接**：[tab数据展示支持结合数据权限 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogGdq6lWZd1wyK0?utm_scene=team_space)
-
 # tab数据展示支持结合数据权限
 
 | **修订时间** | **版本** | **修订人** | **修订说明** |
@@ -42,4 +33,4 @@ exported_at: 2026-03-22
 |----------|----------|
 | tab数据展示支持结合按数据权限 | 一、角色设置：增加'tab数据权限'设置\+ ？中的说明举例查看客户下合同订单tab数据全部数据：不管对应人员合同订单数据权限是什么，均可看到该客户下全部合同订单数据权限内：若对应人员合同订单数据权限为本人，则只可看到该客户下合同订单为他负责或协作的合同订单\+ 默认为‘全部’二、tab数据展示优化\+ 若该用户有多个角色，设置了不同的tab数据权限，取最大权限\+ 非特殊模块，如‘合同订单-协议 关联’、‘客户上下级’‘采购申请/合同订单下采购单tab’等，其他模块遵循这套规则三、非公共tab同样需要支持数据权限控制（标红部分为本期需要支持）\+ **所有模块的跟进记录tab**\+ ~~协议=\>合同订单 (前端特殊)~~ \+ **客户=\>拜访签到**、~~上下级~~\+ ~~产品=\>产品明细~~\+ ~~销售机会=\>联系人~~\+ **产品=\>销售机会、合同订单、价目表、采购申请、采购单**~~、库存信息、出入库记录~~~~（查找到的关联单据---\>结合对应模块数据权限）~~\+ 采购单=\>~~计划付款（做不了，有展示关联付款）~~、**实际付款**\+ **合同订单=\>**~~计划回款（做不了，有展示关联回款）~~**、实际回款**、~~采购单、协议~~\+ ~~仓库=\>出入库单~~\+ ~~工单=\>工单进展、联系人、协议、客户、销售机会、合同订单、合同订单产品~~\+ ~~供应商=\>联系人、采购退货单~~\+ ~~拜访计划=\>拜访签到~~\+ ~~项目=\>客户~~\+ ~~未铺开模块~~ |
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45KbX8JzKqDQ/img/6964f251-ec36-4343-955c-ecc77942aaa5.png?Expires=1774165440&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KsiYvaIz1gJi%2FVFFvemUGjpF3cs%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45KbX8JzKqDQ/img/6964f251-ec36-4343-955c-ecc77942aaa5.png?Expires=1774938216&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CcVg3uLoltgPdL6R8HHlGxLs8T0%3D "")

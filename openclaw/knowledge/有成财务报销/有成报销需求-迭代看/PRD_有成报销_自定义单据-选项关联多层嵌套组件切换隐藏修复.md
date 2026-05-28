@@ -3,8 +3,8 @@ title: "PRD_有成报销_自定义单据-选项关联多层嵌套组件切换隐
 nodeId: a9E05BDRVQ6L3R7yHy6oDwOEJ63zgkYA
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQ6L3R7yHy6oDwOEJ63zgkYA?utm_scene=team_space"
-updateTime: 1778734203000
-exportedAt: 2026-05-14T12:13:56.983Z
+updateTime: 1779004148000
+exportedAt: 2026-05-28T11:32:56.565Z
 source: dingtalk-document-mcp
 ---
 > **版本**：v1.1 \| **产品**：有成报销v2.0 \| **客户**：合肥星禾星穗教育科技有限公司 **修订记录**：v1.0(20260514)初始版本 v1.1(20260514)补充递归隐藏时仅直属下级清空数据   
@@ -40,13 +40,12 @@ source: dingtalk-document-mcp
 
 **位置**：单据填写页（新建/编辑）
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbkyGQp8qXx/img/5478f4b3-de45-4068-b07f-dcf323878a99.png?Expires=1778767553&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AP3F8f3b4EO7KyynzM4WdA9gzjw%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbkyGQp8qXx/img/d01d3b0d-622e-48a0-a1eb-f4847b6d9138.png?Expires=1779975177&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nX%2B3idbe6mVTzJC%2B7%2FY0fN89gMg%3D "")
 
 **功能描述**：
 - 切换下拉组件的选项时，系统递归遍历该选项关联的所有下级组件，包含直属下级及下级的下级（不限层级），全部隐藏
 - **数据清空规则**： 
-    - **直属下级**：隐藏时同步清空已填数据（与现有逻辑一致）
-    - **非直属下级**（下级的下级及更深层级）：只隐藏，**不清空**数据
+    - **直属下级和该链路下所有下级**：全部隐藏
 - 隐藏完成后，根据新选项的关联配置，显示对应的下属层级组件
 - 表格组件等子表单组件内的下拉组件如果也配了选项关联，则也按照本次需求迭代
 
@@ -54,7 +53,7 @@ source: dingtalk-document-mcp
 
 **功能描述**：
 - 隐藏后的字段不再参与提交校验（含必填校验），与现有选项关联隐藏逻辑一致
-- 函数/公式引用了被隐藏字段时，按清空后的空值计算（仅直属下级被清空，非直属下级保留原值但隐藏不参与计算）
+- 函数/公式引用了被隐藏字段时，按清空后的空值计算（保留原值但隐藏不参与计算）
 - 已提交/审批中/已完成的历史单据不受影响，不回溯处理
 
 ### 3.3 端适配

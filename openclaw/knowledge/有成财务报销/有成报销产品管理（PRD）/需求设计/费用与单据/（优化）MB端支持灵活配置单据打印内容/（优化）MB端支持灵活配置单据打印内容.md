@@ -1,20 +1,12 @@
 ---
 title: "（优化）MB端支持灵活配置单据打印内容"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-费用与单据-�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0?utm_scene=team_space
-node_id: m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0
-exported_at: 2026-03-22
+nodeId: m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0?utm_scene=team_space"
+updateTime: 1751427322000
+exportedAt: 2026-05-14T12:11:19.709Z
+source: dingtalk-document-mcp
 ---
-
-# （优化）MB端支持灵活配置单据打印内容
-
-> 🔗 **原文链接**：[（优化）MB端支持灵活配置单据打印内容 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0?utm_scene=team_space)
-
 # （优化）MB端支持灵活配置单据打印内容
 
 | **修订时间** | **版本** | **编写人** | **修订说明** |
@@ -45,4 +37,5 @@ exported_at: 2026-03-22
 - 单据默认选中，不可取消选中
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mdGL5yDn34/img/7dbc99e9-857a-453d-bee5-36c8d2d740ed.png?Expires=1774157398&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pCgMeJ6vbcmoCxW%2BnT2KSHtkG74%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mdGL5yDn34/img/7dbc99e9-857a-453d-bee5-36c8d2d740ed.png?Expires=1778767325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=InxpiM5rrAfhYiIec2Oq5Ka4fOc%3D "")

@@ -1,20 +1,11 @@
 ---
 title: "工作台后台-ocr统计使用量，增加发票版式文件查询接口调用次数"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-管理后台
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4?utm_scene=team_space
-node_id: QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4
-exported_at: 2026-03-22
+nodeId: QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4?utm_scene=team_space"
+exportedAt: 2026-04-01T02:14:50.201Z
+source: dingtalk-document-mcp
 ---
-
-# 工作台后台-ocr统计使用量，增加发票版式文件查询接口调用次数
-
-> 🔗 **原文链接**：[工作台后台-ocr统计使用量，增加发票版式文件查询接口调用次数 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20250721 | v1.0 | 新建 |
@@ -44,4 +35,4 @@ exported_at: 2026-03-22
 
 3、发票版式文件调用量-电票
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mjgy5EZn34/img/f52ce6bf-8227-46eb-8c44-e0ef2a6bb7b8.png?Expires=1774156621&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rGkDH%2FnsznzH6lIGJdGdO4ov7VY%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mjgy5EZn34/img/f52ce6bf-8227-46eb-8c44-e0ef2a6bb7b8.png?Expires=1775016890&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QD8dMdTf6DHsqJsPZOBr33a1JsY%3D "")

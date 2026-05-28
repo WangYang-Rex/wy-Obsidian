@@ -1,20 +1,11 @@
 ---
 title: "数据同步（报销--_CRM）"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-飞鸟-数�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vwAMpGJMGjLRb3?utm_scene=team_space
-node_id: N7dx2rn0JbZ9KxGot5vwAMpGJMGjLRb3
-exported_at: 2026-03-22
+nodeId: N7dx2rn0JbZ9KxGot5vwAMpGJMGjLRb3
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vwAMpGJMGjLRb3?utm_scene=team_space"
+exportedAt: 2026-03-31T04:28:49.876Z
+source: dingtalk-document-mcp
 ---
-
-# 数据同步（报销--_CRM）
-
-> 🔗 **原文链接**：[数据同步（报销--_CRM） - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vwAMpGJMGjLRb3?utm_scene=team_space)
-
 # 数据同步（报销--\>CRM）
 
 | **修订时间** | **版本** | **修订人** | **修订说明** |
@@ -30,7 +21,7 @@ exported_at: 2026-03-22
 |----------|----------|
 | crm中预设对象生成时机 | 原则：\+ 开通授权和飞鸟报表开通独立（考虑不想要数据同步，但想要搭建报表的情况）\+ 飞鸟报表开关，只用于确定crm侧预设对象的时机\+ 考虑将报表作为增值付费功能，增设报表到期时间设置\+ 增设【手动同步】用于补偿处理应用/功能到期续费/数据同步异常的场景一、交互\+ \{版本\}为有成财务V2、有成报销时，飞鸟报表功能开通才展示；\+ 开关按钮/到期日期的编辑及手动同步按钮，需要报销和CRM应用均开通且未过期才可以操作，不能操作时呈禁用状态（可见不可操作）\+ 飞鸟报表功能 \[开启\] 时，到期时间必填（可选日期须大于今天），否则保存失败并toast提示‘请填写飞鸟报表功能到期时间’\+ 飞鸟报表功能 \[开启\] 保存后，不可关闭（禁用效果）\+ 飞鸟报表功能 \[开启\] 保存后，【手动同步】按钮展示二、处理逻辑\+ 飞鸟报表功能 \[开启\] 保存后：crm中生成预设的报销对象\+ 绑定的应用版本变更后 且 当飞鸟报表开关已开启 且该企业crm应用/变更后绑定的应用版本/飞鸟报表功能均未到期时- 清除已在crm中生成的预设报销对象- 按照新绑定的应用，重新生成预设报销对象备注：若切换成有成财务v1版本，则不重新生成预设报销对象\+ 点击【手动同步】，当该企业crm应用/变更后绑定的应用版本/飞鸟报表功能均未到期时：同步获取报销侧最新的配置、数据备注：企业crm应用/绑定的报销应用/飞鸟报表到期，均不再执行配置、数据的同步 |
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/f9c59d8a-b4f4-42f6-92b4-baa4ffe8a627.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=PTCVZFaosijfLSyxKmBfXMycvCM%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/f9c59d8a-b4f4-42f6-92b4-baa4ffe8a627.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MhnKaEPVCyubWb6VaCUzfYPej5Y%3D "")
 
 ## 2、数据同步
 
@@ -41,9 +32,9 @@ exported_at: 2026-03-22
 | 预设对象处理 | 1、菜单：不展示2、角色设置：所有模块均可设置- 功能权限：列表、详情- 字段权限3、业务模板- 分组：开通飞鸟报表的客户，预设\[有成报销\]分组（排在\[设置\]前）\* 重名校验：预设报销分组，与其他分组 分组名 查重隔离- 对象\* 重名校验：预设报销对象，与其他对象 对象名 查重隔离\* 操作：【删除对象】【编辑对象】【新增模板】按钮隐藏- 模板：【删除】、【预览】、【停用】按钮隐藏- 模板字段：参考库存查询模板\* 只能添加‘引用字段’‘统计字段’‘计算字段’\* 必填属性：除主键字段字段外，其余字段均为不必填\* 属性操作：只能设置是否隐藏、模板字段名称、列表字段名称\* 除主键字段字段外，其余字段均为不必填- 其他：预设报销分组/对象增加标记4、工作流程（触发对象、活动目标对象）中放开设置5、YC报表- 指标、分析对象中可选择- 预设报销对象增加标记6、其余模块：均不展示 |
 | crm侧控件优化 | \+ 地址组件：自定义增加国外地址（与报销侧保持一致）\+ 银行组件：银行账户、现金账户、支付宝、微信、承兑汇票、京东、抖音、公务卡、快收、拼多多、美团、小红书、大众点评、承兑汇票、其他账户、虚拟账户 |
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/f1e45e3f-3fef-478b-841d-42ab09931e29.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=m7Ba7SfDhl7FeSyprL%2FfmPXgDMM%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/f1e45e3f-3fef-478b-841d-42ab09931e29.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=x2Rgls4Tda7nU6hMN%2F8NTPW57nE%3D "")
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/434f35bc-ba33-41c5-b01b-bb8b83c95a66.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6kF%2F5w0F7GjcZaWuRZtNN2Q7AFI%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/434f35bc-ba33-41c5-b01b-bb8b83c95a66.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BNJ9EH6CPQFunmG1tRcvkJ%2BGr2M%3D "")
 
 #### 2.2 对象映射
 
@@ -403,13 +394,13 @@ exported_at: 2026-03-22
 | 关联crm对象 | \+ 字段属性：系统\+ 字段类型：单选\+ 选项值：企业crm侧所有对象 | 为指定关联对象（目前报销侧已记录） |
 | 关联crm数据 | \+ 字段属性：系统\+ 字段类型：单行文本 | 同名字段值（目前报销侧已记录） |
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/3dd463ef-bb0a-44b5-9f55-5593af180b74.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oLANuKQTUI3HfK7%2FbC99JmukZdo%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/3dd463ef-bb0a-44b5-9f55-5593af180b74.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=T%2BqEIDqpzxKbhhCQCoMDOGPGv1U%3D "")
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/e7ab06b0-50b8-403c-90c2-326008a8529d.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MUqM7BCujrzy6efM7%2BD98t5w%2F1w%3D "")
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/e7ab06b0-50b8-403c-90c2-326008a8529d.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D6CsgXBf4RHH3BM3xQDiU03F70I%3D "")
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/752d6b7d-d1b9-4cb5-8ffb-d025610cdb6a.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rny%2FVjAGUJdusZqxco8ZjjckMBw%3D "")
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/752d6b7d-d1b9-4cb5-8ffb-d025610cdb6a.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nbVda9wu00gdKi1o4p6iYstAuFg%3D "")
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/49f3c43e-1223-4116-9c2b-62a539731006.png?Expires=1774165535&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GwSKbKksqCVvYjXmxCLEcHZ%2F9Ns%3D "")
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1xNAqze/img/49f3c43e-1223-4116-9c2b-62a539731006.png?Expires=1774938533&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kI5KehBPwVKwLVLW0IUaYIvwG1s%3D "")
 
 ###### 收款信息（子表单）
 

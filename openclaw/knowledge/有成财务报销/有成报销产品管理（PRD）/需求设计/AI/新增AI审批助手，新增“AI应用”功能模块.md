@@ -1,20 +1,11 @@
 ---
 title: "新增AI审批助手，新增“AI应用”功能模块"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-AI
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3?utm_scene=team_space
-node_id: N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3
-exported_at: 2026-03-22
+nodeId: N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3?utm_scene=team_space"
+exportedAt: 2026-04-01T02:10:01.810Z
+source: dingtalk-document-mcp
 ---
-
-# 新增AI审批助手，新增“AI应用”功能模块
-
-> 🔗 **原文链接**：[新增AI审批助手，新增“AI应用”功能模块 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20250828 | v1.0 | 新建 |
@@ -45,7 +36,8 @@ exported_at: 2026-03-22
 
 [白板]
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/4e87c5e4-c156-472d-a370-8a2982a20c8e.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kEq4RWWXcQ74cJKkDz95WtNbkiQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/4e87c5e4-c156-472d-a370-8a2982a20c8e.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3UQ8JtRt6admrmJHtYlAQhuNxbA%3D "")
+
 
 
 # **功能清单**
@@ -65,24 +57,28 @@ exported_at: 2026-03-22
 
 ## **新增“AI应用”一级功能模块**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/21fa5b51-8f2f-4bdd-a554-ab45f1742835.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dbeOPNspg4OwOwVClk%2FTtBwdAlI%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/21fa5b51-8f2f-4bdd-a554-ab45f1742835.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fIkw%2F3yJHI2A9lNG1w9ypUGDYD8%3D "")
 1. 新增AI应用一级功能模块，顺序在报表中心之后。下设四个子菜单：AI运行看板、AI审批、AI分析、AI异常监控。支持设置菜单排序，停用启用。
 2. 系统设置-角色与权限-功能授权对应新增模块及其子菜单。默认权限处理见[三期：新增AI审批助手，新增“AI应用”功能模块](https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGotq0Z1DgYJMGjLRb3?utm_scene=team_space&iframeQuery=anchorId%3Duu_metea96552yqwyrg3ht)
 
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/f81630d2-0b6c-44c8-b3d6-36798f50289d.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BjtCv%2F%2FsLIqYaP5D2nZu8T4E2A4%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/f81630d2-0b6c-44c8-b3d6-36798f50289d.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=slfv1WrMC8FWVTG2r0Fb6hxj8RE%3D "")
+
+
+
 
 
 ## **AI运行看板**
 
 本期先静态页面
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/86e5fc35-e885-4589-9e2f-9ad40394b33c.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vq0RVqS3%2Fm%2FXYzIf6eWxuBavtak%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/86e5fc35-e885-4589-9e2f-9ad40394b33c.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TEMmPpIPA%2BM6F%2BOc1pP7Ty7U3sg%3D "")
+
 
 
 ## **AI审批-AI审批助手**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/543475ff-65cc-4e45-a5f3-7b3d2ec90f77.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=E4E7U7fyOqVzZC%2BY817YRrh6SDE%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/543475ff-65cc-4e45-a5f3-7b3d2ec90f77.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mFYPVjMDLGdB6LUAE8BH01uBZjk%3D "")
 
 用户在这个页面上维护好审批助手及其规则， 在审批流节点上调用。
 
@@ -105,10 +101,8 @@ exported_at: 2026-03-22
 
 | 字段 | 说明 |
 |------|------|
-| 助手名称 | 文本输入框，必填，上限30字符。
-同一企业内不可重名，若有重名则在文本框失焦时下方提示“已有同名审批助手，请修改名称” |
-| 审批详情数据权限 | 文本框，不可输入，点击文本框后展示选择人员、部门、角色组件。（复用线上已有弹框）。
-提示气泡文案：有审批详情数据权限的用户才可在单据中看到该助手的AI审批详情。 |
+| 助手名称 | 文本输入框，必填，上限30字符。<br>同一企业内不可重名，若有重名则在文本框失焦时下方提示“已有同名审批助手，请修改名称” |
+| 审批详情数据权限 | 文本框，不可输入，点击文本框后展示选择人员、部门、角色组件。（复用线上已有弹框）。<br>提示气泡文案：有审批详情数据权限的用户才可在单据中看到该助手的AI审批详情。 |
 - 保存：仅保存，回到AI审批助手列表刷新。
 - 保存并设置规则：保存并打开该助手设置审批规则页面。
 
@@ -137,13 +131,8 @@ exported_at: 2026-03-22
 | 字段 | 说明 |
 |------|------|
 | 适用单据 | 多选下拉框，必选，可多选单据类型。 |
-| 规则名称 | 文本输入框，必填，上限100字符。
-同一审批助手内不可重名，若有重名则在文本框失焦时下方提示“已有同名审批规则，请修改名称” |
-| 具体规则-自然语言规则输入框 | 文本输入框，必填，上限800字符。
-输入内容后用户可以点击格式化，调用agent能力将自然语义转化为规则表达式格式的文本。
-本期支持识别的字段包含原条件规则表达式中支持的字段，以及：
-[我的附件]
-当点击之后无法将内容转化为格式化内容，则在下方提示：录入内容未检测到有效规则，请检查 |
+| 规则名称 | 文本输入框，必填，上限100字符。<br>同一审批助手内不可重名，若有重名则在文本框失焦时下方提示“已有同名审批规则，请修改名称” |
+| 具体规则-自然语言规则输入框 | 文本输入框，必填，上限800字符。<br>输入内容后用户可以点击格式化，调用agent能力将自然语义转化为规则表达式格式的文本。<br>本期支持识别的字段包含原条件规则表达式中支持的字段，以及：<br>[我的附件]<br>当点击之后无法将内容转化为格式化内容，则在下方提示：录入内容未检测到有效规则，请检查 |
 | ~~具体规则-格式化规则内容~~ | ~~文本，仅展示格式化之后的文本。用户可以查看核对。~~ |
 | 风险等级 | 单选必选，可选：低风险（默认）、高风险。 |
 | 问题定位 | 单选非必选，可选单据常用字段。 |
@@ -205,7 +194,7 @@ exported_at: 2026-03-22
 
 ## **审批流-新增AI审批节点**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/91e8df8c-d4d7-40a1-856e-e27c451d6645.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Js3aJPmKEaGBfr3m82LW7NWLHkA%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/91e8df8c-d4d7-40a1-856e-e27c451d6645.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GrwO0TCjtdJIHAYKOgz%2FVUZcFTA%3D "")
 
 注意：AI审批节点后的第一个审批/出纳节点上的“设置审批人”不能是“由审批人选择”，否则将无法提单。
 
@@ -216,23 +205,15 @@ exported_at: 2026-03-22
 | 字段 | 说明 |
 |------|------|
 | 节点名称 | 文本框，可编辑，默认“AI审批”。上限10字符。 |
-| AI审批助手 | 下拉单选必选。保存时校验，提示“请选择AI审批助理”。
-可选AI应用-AI审批助手，展示助手名称。
-~~可点击“去新增”新标签页打开助手列表。~~
-~~当已经选择了审批助手时展示“设置审批规则”，可点击新标签页打开该助手的设置审批规则页面。~~ |
-| 审批选项 | 单选必选。
-自动审批通过（默认）；
-无论高低风险，存在风险项时，就自动驳回；
-存在高风险时自动驳回。 |
-| 抄送设置 | 功能开关“审批通过时，抄送给以下人员”
-本期先仅支持指定抄送人，开启开关时，展示“指定抄送人”多选框，可选择具体人员。 |
-| ~~其他设置~~ | ~~功能开关“允许调整信用分”~~
-~~当开关开启时，和常规的审批节点一样，根据信用规则匹配，若命中规则执行扣减信用动作。~~ |
+| AI审批助手 | 下拉单选必选。保存时校验，提示“请选择AI审批助理”。<br>可选AI应用-AI审批助手，展示助手名称。<br>~~可点击“去新增”新标签页打开助手列表。~~<br>~~当已经选择了审批助手时展示“设置审批规则”，可点击新标签页打开该助手的设置审批规则页面。~~ |
+| 审批选项 | 单选必选。<br>自动审批通过（默认）；<br>无论高低风险，存在风险项时，就自动驳回；<br>存在高风险时自动驳回。 |
+| 抄送设置 | 功能开关“审批通过时，抄送给以下人员”<br>本期先仅支持指定抄送人，开启开关时，展示“指定抄送人”多选框，可选择具体人员。 |
+| ~~其他设置~~ | ~~功能开关“允许调整信用分”~~<br>~~当开关开启时，和常规的审批节点一样，根据信用规则匹配，若命中规则执行扣减信用动作。~~ |
 
 ### **单据提交审批逻辑**
 1. 单据提交时，AI审批节点不出现在选择审批人弹框中。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/95e1a808-4f40-4376-9d8f-7053bcff26bc.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SXFrumHWJy3qCHzJzEF0ZwWW9cI%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/95e1a808-4f40-4376-9d8f-7053bcff26bc.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FEMKZZvj4pQZoPdWRw8n8oDXy6A%3D "")
 2. 单据提交审批时，若执行到了AI审批节点，则调用单据详情查询接口获取单据完整信息，传递给该节点上配置的审批助手（规则作为知识库），利用AI能力进行分析。
 
 能够匹配的规则需要以单据类型过滤。
@@ -272,7 +253,7 @@ exported_at: 2026-03-22
 
 ## **待审批单据-AI审批详情**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/7a6ef603-aef0-4b51-a454-0738a949254f.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2nHci5a2AzQS5RHJX1724ltdGg4%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/7a6ef603-aef0-4b51-a454-0738a949254f.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FjE7r3h2azxRd%2BKIZYKULn3iRnw%3D "")
 
 ### **AI审批详情**
 
@@ -298,7 +279,7 @@ exported_at: 2026-03-22
 
 ## **AI审批-AI审批记录**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/ce988f84-ef2e-47bd-813c-861aa3ecd469.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=79NLC5PcZWCf5OE3bLjhyyWKC%2FI%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/ce988f84-ef2e-47bd-813c-861aa3ecd469.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yO47ryHCa%2BaFNvLbN1fVAZ6ssHE%3D "")
 
 根据AI审批助手权限控制，展示AI审批助手审批记录。
 
@@ -314,48 +295,27 @@ exported_at: 2026-03-22
 
 | 字段 | 说明 |
 |------|------|
-| 单号 | 被审批单据单号。列表数据对象为审批记录，因此可能会存在多条记录同一个单号的情况。
-支持表头筛选。 |
-| 标题 | 被审批单据标题
-支持表头筛选。 |
-| 申请人 | 被审批单据申请人
-支持表头筛选。 |
-| 部门 | 被审批单据部门
-支持表头筛选。 |
-| 单据类型 | 被审批单据类型
-支持表头筛选。 |
-| 审批结果 |  该条AI审批记录的审批结果：
-- 自动同意
-- 驳回 |
-| 风险等级 |  该条AI审批记录的风险等级情况汇总。
-- 全部无风险的：无风险
-- 仅存在高风险的：高风险（个数）
-- 仅存在低风险的：低风险（个数）
-- 存在高低风险的：高风险（个数），低风险（个数） |
+| 单号 | 被审批单据单号。列表数据对象为审批记录，因此可能会存在多条记录同一个单号的情况。<br>支持表头筛选。 |
+| 标题 | 被审批单据标题<br>支持表头筛选。 |
+| 申请人 | 被审批单据申请人<br>支持表头筛选。 |
+| 部门 | 被审批单据部门<br>支持表头筛选。 |
+| 单据类型 | 被审批单据类型<br>支持表头筛选。 |
+| 审批结果 |  该条AI审批记录的审批结果：<br><ul><li>自动同意</li><br><li>驳回</li></ul> |
+| 风险等级 |  该条AI审批记录的风险等级情况汇总。<br><ul><li>全部无风险的：无风险</li><br><li>仅存在高风险的：高风险（个数）</li><br><li>仅存在低风险的：低风险（个数）</li><br><li>存在高低风险的：高风险（个数），低风险（个数）</li></ul> |
 | AI审批助手名称 | 该条AI审批记录的AI审批助手名称 |
-| 审批时间 | 该条AI审批记录的审批时间
-YYYY-MM-DD HH:MM:SS |
+| 审批时间 | 该条AI审批记录的审批时间<br>YYYY-MM-DD HH:MM:SS |
 
 点击操作弹出该条审批记录的审批详情弹框。
 
 | 字段 | 说明 |
 |------|------|
 | AI审批助手名称 | 该条AI审批记录的AI审批助手名称 |
-| 审批时间 | 该条AI审批记录的审批时间
-YYYY-MM-DD HH:MM:SS |
-| 单据编号 | 被审批单据单号。列表数据对象为审批记录，因此可能会存在多条记录同一个单号的情况。
-支持表头筛选。 |
-| 审批选项 | 该条审批记录执行时，节点上的审批选项。
-- 自动审批通过；
-- 无论高低风险，存在风险项时，就自动驳回；
-- 存在高风险时自动驳回。 |
-| 审批结果 | 该条AI审批记录的审批结果：
-- 自动同意
-- 驳回 |
-| 审批总结 | 当审批结果为驳回时，展示此字段。
-该条AI审批记录的审批总结。 |
-| 审批详情列表 | 序号、规则名称、分析详情、风险等级。
-同展示在单据详情的审批详情。 |
+| 审批时间 | 该条AI审批记录的审批时间<br>YYYY-MM-DD HH:MM:SS |
+| 单据编号 | 被审批单据单号。列表数据对象为审批记录，因此可能会存在多条记录同一个单号的情况。<br>支持表头筛选。 |
+| 审批选项 | 该条审批记录执行时，节点上的审批选项。<br><ul><li>自动审批通过；</li><br><li>无论高低风险，存在风险项时，就自动驳回；</li><br><li>存在高风险时自动驳回。</li></ul> |
+| 审批结果 | 该条AI审批记录的审批结果：<br><ul><li>自动同意</li><br><li>驳回</li></ul> |
+| 审批总结 | 当审批结果为驳回时，展示此字段。<br>该条AI审批记录的审批总结。 |
+| 审批详情列表 | 序号、规则名称、分析详情、风险等级。<br>同展示在单据详情的审批详情。 |
 
 ### **导出**
 
@@ -368,7 +328,7 @@ YYYY-MM-DD HH:MM:SS |
 
 ## **AI分析**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/44b32366-e41f-419f-91c1-9731e5350dca.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3MNWgNTkZgNpagtwknE%2Fntmf%2BJU%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/44b32366-e41f-419f-91c1-9731e5350dca.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F3Xx7u0KV1uZqyX3kDiHJGFn5Cw%3D "")
 
 本期先放个静态页面，敬请期待。AI四期完成这部分内容\+动效。
 
@@ -382,11 +342,11 @@ YYYY-MM-DD HH:MM:SS |
 
 1、AI应用功能开关。该开关控制用户是否购买了AI应用模块，只有购买了在模块开启中才能看到对应AI应用及其下的菜单。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/104d9f3a-afd4-425e-9754-1734dab76d5c.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=A1rPWJkCSy9lDwUAAqStUXr6uiQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/104d9f3a-afd4-425e-9754-1734dab76d5c.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QH7IyLRO6DMAoAYtwyfzl%2Fzlk1w%3D "")
 
 2、模块开启关闭增加AI应用开关。该开关控制：
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/8bf1127d-fdb7-4e38-99b9-a0e2554bb275.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HXZSHbtxq7XUL2Gw0diq7oXgRRo%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/8bf1127d-fdb7-4e38-99b9-a0e2554bb275.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=s%2FEbhadGIga2xWEEoAt0Y%2BLnUfk%3D "")
 
 3、菜单上AI应用及AI审批菜单的展示。
 
@@ -394,11 +354,11 @@ YYYY-MM-DD HH:MM:SS |
 
 5、系统设置-角色与权限中：
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/90c8dbc3-c10d-4041-a497-e96858c9a06f.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=soWEGmSDLoaPucXD9KeBzH79MSw%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/90c8dbc3-c10d-4041-a497-e96858c9a06f.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=K0lwXGx8n6%2FZsTdLgB%2Bd3wA%2Btrw%3D "")
 - 功能权限是否展示该模块。
     - 启用时，默认权限处理：
         - 企业下的系统管理员、财务主管给AI应用、AI运行看板、AI审核、AI分析、AI异常监控的功能权限。
-    - 若先启用后关闭模块，则之前配置的权限依然保![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/bdc344cc-ba11-4bd9-8afc-fdf699f32e6d.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6eLeEinJRUntfoO6x6UR56%2BDt98%3D "")留，仅前台不做展示。
+    - 若先启用后关闭模块，则之前配置的权限依然保![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/bdc344cc-ba11-4bd9-8afc-fdf699f32e6d.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F1wB6iBEHy4mC8FfNt%2Fq1ymLyBg%3D "")留，仅前台不做展示。
 - 数据权限本期不单独设置，有功能权限的用户可以看到所有数据。
 
 6、待审批单据详情中，“自动打开AI审批记录”开关是否展示。
@@ -415,7 +375,7 @@ YYYY-MM-DD HH:MM:SS |
 
 员工提单的时候后端校验下，如果该单据审批流中出现了AI审批节点的下一个审批/支付节点上，设置审批人为“由审批人选择”，就阻断并提示“AI审批节点后的第一个审批/支付节点（审批节点名称）需要指定审批人，请联系管理员”
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/d2154628-51ac-4b1e-b162-59caf78820f9.png?Expires=1774156283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5gzPoKMs1qowa3vNrvm5%2BG2osP8%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0b9JyMJNnw1/img/d2154628-51ac-4b1e-b162-59caf78820f9.png?Expires=1775016602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=StmluFJxA9gv64OxzvZ6WZAq%2F0E%3D "")
 
 ### **流程效率报表**
 

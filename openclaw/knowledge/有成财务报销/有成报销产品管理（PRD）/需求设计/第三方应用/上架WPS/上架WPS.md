@@ -1,20 +1,11 @@
 ---
 title: "上架WPS"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-第三方应用-�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AraN2V6EDybno?utm_scene=team_space
-node_id: KGZLxjv9VG3RrkNQT79AraN2V6EDybno
-exported_at: 2026-03-22
+nodeId: KGZLxjv9VG3RrkNQT79AraN2V6EDybno
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AraN2V6EDybno?utm_scene=team_space"
+exportedAt: 2026-04-01T02:12:41.338Z
+source: dingtalk-document-mcp
 ---
-
-# 上架WPS
-
-> 🔗 **原文链接**：[上架WPS - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AraN2V6EDybno?utm_scene=team_space)
-
 # 上架WPS
 
 | **修订时间** | **版本** | **修订说明** |
@@ -54,10 +45,12 @@ exported_at: 2026-03-22
 - 订单管理-订单列表-订单来源字段增加：WPS
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/3e730c8c-b900-4a79-b62b-796fa8c25a07.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=b%2F%2BW78mwOJIA4FSL%2F5IxAPYvV64%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/3e730c8c-b900-4a79-b62b-796fa8c25a07.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oVYBC%2F8pRAa5DuxpkuvryzHnD1c%3D "")
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/acf7c091-4bed-4b8b-b2c2-b57a2c625a20.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AJdhOFmp6XM2pNZOHzIoF8ov2Kk%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/acf7c091-4bed-4b8b-b2c2-b57a2c625a20.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2rlvumPiXkjxVJB5Fa4ca1QHj2g%3D "")
 
 ### 3.2 WPS组织架构对接
 
@@ -91,31 +84,36 @@ exported_at: 2026-03-22
 二维码待WPS提供
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/836a1e73-8733-40a3-9c7a-c0555f4406a9.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HuXaIhPczFQIKXBM3kbBi%2FrbIzw%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/836a1e73-8733-40a3-9c7a-c0555f4406a9.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4BpAkrHqi%2FoYBy0ggFgHt87PcaI%3D "")
 
 **一、首页**
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/d31cf3a4-1c1f-4105-8db6-bdb7f11fe4c3.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3XpVdNIkBojl6qFI%2FKQVgaw1pqg%3D "")
+
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/d31cf3a4-1c1f-4105-8db6-bdb7f11fe4c3.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MdnAMhYm43rEI%2BOpBwFE%2FRWw9Vs%3D "")
 
 **二、应用中心需要联系客服的地方，点击弹窗需要打开二维码扫码的弹框：**
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/e6e79ea2-617e-4875-9ec6-4d5366828211.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dvWpkflQevjPLXWacWWuKzYtbwY%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/e6e79ea2-617e-4875-9ec6-4d5366828211.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RL%2F8HGNUF7PJ1rNsGsqjGFOYgWs%3D "")
 
 三、手机端：点击联系客服给二维码弹框，右侧的图为示例
 
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/1d97bf0f-39ab-4687-8cf1-ab657cde3b23.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ezfixJGKJOt%2F502tdWp4jB9L%2Bjw%3D "")
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/e52de44b-84b6-4aa0-bf0b-d4c4a0c3daae.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=A%2ByJ%2B1Hcw8qa9scLwCrmvVb%2FHEc%3D "")
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/1d97bf0f-39ab-4687-8cf1-ab657cde3b23.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NLsjvEQ9xB6H%2BEatVnEdgxq1h9Q%3D "")
+
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/e52de44b-84b6-4aa0-bf0b-d4c4a0c3daae.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qLprDG1ghaRu6p7%2B1a4AQwtxz6o%3D "")
 
 ### 3.7 WPS进入应用显示创建桌面快捷方式入口、
 
 [<u>https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs</u>](https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs)
 
 
-![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/a81ca828-ac68-4592-b7ad-c7860a5cd395.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=iZqwUsGEuwbUIQI4xbppn82zU%2BQ%3D "")
+
+![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/a81ca828-ac68-4592-b7ad-c7860a5cd395.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7aGGPH9s9nR5EJySuAsIfSL3NBU%3D "")
 
 1、首次进入应用，关闭应用时，给二次弹框提示，询问是否创建桌面快捷方式，点击确认即关闭应用同时调用创建快捷方式接口，创建桌面快捷方式
 
@@ -124,10 +122,12 @@ exported_at: 2026-03-22
 再次进入应用，当前用户已经创建了桌面快捷方式的（看能否识别到？），不再展示这个入口。
 
 
-![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/277c5f1e-4216-4723-ad2d-a2327af62058.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tL8Bf2UbCn9qE0imbqWXtlia66k%3D "")
+
+![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/277c5f1e-4216-4723-ad2d-a2327af62058.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RLurr8UGaQYM0U6%2BXDL0o8%2FH2%2Fw%3D "")
 
 
-![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/aa04e0a3-31a6-4ddc-acc1-f0157b03c3e1.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KFooeHt7l3MNRAvxMFhtV2wMBJo%3D "")
+
+![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/aa04e0a3-31a6-4ddc-acc1-f0157b03c3e1.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lCqhld%2BzSRSEk%2FzWEvs3AK6YAK8%3D "")
 
 ### 3.8 其他需要改造的点
 
@@ -136,6 +136,7 @@ exported_at: 2026-03-22
 [<u>https://www.kdocs.cn/l/cokEEw9rdf3S</u>](https://www.kdocs.cn/l/cokEEw9rdf3S)
 
 
-![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/bb95a2fd-688b-43ef-a0f2-0f08e51ff0e1.png?Expires=1774156469&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xYH9%2BrPrFwCzEiYR0w1g3S2R310%3D "")
+
+![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/bb95a2fd-688b-43ef-a0f2-0f08e51ff0e1.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hdW4lUzrIYuDq5lDpvYpsYPGHXI%3D "")
 
 2、WPS企业到期提醒：应用内、消息通知

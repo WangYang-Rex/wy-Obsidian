@@ -1,20 +1,11 @@
 ---
 title: "CRM+AI调研结果"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI-竞品�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTlgbYzqwWn4qY5Pr?utm_scene=team_space
-node_id: Obva6QBXJw9lbx7RTlgbYzqwWn4qY5Pr
-exported_at: 2026-03-22
+nodeId: Obva6QBXJw9lbx7RTlgbYzqwWn4qY5Pr
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTlgbYzqwWn4qY5Pr?utm_scene=team_space"
+exportedAt: 2026-03-31T03:52:01.414Z
+source: dingtalk-document-mcp
 ---
-
-# CRM+AI调研结果
-
-> 🔗 **原文链接**：[CRM+AI调研结果 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTlgbYzqwWn4qY5Pr?utm_scene=team_space)
-
 # CRM\+AI调研结果
 
 ## 结论

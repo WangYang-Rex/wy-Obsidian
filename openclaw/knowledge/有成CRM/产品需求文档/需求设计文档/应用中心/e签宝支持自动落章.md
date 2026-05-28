@@ -38,35 +38,5 @@ source: dingtalk-document-mcp
 
 | 需求 | 描述 |
 |-----------------------------------------------------------------|-----------------------------------------------------------------|
-| 自动落章 | 发起签署文件配置优化
-<ul><li>1. 页面展示优化见上：区块划分更明显</li>
-<li>2. 增加‘发起后自动签署’配置</li>
-<li style="margin-left:1em">1. 仅开启新版e签宝的企业才有此配置项，非新版企业隐藏</li>
-<li style="margin-left:1em">2. 默认为关，关闭时下述配置项隐藏；开启时下述配置项展示</li>
-<li style="margin-left:2em">1. 满足自动盖章条件</li>
-<li style="margin-left:3em">1. 必填</li>
-<li style="margin-left:3em">2. 选择‘部分数据’时，可配置数据范围（只能取主要对象字段，参考列表筛选）</li>
-<li style="margin-left:2em">2. 盖章位置</li>
-<li style="margin-left:3em">3. 必填，可多选</li>
-<li style="margin-left:3em">4. 勾选了‘单页签章’</li>
-<li style="margin-left:4em">必须维护一组关键字（最多输入32字符）\+印章，否则保存配置时提示'勾选了需要单页签章，关键字、印章必填'</li>
-<li style="margin-left:4em">可加多组，最多可添加5组</li>
-<li style="margin-left:3em">5. 勾选了‘骑缝章’</li>
-<li style="margin-left:4em">默认‘所有页’，印章必选</li>
-<li style="margin-left:4em">选择‘指定页码’</li>
-<li style="margin-left:5em">必须维护一组页码范围（只能输入1-9999的正整数）\+印章</li>
-<li style="margin-left:5em">组内，起始页码需要小于终止页码，否则保存配置时提示'骑缝章起始页面需要小于终止页码'</li>
-<li style="margin-left:1em">3. 处理逻辑：发起签署时，依据盖章条件，满足时则传入预设签署方signers-signFields--normalSignFieldConfig相关参数</li>
-<li style="margin-left:3em">freeMode：false</li>
-<li style="margin-left:3em">autoSign：true</li>
-<li style="margin-left:3em">movableSignField：false</li>
-<li style="margin-left:3em">assignedSealId：依据配置</li>
-<li style="margin-left:3em">signFieldStyle：依据配置</li>
-<li style="margin-left:3em">signFieldPosition</li>
-<li style="margin-left:4em">acrossPageMode：依据骑缝章配置</li>
-<li style="margin-left:4em">positionPage</li>
-<li style="margin-left:5em">单页签章：依据关键字查找其所在页码（pageNum），并传入</li>
-<li style="margin-left:5em">骑缝签章：依据骑缝章配置</li>
-<li style="margin-left:4em">positionX：依据关键字查找其所在页的x轴（positionX），并传入</li>
-<li style="margin-left:4em">positionY：依据关键字查找其所在页的Y轴（positionY），并传入</li></ul> |
+| 自动落章 | 发起签署文件配置优化<br><ul><li>1. 页面展示优化见上：区块划分更明显</li><br><li>2. 增加‘发起后自动签署’配置</li><br><li style="margin-left:1em">1. 仅开启新版e签宝的企业才有此配置项，非新版企业隐藏</li><br><li style="margin-left:1em">2. 默认为关，关闭时下述配置项隐藏；开启时下述配置项展示</li><br><li style="margin-left:2em">1. 满足自动盖章条件</li><br><li style="margin-left:3em">1. 必填</li><br><li style="margin-left:3em">2. 选择‘部分数据’时，可配置数据范围（只能取主要对象字段，参考列表筛选）</li><br><li style="margin-left:2em">2. 盖章位置</li><br><li style="margin-left:3em">3. 必填，可多选</li><br><li style="margin-left:3em">4. 勾选了‘单页签章’</li><br><li style="margin-left:4em">必须维护一组关键字（最多输入32字符）\+印章，否则保存配置时提示'勾选了需要单页签章，关键字、印章必填'</li><br><li style="margin-left:4em">可加多组，最多可添加5组</li><br><li style="margin-left:3em">5. 勾选了‘骑缝章’</li><br><li style="margin-left:4em">默认‘所有页’，印章必选</li><br><li style="margin-left:4em">选择‘指定页码’</li><br><li style="margin-left:5em">必须维护一组页码范围（只能输入1-9999的正整数）\+印章</li><br><li style="margin-left:5em">组内，起始页码需要小于终止页码，否则保存配置时提示'骑缝章起始页面需要小于终止页码'</li><br><li style="margin-left:1em">3. 处理逻辑：发起签署时，依据盖章条件，满足时则传入预设签署方signers-signFields--normalSignFieldConfig相关参数</li><br><li style="margin-left:3em">freeMode：false</li><br><li style="margin-left:3em">autoSign：true</li><br><li style="margin-left:3em">movableSignField：false</li><br><li style="margin-left:3em">assignedSealId：依据配置</li><br><li style="margin-left:3em">signFieldStyle：依据配置</li><br><li style="margin-left:3em">signFieldPosition</li><br><li style="margin-left:4em">acrossPageMode：依据骑缝章配置</li><br><li style="margin-left:4em">positionPage</li><br><li style="margin-left:5em">单页签章：依据关键字查找其所在页码（pageNum），并传入</li><br><li style="margin-left:5em">骑缝签章：依据骑缝章配置</li><br><li style="margin-left:4em">positionX：依据关键字查找其所在页的x轴（positionX），并传入</li><br><li style="margin-left:4em">positionY：依据关键字查找其所在页的Y轴（positionY），并传入</li></ul> |
 | 发起签署 | 发起签署-选择文件-选择打印文件：支持选择多个打印模板生成文件 |

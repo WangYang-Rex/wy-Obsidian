@@ -1,21 +1,12 @@
 ---
 title: "CRM开票申请_采购发票对接"
-tags:
-  - 有成财务
-  - 飞鸟需求
-  - 进销存生成凭证-CRM开�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJM3ARLZPTDkYmAx2WyMoPYe1?utm_scene=team_space
-node_id: kDnRL6jAJM3ARLZPTDkYmAx2WyMoPYe1
-exported_at: 2026-03-22
+nodeId: kDnRL6jAJM3ARLZPTDkYmAx2WyMoPYe1
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJM3ARLZPTDkYmAx2WyMoPYe1?utm_scene=team_space"
+updateTime: 1751427098000
+exportedAt: 2026-05-14T12:13:28.160Z
+source: dingtalk-document-mcp
 ---
-
-# CRM开票申请_采购发票对接
-
-> 🔗 **原文链接**：[CRM开票申请_采购发票对接 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/kDnRL6jAJM3ARLZPTDkYmAx2WyMoPYe1?utm_scene=team_space)
-> 📅 **导出时间**：2026-03-22
-
 # CRM开票申请/采购发票对接
 
 | **修订时间** | **版本** | **修订说明** |
@@ -44,7 +35,8 @@ exported_at: 2026-03-22
 用于【开票申请】借方分录
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/af04d5a2-0be9-409c-a53f-b46c65850e5a.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SP10rAhjdBjs400js8JJMhsmnuY%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/af04d5a2-0be9-409c-a53f-b46c65850e5a.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FrVEjA1%2FuvBZi64VOOMU5JNMJI4%3D "")
 
 一、右侧的帮助，鼠标移入显示的文案更新为“适用单据：销售出库单、销售退货入库单、实际回款单、开票申请”
 
@@ -61,7 +53,7 @@ exported_at: 2026-03-22
 | 仓库 | 按基础设置-仓库管理列表取值，显示仓库名称 |
 | 其他自定义业务对象名称 | \+ 将用户自定义的所有业务对象都显示在“参与映射的字段”中，支持勾选\+ 自定义的业务对象指在进销存中的设置-业务模版中新建的对象\+ 列表中可设置的值取当前业务对象的主属性字段显示 |
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9b515ab9-329e-4b7a-b37f-cbde105b79a5.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6uMiYpYJ6dEX1jSysZ268RS5yAE%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9b515ab9-329e-4b7a-b37f-cbde105b79a5.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pYQhSEZ5vvMTI4Uane9ggd4%2B0Fc%3D "")
 
 ### 3.2、规则配置-供应商
 
@@ -75,7 +67,8 @@ exported_at: 2026-03-22
 - 可支持勾选的字段：
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9daf86b6-ef4d-4bc2-a706-04e4d0e4d176.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wuPfLHl%2BBacRCdIkOVkwjDlcs04%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9daf86b6-ef4d-4bc2-a706-04e4d0e4d176.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lF05qIjVclHqbq1%2FWPjjRp8ZQhE%3D "")
 
 | **字段** | **需求说明** |
 |----------|----------------|
@@ -85,7 +78,7 @@ exported_at: 2026-03-22
 | 仓库 | 按基础设置-仓库管理列表取值，显示仓库名称 |
 | 其他自定义业务对象名称 | \+ 将用户自定义的所有业务对象都显示在“参与映射的字段”中，支持勾选\+ 自定义的业务对象指在进销存中的设置-业务模版中新建的对象\+ 列表中可设置的值取当前业务对象的主属性字段显示 |
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9b515ab9-329e-4b7a-b37f-cbde105b79a5.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6uMiYpYJ6dEX1jSysZ268RS5yAE%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9b515ab9-329e-4b7a-b37f-cbde105b79a5.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pYQhSEZ5vvMTI4Uane9ggd4%2B0Fc%3D "")
 
 ### 3.3、规则配置-产品
 
@@ -94,7 +87,8 @@ exported_at: 2026-03-22
 **用于【采购发票】借方分录【成本科目】**
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/a92ae407-ca5d-4483-acf4-ba38df6ac4fe.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wt4g%2FHD9FlxiTTmj6pLRsJDSATo%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/a92ae407-ca5d-4483-acf4-ba38df6ac4fe.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J8DB2T%2Bp1JkmiJgqtYE1BYxNfL0%3D "")
 
 一、右侧新增帮助提示，鼠标移入显示的文案更新为“适用单据：销售出库单、销售退货入库单、采购入库单、采购退货出库单、其他入库单、其他出库单、盘点单、调拨单、组装单、开票申请、采购发票”；
 
@@ -118,10 +112,12 @@ exported_at: 2026-03-22
 **客户名称：浙江速泰智能技术有限公司**
 
 
+
 三、【单据类型字段】中新增枚举值：采购发票、开票申请
 
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/23a5b236-8975-459c-828b-b1c687bd1956.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WCzc7MyF%2Br93e79A4%2Bl6%2FmGUkDg%3D "")
+
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/23a5b236-8975-459c-828b-b1c687bd1956.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ybNS9EILxHIbFvXKwD%2FgjNbhFqc%3D "")
 
 ### 3.5、规则配置-通用影响点
 
@@ -174,6 +170,7 @@ exported_at: 2026-03-22
 贷：应付账款                 （供应商）设置的科目；发票金额
 
 
+
 CRM中的金额取值根据上面模版中标黄的名称去取值；
 
 :::
@@ -205,8 +202,4 @@ CRM中的金额取值根据上面模版中标黄的名称去取值；
 | 辅助核算匹配 | 1、支持从子表单中取值，同一个字段值根据优先级取值：自定义子表单\>系统子表单\>主表：2、生成凭证时，需要跟科目映射与金额取值结合起来 |
 | 生成凭证 | **生成凭证时，将科目匹配、辅助核算匹配与金额取值结合起来去单据中查找：**\+ **科目匹配到的字段、辅助核算、金额必须在同一个子表纬度或加主表中条件才能生成这条分录：条件（科目与辅助核算）在自定义子表单中配置，但金额没有，则将条件再去系统子表单中匹配，若还是没有再去匹配主表。一、比如按不同的产品生成到不同的税额科目分录，关系配置为产品A   的  税额  生成到进项税额科目D**1、“产品A”   在自定义子表单一；     “专项税额”值在自定义表单一：\+ 找到对应科目D，生成分录2、“产品A”在自定义子表单一；        “专项税额”在子表单二：\+ 此条分录无法生成3、“产品A”在自定义子表单一；     在产品明细（系统子表单）二；    “专项税额”在产品明细（系统子表单）二中：\+ 取产品明细（系统子表单）二中的值生成分录**比如需要按不同的产品生成到不同的税额科目分录，同时科目还需要关联仓库的辅助核算，关系配置为产品A   的  税额  生成到进项税额科目**4、“产品A”在自定义子表单一；     在产品明细（系统子表单）二；  仓库C在主表中；      “专项税额”在产品明细（系统子表单）二中：\+ 取产品明细（系统子表单）二中的值生成分录，同时关联辅助核算仓库C5、“产品A”在自定义子表单一；     在产品明细（系统子表单）二；  仓库C在自定义子表单一；    “专项税额”在产品明细（系统子表单）二中：\+ 科目匹配到产品明细（系统子表单）二，辅助核算却在自定义表单一，无法生成报错提示 |
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/60bcd8dd-30a7-41ac-9845-b2f12fedaa7b.png?Expires=1774155264&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7C%2FlpgXN3XjhHvDR%2BD3EMaTHYoo%3D "")
-
----
-> 📌 **相关链接**
-> - [[有成财务报销知识库索引]]
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/60bcd8dd-30a7-41ac-9845-b2f12fedaa7b.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AWLLfGYM3ehwwDvOt6fK8bhleMo%3D "")

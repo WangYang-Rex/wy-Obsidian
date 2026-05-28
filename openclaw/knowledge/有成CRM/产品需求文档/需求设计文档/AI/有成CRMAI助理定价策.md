@@ -1,23 +1,14 @@
 ---
 title: "有成CRMAI助理定价策"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g5NgQvGFPK5OMrnV9ekBD76?utm_scene=team_space
-node_id: o14dA3GK8g5NgQvGFPK5OMrnV9ekBD76
-exported_at: 2026-03-22
+nodeId: o14dA3GK8g5NgQvGFPK5OMrnV9ekBD76
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g5NgQvGFPK5OMrnV9ekBD76?utm_scene=team_space"
+exportedAt: 2026-03-31T03:50:48.753Z
+source: dingtalk-document-mcp
 ---
-
-# 有成CRMAI助理定价策
-
-> 🔗 **原文链接**：[有成CRMAI助理定价策 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g5NgQvGFPK5OMrnV9ekBD76?utm_scene=team_space)
-
 #### **XBB定价**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobWb3QKWlpj/img/9be942db-e897-42a3-98bf-fdbcf79e3a1c.png?Expires=1774165028&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5RQ02ZdoqRHzivyVyTXHlVbM0HA%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobWb3QKWlpj/img/9be942db-e897-42a3-98bf-fdbcf79e3a1c.png?Expires=1774934187&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=v2avxvcQRUFgIR9PPm1ViuAATTI%3D "")
 
 ### **有成核心策略分析**
 1. **对标竞品，凸显优势**：销帮帮的定价清晰地分为“产品（按账号\+用量）”和“服务（按人天）”两部分。我们的策略不是简单地进行价格战，而是通过**更清晰、更灵活、价值感更高**的包装，在同等价格下提供更多价值，或在稍高价格下提供远超竞品的解决方案。
@@ -25,6 +16,7 @@ exported_at: 2026-03-22
 3. **简化选择**：销帮帮的报价单将产品和服务混在一起，略显复杂。我们将套餐**标准化、产品化**，降低客户的决策成本。
 4. **目标客户**：针对不同客户规模（SMB vs 中大型企业）推出不同套餐，覆盖更广市场。
 
+---
 
 ### **有成CRM AI销售助理收费策略与定价方案**
 
@@ -47,6 +39,7 @@ exported_at: 2026-03-22
 | **专业版** | **包含基础版所有功能** \+ **多维质检分析**、**深度商机洞察**、客户情绪分析、**多维度数据看板**（员工/客户/资产） | 10人起售 | 300小时 | 6元/小时 | 1,499 | **16,488** (约合1,374/月) | **主力推荐套餐**，适合深度使用的中大型团队 |
 | **企业版** | **包含专业版所有功能** \+ 定制化分析模型、**专属AI训练**、API接口、专属客户成功经理、数据隔离与高级安全服务 | 50人起售 | 1000小时 | 协商 | 定制 | 定制 | 大型企业，需要深度定制和保障 |
 
+---
 
 **方案二：用量制（灵活补充）**
 
@@ -54,6 +47,7 @@ exported_at: 2026-03-22
 - **纯用量制**：**0月租**，按实际分析时长付费，**12元/小时**。
 - **适用场景**：适合用量小或波动大的团队，但单价较高，可引导客户转向订阅制。
 
+---
 
 **增值服务（可选，按需购买）**
 
@@ -63,6 +57,7 @@ exported_at: 2026-03-22
 | **专属AI训练服务** | 基于企业特有话术、产品、流程进行定制化模型调优 | 人天 | 2,800元/人天 | **略低于竞品**，体现代价优势 |
 | **分析报告服务** | 定期提供定制化的团队分析报告（月/季度） | 次 | 1,000元/次 | 创造新的增值点 |
 
+---
 
 #### **三、 竞争策略与卖点话术**
 1. **对比销帮帮**：

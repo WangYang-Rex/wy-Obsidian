@@ -1,20 +1,11 @@
 ---
 title: "子表单铺开II期"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-设置-业�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEwmpjMyikEeB0BD8yeZqMmz?utm_scene=team_space
-node_id: YQBnd5ExVEwmpjMyikEeB0BD8yeZqMmz
-exported_at: 2026-03-22
+nodeId: YQBnd5ExVEwmpjMyikEeB0BD8yeZqMmz
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEwmpjMyikEeB0BD8yeZqMmz?utm_scene=team_space"
+exportedAt: 2026-03-31T04:16:47.340Z
+source: dingtalk-document-mcp
 ---
-
-# 子表单铺开II期
-
-> 🔗 **原文链接**：[子表单铺开II期 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEwmpjMyikEeB0BD8yeZqMmz?utm_scene=team_space)
-
 # 子表单铺开II期
 
 | **修订时间** | **版本** | **修订人** | **修订说明** |
@@ -63,9 +54,9 @@ exported_at: 2026-03-22
 | 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-合同订单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-合同订单产品’ |
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/5ec17d48-a15c-4dc1-99a5-a2da75ab7938.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jpftpmLqlPdI7i%2BWv0bSdaG451A%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/5ec17d48-a15c-4dc1-99a5-a2da75ab7938.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dR7AKpPce5FAiOxLyyJ7YgwtNEU%3D "")
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 2\. 计划回款（已上线）
 
@@ -118,7 +109,7 @@ exported_at: 2026-03-22
 | 预设子表单 | 备注：目前系统内支持按应用是否开通控制显隐，若企业关闭了‘应收款明细’模块，则新建编辑页面实际回款的应收款明细子表单隐藏，这个逻辑可以去掉 |
 | 其他逻辑 | 一、目前有一些其他逻辑须保留：1）客户：通过应收款明细，批量收款时，取任一所选明细的\{客户\}2）核算维度：明细核算维度相同时（为空的剔除），取任一所选明细的\{核算维度\}3）实际回款金额：按照目前的逻辑，默认带入最末级单据的的未回款金额-审批中回款金额4）如果新建时，合同订单为空，那么在编辑时，该字段可编辑；如果不为空，则不可编辑；----保留二、保存时校验应收款明细中，‘源单明细行编号’不允许重复，否则单据保存/提交失败并toast提示‘应收款明细中‘源单明细编号’有重复：\{源单明细编号1\},\{源单明细编号2\}...\{源单明细编n\}’ |
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/3b22965d-f741-45c3-948e-f21593444aba.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=s8hZEUQ5IYxM4rtNc%2Bt9HnAxnNA%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/3b22965d-f741-45c3-948e-f21593444aba.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Vp1DPi3czHOCrvNPXModscTigMw%3D "")
 
 ## 4\. 采购单（已上线）
 
@@ -143,9 +134,9 @@ exported_at: 2026-03-22
 | 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-采购单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购单产品’ |
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/69736e6c-f12f-4af2-a622-585246c44e26.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=I44HeYu4He9pWUcK1vAzJfYR%2FWw%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/69736e6c-f12f-4af2-a622-585246c44e26.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=w8Dy0vrA305mIHaorNfiXTwM92U%3D "")
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 5\. 计划付款（已上线）
 
@@ -250,9 +241,9 @@ exported_at: 2026-03-22
 | 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变备注：1）批次保质期相关组件的需求保持目前线上逻辑（需求链接：[<u>需求</u>](https://tb.raycloud.com/task/61d53729ddbc4e004aafb57e)）2）多选批次保质期的需求，拆成了II期需求，还未上线，本期一起上（消息设置除外）（需求链接：[<u>需求</u>](https://tb.raycloud.com/task/6281ad731902a000760a26fb)）3）明细行产品明细为空时，批次保质期相关字段均置灰2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-其他入库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-其他出库单产品’ |
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/877f72bf-fb9c-41f8-9c89-7fc5cd1c76b3.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8Ebtu%2Fgu8UduzFybrHCIWQc%2Fm%2FA%3D "")
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/877f72bf-fb9c-41f8-9c89-7fc5cd1c76b3.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oSKRchcBU9NaZhz2%2FsQR3zrRyuo%3D "")
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 13、其他出库单（已上线）
 
@@ -290,12 +281,13 @@ exported_at: 2026-03-22
 | 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。备注：批次保质期相关组件的需求保持目前线上逻辑（参见其它入库单）2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-其他出库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-其他出库单’ |
 
-![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 14、销售出库单（已上线）
 
 
-![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/bfd0a61c-b6d9-4bd0-a858-b043169ac293.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8MI%2F91YTR7eDLhU0lLoaVjSyNU8%3D "")
+
+![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/bfd0a61c-b6d9-4bd0-a858-b043169ac293.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ocvt6ReureEQ6ycYBhNworgmxGA%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -307,12 +299,13 @@ exported_at: 2026-03-22
 | 出库单单据提交审批/拒绝/撤回/删除回刷上级单据逻辑 | 根据子表单中，关联订单 and 源单明细行编码，回刷上级合同订单的待出库数量、已出库数量 |
 | 升级引导 | 1\. 历史客户：业务模板-销售出库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-销售出库单产品’ |
 
-![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 15、开票申请（已上线）
 
 
-![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a8d90c1e-463f-423a-b258-29a20ccb5f19.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t9Xz5JBB4I4NtuvNyflO6NeEZIY%3D "")
+
+![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a8d90c1e-463f-423a-b258-29a20ccb5f19.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FY1plOzyBhUvyw9chEzZk%2FIU1x0%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -322,23 +315,25 @@ exported_at: 2026-03-22
 | 合并开票优化 | 1、计划回款-合并开票操作：原有的须同一客户下、同一合同订单下的计划回款才能合并开票的基础上，增加‘计划回款审批未通过不允许开票’的校验，若有则弹窗提示（弹窗参考实际回款），如下：2、实际回款/合同订单-合并开票优化：多选单据中存在审批通过和非通过的情况，提示弹窗会有问题，类似如下，需要修复 |
 | 升级引导 | 1\. 历史客户：业务模板-开票申请明细，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-开票申请明细’ |
 
-![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/06aa1591-3933-4f5b-81c3-8f530491823e.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AofMvUjUqp%2FHdXU4h%2Bn8QsAu97s%3D "")
+![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/06aa1591-3933-4f5b-81c3-8f530491823e.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zFKsq9BPNj4RA55EAX%2BHgSNI2vI%3D "")
 
-![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/f192d31e-99ac-46e7-9150-efb70370ae46.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yzfG874alfFIqcRCaVcuYHBeMTU%3D "")
+![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/f192d31e-99ac-46e7-9150-efb70370ae46.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ib33EbWAG9bRTHW%2Bi2d9avXGMq8%3D "")
 
-![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/cb6866c2-625f-45a1-9692-62313c51d38c.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BQ49sO%2FZAeq7RZgOIctiqjMmqG4%3D "")
+![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/cb6866c2-625f-45a1-9692-62313c51d38c.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l2A9HMxEr1eEG%2Bb1IwQDbcy2Sgg%3D "")
 
-![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 16、工单（已上线）
 
 
-![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/d7aab9a5-455c-4a15-be07-ba08a6a9715c.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WU51WWr7MGaf1R5tRg4Gbny%2BV40%3D "")
+
+![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/d7aab9a5-455c-4a15-be07-ba08a6a9715c.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=S8eFOVpUKtU2o10a8DnZGrh5OrY%3D "")
 
 ## 17、采购申请（已上线）
 
 
-![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/493742d9-b127-48cd-9e48-962ed2f4dcd3.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vLHLnlizc35K1CO7MtHjtvKQlRs%3D "")
+
+![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/493742d9-b127-48cd-9e48-962ed2f4dcd3.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YH0Ld7Dcnw8%2FdnnTDVGn5%2BK5Tbk%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -347,12 +342,13 @@ exported_at: 2026-03-22
 | 角色设置 | 功能上线时：角色有采购申请的新建 or 编辑权限，补充增加产品明细-列表权限（若无） |
 | 升级引导 | 1\. 历史客户：业务模板-采购申请产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购申请产品’ |
 
-![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 18、采购入库单（已上线）
 
 
-![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/1b11117d-1f8d-4a78-9450-0d4f3cc47f83.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XeyaIaZDeBQppvgM2xjeQdJyud8%3D "")
+
+![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/1b11117d-1f8d-4a78-9450-0d4f3cc47f83.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WaVtRwPlxZlnUqgAwVHtv0Zr6hk%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -363,14 +359,15 @@ exported_at: 2026-03-22
 | 导入 |  |
 | 升级引导 | 1\. 历史客户：业务模板-采购入库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购入库单产品’ |
 
-![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81743964-496b-4ef4-84df-5713bd243ef7.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D7G7hFqBSd080mZiPR4AEUeBDrY%3D "")
+![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81743964-496b-4ef4-84df-5713bd243ef7.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uxWlC0JW4rbSZ8dDBa4KYQv0%2BVY%3D "")
 
-![Picture 21](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 21](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 19、BOM单（已上线）
 
 
-![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a1e28908-9ffa-4709-bb17-2f4580a1c145.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wyHcl2lO5uxYgvdKbpRWZMAI3yw%3D "")
+
+![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a1e28908-9ffa-4709-bb17-2f4580a1c145.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MZqvm21Z5mxZVlzeBUafF1ovENM%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -378,12 +375,13 @@ exported_at: 2026-03-22
 | 角色设置 | 功能上线时：角色有BOM单的新建 or 编辑权限，补充增加产品明细-列表权限（若无） |
 | 升级引导 | 1\. 历史客户：业务模板-BOM单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-BOM单产品’ |
 
-![Picture 23](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 23](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 20、组装单（已上线）
 
 
-![Picture 24](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/9dc5bce6-88a0-473e-b912-155a9640a7bf.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=66eVQSnOEpIPpVo9XoTOHzsn4ho%3D "")
+
+![Picture 24](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/9dc5bce6-88a0-473e-b912-155a9640a7bf.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Rmi63HrmokrKsG0TNba3Bl5l7zA%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -391,12 +389,13 @@ exported_at: 2026-03-22
 | 角色设置 | 功能上线时：角色有组装单单的新建 or 编辑权限，补充增加产品明细-列表权限（若无） |
 | 升级引导 | 1\. 历史客户：业务模板-组装单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-组装单产品’ |
 
-![Picture 25](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 25](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 21、调拨单（已上线）
 
 
-![Picture 26](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81be2f38-5e9a-4b09-aece-c2fa7b79a26f.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3CVc15RcetRZnzlZrguLPPXL%2BM4%3D "")
+
+![Picture 26](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81be2f38-5e9a-4b09-aece-c2fa7b79a26f.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TFaVGp4%2BFk1rbmJDfBZkhWuSlSw%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -406,12 +405,13 @@ exported_at: 2026-03-22
 | 角色设置 | 功能上线时：角色有调拨单的新建 or 编辑权限，补充增加查询库存查询-列表权限（若无） |
 | 升级引导 | 1\. 历史客户：业务模板-调拨单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-调拨单产品’ |
 
-![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 22、采购发票（已上线）
 
 
-![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/4d62eee0-ebb6-4ad0-b4fa-6b6696dfd9c6.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZWN8SutCwdrHqvrRWel3aha6YDw%3D "")
+
+![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/4d62eee0-ebb6-4ad0-b4fa-6b6696dfd9c6.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HPH6XM9a1CZZWxFdTa%2FLIsMOsr8%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -421,18 +421,19 @@ exported_at: 2026-03-22
 | 合并开票优化 | 1、计划付款-合并开票操作：原有的须同一供应商下、同一采购单下的计划回款才能合并开票的基础上，增加‘计划回款审批未通过不允许开票’的校验，若有则弹窗提示（弹窗参考实际回款），如下：2、实际付款/采购单-合并开票优化：多选的单据中存在审批通过和非通过的情况，提示弹窗会有问题，类似如下，需要修复 |
 | 升级引导 | 1\. 历史客户：业务模板-采购发票明细，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购发票明细’ |
 
-![Picture 29](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/31ce9a62-1e8e-4532-a4b1-f5ca28214469.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xEaBJGj8LiJLHHYCqTeZmoVZ%2BA8%3D "")
+![Picture 29](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/31ce9a62-1e8e-4532-a4b1-f5ca28214469.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=keeuAT%2F39Bfwt3Lqb3KkwoIuyH4%3D "")
 
-![Picture 30](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/f192d31e-99ac-46e7-9150-efb70370ae46.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yzfG874alfFIqcRCaVcuYHBeMTU%3D "")
+![Picture 30](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/f192d31e-99ac-46e7-9150-efb70370ae46.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ib33EbWAG9bRTHW%2Bi2d9avXGMq8%3D "")
 
-![Picture 31](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/cb6866c2-625f-45a1-9692-62313c51d38c.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BQ49sO%2FZAeq7RZgOIctiqjMmqG4%3D "")
+![Picture 31](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/cb6866c2-625f-45a1-9692-62313c51d38c.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l2A9HMxEr1eEG%2Bb1IwQDbcy2Sgg%3D "")
 
-![Picture 32](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 32](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 23、销售退货单（已上线）
 
 
-![Picture 33](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/e30d18ff-6da6-4358-a67b-f653c2f140c7.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=1WgqS3wlbCKz6%2Bgopd9QtPh1hjM%3D "")
+
+![Picture 33](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/e30d18ff-6da6-4358-a67b-f653c2f140c7.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mrBHs%2BFyehi9Tik1TyaT7HPql80%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
@@ -443,14 +444,15 @@ exported_at: 2026-03-22
 | ~~单据提交校验~~ | ~~\{源单明细行编码\}为空的明细行：~~~~1）相同\{源单明细行编码\}的明细行∑\{未出库退货数量\}须~~~~≤~\{未出库可退数量\}的校验去除~~~~2）相同\{源单明细行编码\}的明细行∑\{已出库退货数量\}须~~≤~~\{已出库可退数量\}的校验去除~~~~3）相同\{源单明细行编码\}的明细行∑\{申请退货量\}须~~≤~\{可退数量\}的校验去除~~ |
 | 升级引导 | 1\. 历史客户：业务模板-销售退货单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-销售退货单产品’ |
 
-![Picture 34](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nqkED%2BilLMR5HfJCWKHUS1epDZo%3D "")
+![Picture 34](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 24、拜访签到（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
 
 
-![Picture 35](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/35087930-c93f-4bcc-b555-d9671dcd504b.jpeg?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RC5ubUlYIjND43ANN%2F54HucbhZ0%3D "")
+
+![Picture 35](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/35087930-c93f-4bcc-b555-d9671dcd504b.jpeg?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=H70NlAayvvwZO2lMzGPy3coOMJ4%3D "")
 
 | **需求** | **说明** |  |
 |----------|----------|---|
@@ -459,8 +461,8 @@ exported_at: 2026-03-22
 | 关联对象详情tab |  |  |
 | 其他 | 拜访签到有距离预警、保存草稿功能（只做内容填充，不触发默认值填充），须保留 |  |
 
-![Picture 36](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/86c0945f-8675-46af-86f3-5b335ae55ace.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6ojd%2Fo77DUHvSH6YAXJFJfHklGo%3D "")
+![Picture 36](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/86c0945f-8675-46af-86f3-5b335ae55ace.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RMR1a3rl6rVQwg4PfBE7pwt9FtM%3D "")
 
-![Picture 37](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/7fc7853e-2193-4818-874c-eb8011d5a0ea.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6%2F1cE%2B%2FCwfz1q17f2HY8Vr6lYOo%3D "")
+![Picture 37](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/7fc7853e-2193-4818-874c-eb8011d5a0ea.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=aza00i%2B37oHyph6MuPt4utU%2FKKA%3D "")
 
-![Picture 38](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/b62629f7-47b9-485b-b80c-1ff47fd93dbb.png?Expires=1774165325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=m%2FWBnJC2%2Bcs9uVbfZOTVeet14tc%3D "")
+![Picture 38](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/b62629f7-47b9-485b-b80c-1ff47fd93dbb.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J4vN9v0b4tKD4%2BoAVJdrQ7MwyUE%3D "")

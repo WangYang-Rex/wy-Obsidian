@@ -1,23 +1,11 @@
-------
-type: knowledge
-tags:
-  - 有成财务报销
-  - PRD
-  - AI审批
-  - 必填控制
-  - 规则导出
-  - 助手复制
-created: 2026-04-22
-source: 钉钉知识库
-original_url: https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk?utm_scene=team_space
-node_id: ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk
-exported_at: 2026-04-22
 ---
-
-# AI审批增加必填控制、规则导出、助手复制
-
-> **原文链接**：[AI审批增加必填控制 - 钉钉知识库](https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk?utm_scene=team_space)
-> **导出时间**：2026-04-22 | **整理时间**：2026-04-22---
+title: "AI审批增加必填控制，增加规则导出、助手复制"
+nodeId: ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk?utm_scene=team_space"
+exportedAt: 2026-04-22T06:56:11.071Z
+source: dingtalk-document-mcp
+---
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20251219 | v1.0 | 新建 |

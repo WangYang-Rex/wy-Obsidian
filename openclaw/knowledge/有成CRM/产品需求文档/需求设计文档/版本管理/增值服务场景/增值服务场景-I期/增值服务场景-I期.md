@@ -1,20 +1,11 @@
 ---
 title: "增值服务场景-I期"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-版本管�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2NhnAbel54WqjMp697?utm_scene=team_space
-node_id: ydxXB52LJq7laP2NhnAbel54WqjMp697
-exported_at: 2026-03-22
+nodeId: ydxXB52LJq7laP2NhnAbel54WqjMp697
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2NhnAbel54WqjMp697?utm_scene=team_space"
+exportedAt: 2026-03-31T03:45:46.003Z
+source: dingtalk-document-mcp
 ---
-
-# 增值服务场景-I期
-
-> 🔗 **原文链接**：[增值服务场景-I期 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2NhnAbel54WqjMp697?utm_scene=team_space)
-
 # 增值服务场景-I期
 
 # 一、增设营销开关
@@ -22,7 +13,8 @@ exported_at: 2026-03-22
 - 关闭时，下述链接入口均隐藏
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/f2d2dad9-75b8-4969-afd3-01922f5d40ec.png?Expires=1774164995&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=eKDZxcBvFB5FiXamG9hyWP2hS3I%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/f2d2dad9-75b8-4969-afd3-01922f5d40ec.png?Expires=1774933927&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OznQ78cZmeCc33Ic3hl4QzBhDms%3D "")
 
 # 二、增加升级引导
 
@@ -32,7 +24,8 @@ exported_at: 2026-03-22
 - paas链接：10790.16098.16100.87393.87561咨询客服：10790.16098.16100.87393.87561.87562续费升级：10790.16098.16100.87393.87561.87563
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/6fc9de76-a293-459f-b5ad-4de9c48fa225.png?Expires=1774164995&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xkEjU5B%2F9qBRwKIaLwXs%2BVl5RQI%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/6fc9de76-a293-459f-b5ad-4de9c48fa225.png?Expires=1774933927&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=LHFtUqox%2BHGm3e0CRSCQ81QjO%2Fk%3D "")
 
 ## 2、升级开通有成报销
 
@@ -42,4 +35,5 @@ exported_at: 2026-03-22
 - 报销-收付款链接：10790.16098.16100.87393.87396咨询客服：10790.16098.16100.87393.87396.87559续费升级：10790.16098.16100.87393.87396.87560
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/75471243-96ff-412e-802c-f611b32629a5.png?Expires=1774164995&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Eg%2F3euR9noDzpXGgyfTYPycoX30%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qg87moqLX/img/75471243-96ff-412e-802c-f611b32629a5.png?Expires=1774933927&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D7KYoaJuGO0TXbMtmQOARO9IPc0%3D "")

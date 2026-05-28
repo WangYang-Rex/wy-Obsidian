@@ -1,20 +1,12 @@
 ---
 title: "增加函数-DAYS"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-基础设置-表�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space
-node_id: KGZLxjv9VG3RrkNQT79AK9jAV6EDybno
-exported_at: 2026-03-22
+nodeId: KGZLxjv9VG3RrkNQT79AK9jAV6EDybno
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space"
+updateTime: 1751427317000
+exportedAt: 2026-05-14T12:08:59.883Z
+source: dingtalk-document-mcp
 ---
-
-# 增加函数-DAYS
-
-> 🔗 **原文链接**：[增加函数-DAYS - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/KGZLxjv9VG3RrkNQT79AK9jAV6EDybno?utm_scene=team_space)
-
 # 增加函数-DAYS
 
 | **修订时间** | **版本** | **修订说明** |
@@ -32,7 +24,8 @@ exported_at: 2026-03-22
 [<u>https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz</u>](https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz) 《编辑器字段、函数库》
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/05a9a1ab-9a4f-4636-a207-65a60af04418.png?Expires=1774157048&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=69ayPyr%2FiCDdin4ChiNNO5jzmGY%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/05a9a1ab-9a4f-4636-a207-65a60af04418.png?Expires=1778766845&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=THSX6lBlosSQKxx7k4BqnCTA%2FR8%3D "")
 
 增加函数：DAYS；放在日期函数中：
 
@@ -45,9 +38,11 @@ exported_at: 2026-03-22
 比如：202407至202408，转换为：2024-07-01至2024-08-31202407至2024-09，转换为：2024-07-01至2024-09-30
 
 
+
 实现东艾计算天数的函数示例：
 
 =DAYS(结束日期,开始日期)\+1
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/2c2f9b20-4f26-477d-a4f9-cda1b72c8edd.png?Expires=1774157048&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XwsyhSTKwU%2FACrqURqiIdUqxznk%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/2c2f9b20-4f26-477d-a4f9-cda1b72c8edd.png?Expires=1778766845&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sGg47MJ1eIg%2BYDK%2BHNc3w4%2BBVdo%3D "")

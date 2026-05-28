@@ -1,33 +1,16 @@
 ---
 title: "AI自动报销优化，新增ai费用标准查询、AI客服咨询"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-AI
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQ4NNnP7V6zbX04v?utm_scene=team_space
-node_id: QG53mjyd80Rjq0QOCQ4NNnP7V6zbX04v
-exported_at: 2026-03-22
+nodeId: QG53mjyd80Rjq0QOCQ4NNnP7V6zbX04v
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQ4NNnP7V6zbX04v?utm_scene=team_space"
+exportedAt: 2026-04-01T02:10:02.857Z
+source: dingtalk-document-mcp
 ---
-
-# AI自动报销优化，新增ai费用标准查询、AI客服咨询
-
-> 🔗 **原文链接**：[AI自动报销优化，新增ai费用标准查询、AI客服咨询 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQ4NNnP7V6zbX04v?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20250730 | v1.0 | 新建 |
 | 20250905 | v2.0 | 调整 |
-| 20251010 | v2.1 | 优化：
-- ☑ 重新登录依然保留对话、引导用户通过新建对话重新建单——2@吴靖(岱宗-吴靖)
-- ☑ 首页增加“去报销”入口——5
-- ☑ 支持发票和消费混合提交场景——3
-- ☑ 自动计算补贴——1
-- ☐ 生成单据兼容单据模板上配置的填写逻辑（辅助核算带出上一次选项）——7
-- ☑ 支持企业级智能填单规则——4@吴靖(岱宗-吴靖)
-- ☑ 咨询费用标准，支持其他标准——0@吴靖(岱宗-吴靖)
-- ☑ 自动带入单据申请人（暂不支持委托报销场景，v4.3优化）——6 |
+| 20251010 | v2.1 | 优化：<br><ul><li>☑ 重新登录依然保留对话、引导用户通过新建对话重新建单——2@吴靖(岱宗-吴靖)</li><br><li>☑ 首页增加“去报销”入口——5</li><br><li>☑ 支持发票和消费混合提交场景——3</li><br><li>☑ 自动计算补贴——1</li><br><li>☐ 生成单据兼容单据模板上配置的填写逻辑（辅助核算带出上一次选项）——7</li><br><li>☑ 支持企业级智能填单规则——4@吴靖(岱宗-吴靖)</li><br><li>☑ 咨询费用标准，支持其他标准——0@吴靖(岱宗-吴靖)</li><br><li>☑ 自动带入单据申请人（暂不支持委托报销场景，v4.3优化）——6</li></ul> |
 
 # **1\. 需求背景**
 
@@ -51,7 +34,7 @@ exported_at: 2026-03-22
 
 ## **产品规划**
 
-![ai流程蓝图.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/6d007ddc-9dce-46b7-9372-1b85cc4d1317.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kt%2BN0gMDWFu9RoIVyfUcO4qyVYk%3D "")
+![ai流程蓝图.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/6d007ddc-9dce-46b7-9372-1b85cc4d1317.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kFD5zF5dHpwUqw0XaETQdZTD6xA%3D "")
 
 [https://m3.mockplus.cn/preview/BtSpvnQ1S6yJ](https://m3.mockplus.cn/preview/BtSpvnQ1S6yJ)
 
@@ -61,11 +44,12 @@ exported_at: 2026-03-22
 
 2、提供给**使用过**一次的用户，快速使用的路径
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/b5984b89-a649-4fc9-ba01-1d6d4e4dfad4.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=b8uU8bKmVgogx0%2BL7mcOcVOi0mA%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/b5984b89-a649-4fc9-ba01-1d6d4e4dfad4.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VG%2FmZnMPrC7Af%2Bh89Se9SA6Gkeo%3D "")
 
 # **2\. 业务流程/架构**
 
 [白板]
+
 
 
 # **3\. 功能清单**
@@ -92,7 +76,7 @@ mb：全屏遮罩改80%高度拉起
 
 通用agent内增加场景分流（埋点）
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/83b35a5c-81bd-41ad-b483-c85f3a1e4354.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MEdOHhbrLEGuqsh6IS5kLQ6Anxg%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/83b35a5c-81bd-41ad-b483-c85f3a1e4354.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l6o2yPA5NOxj6RZnGInUWO4l4Aw%3D "")
 - 帮我报销，点击后ai助理由通用场景自动切换到“帮我报销”场景，后续会话由**报销助手agent**接管（以后可拓展为由企业提供agent接管会话）。流程见[二期：AI自动报销优化，新增ai费用标准查询、AI客服咨询](https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm3gpzNXTYzgQRvGJGlDd3mE?utm_scene=team_space&iframeQuery=anchorId%3Duu_mdppuk5ofu7ynobh2gc)
 
 - 查询费用标准。点击后自动切换到“查询费用标准”场景，后续会话由**查询费用标准agent**接管（以后可拓展为由企业提供agent接管会话）。流程见[二期：AI自动报销优化，新增ai费用标准查询、AI客服咨询](https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm3gpzNXTYzgQRvGJGlDd3mE?utm_scene=team_space&iframeQuery=anchorId%3Duu_mdppuz727uj2301e6e)
@@ -105,7 +89,7 @@ mb：全屏遮罩改80%高度拉起
 
 白名单内企业在首页设置可见模块中可见“去报销”开关，默认开启。开启后首页新增“去报销”入口。
 
-### ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqreb7VQ9o2nak/img/a92f7ea3-f067-4809-9bc5-c98faa2c7c34.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=e0GgvbFxsX%2BQTEt2LrzZdJzsWBA%3D "")
+### ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqreb7VQ9o2nak/img/a92f7ea3-f067-4809-9bc5-c98faa2c7c34.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ziFTO4TSjvKeL0vQWoPdbIk1uWk%3D "")
 
 用户点击“去报销”入口，自动打开ai助理侧边栏。
 - 用户已经有过历史对话的，打开历史会话。
@@ -115,7 +99,7 @@ mb：全屏遮罩改80%高度拉起
 
 ### **其他细节元素调整**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/56bf7d1a-76e0-49b1-8a32-f83c06d5c92b.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=X99FlnfkzD4MYG2tZJ5kLVDTbQg%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/a2QnV4jEypd6DO4X/img/56bf7d1a-76e0-49b1-8a32-f83c06d5c92b.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RDvTEk4syg9YIiq%2BIT7AxIbPU8A%3D "")
 - 关闭改收起
 - 新对话改为清空
 - 新功能提醒气泡，关闭后不显示
@@ -153,7 +137,7 @@ mb：全屏遮罩改80%高度拉起
 
 ## **报销助手Agent优化**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqreb7VQ9o2nak/img/67c139db-ecd7-46ba-9b05-3de4b64914a4.png?Expires=1774156284&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2jFOVnRoQIGZTA8KHPb%2B9lumKj4%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqreb7VQ9o2nak/img/67c139db-ecd7-46ba-9b05-3de4b64914a4.png?Expires=1775016603&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2Fu0ee80tay9ifkz7K53ADOV%2BsC8%3D "")
 
 ### **流程**
 1. 用户发送文字，也可以文字\+附件
@@ -256,5 +240,9 @@ mb：全屏遮罩改80%高度拉起
 ## **移动端交互**
 
 移动端的逻辑是一样的，卡片唤起的已有交互样式需要适配移动端。
+
+
+
+
 
 

@@ -1,20 +1,11 @@
 ---
 title: "PC&MB支持预览压缩包"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-费用与单据
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHygDeL1N8MwvDqPk?utm_scene=team_space
-node_id: ZgpG2NdyVXrOqRxzHygDeL1N8MwvDqPk
-exported_at: 2026-03-22
+nodeId: ZgpG2NdyVXrOqRxzHygDeL1N8MwvDqPk
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHygDeL1N8MwvDqPk?utm_scene=team_space"
+exportedAt: 2026-04-01T02:24:40.305Z
+source: dingtalk-document-mcp
 ---
-
-# PC&MB支持预览压缩包
-
-> 🔗 **原文链接**：[PC&MB支持预览压缩包 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHygDeL1N8MwvDqPk?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20251104 | v1.0 | 新建 |
@@ -42,7 +33,7 @@ exported_at: 2026-03-22
 
 PC交互
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4j6OJ5jpLk52Rq3p/img/6a645b2b-a85c-4567-819e-8e5d4d8c2520.png?Expires=1774157293&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=deyTwoC%2FNVpJaHMuQWX1v5DU2DY%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4j6OJ5jpLk52Rq3p/img/6a645b2b-a85c-4567-819e-8e5d4d8c2520.png?Expires=1775017480&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9vr4TmM7u81P64oc0QjZ%2BV4%2FkII%3D "")
 - 点击图标默认预览，点击下载图标下载压缩包。
 - 新标签页打开预览压缩包里的文件结构，点击文件夹支持打开文件夹里的结构。
     - 点击具体文件时，如果文件本身已经是支持预览的格式，则新标签页打开文件的预览。
@@ -51,6 +42,6 @@ PC交互
 
 MB交互
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4j6OJ5jpLk52Rq3p/img/d1b6311c-7536-4af2-bce4-27a7ab154fb9.png?Expires=1774157293&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F9OM03ccyy9YglpmnFdc7dlHLDQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4j6OJ5jpLk52Rq3p/img/d1b6311c-7536-4af2-bce4-27a7ab154fb9.png?Expires=1775017480&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dhCWARnXW7CahpbeOOb2DscIOhY%3D "")
 
 移动端交互类似，为了方便移动端用户，预览压缩包内文件时支持下载整个压缩包。

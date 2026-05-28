@@ -1,20 +1,11 @@
 ---
 title: "钉钉-有成AI销售助理"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI-产品�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/6LeBq413JAzGj9vYHnQkEOj28DOnGvpb?utm_scene=team_space
-node_id: 6LeBq413JAzGj9vYHnQkEOj28DOnGvpb
-exported_at: 2026-03-22
+nodeId: 6LeBq413JAzGj9vYHnQkEOj28DOnGvpb
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/6LeBq413JAzGj9vYHnQkEOj28DOnGvpb?utm_scene=team_space"
+exportedAt: 2026-03-31T03:50:17.640Z
+source: dingtalk-document-mcp
 ---
-
-# 钉钉-有成AI销售助理
-
-> 🔗 **原文链接**：[钉钉-有成AI销售助理 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/6LeBq413JAzGj9vYHnQkEOj28DOnGvpb?utm_scene=team_space)
-
 # 钉钉-有成AI销售助理
 
 | **修订时间** | **版本** | **修订人** | **修订说明** |
@@ -25,7 +16,8 @@ exported_at: 2026-03-22
 ## 需求详情
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdjLXNlpz/img/12b1b7f3-c9a6-493f-bb5a-1f5e4ae0f9c5.png?Expires=1774165020&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jhxtWmF0FkYMXysQoA%2BeZp%2B4Ebc%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdjLXNlpz/img/12b1b7f3-c9a6-493f-bb5a-1f5e4ae0f9c5.png?Expires=1774934126&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FgnvnnAPirCnOz7j33tcd2JAPpg%3D "")
 
 | **需求** | **描述** |
 |----------|----------|

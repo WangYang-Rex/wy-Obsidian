@@ -1,20 +1,11 @@
 ---
 title: "规则编辑器增加函数WEEKDAY"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-基础设置
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4?utm_scene=team_space
-node_id: Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4
-exported_at: 2026-03-22
+nodeId: Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4?utm_scene=team_space"
+exportedAt: 2026-04-01T02:20:09.653Z
+source: dingtalk-document-mcp
 ---
-
-# 规则编辑器增加函数WEEKDAY
-
-> 🔗 **原文链接**：[规则编辑器增加函数WEEKDAY - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20250923 | v1.0 | 新建 |

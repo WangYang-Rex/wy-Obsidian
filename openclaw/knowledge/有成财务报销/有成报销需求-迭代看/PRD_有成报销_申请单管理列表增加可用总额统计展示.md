@@ -3,8 +3,8 @@ title: "PRD_有成报销_申请单管理列表增加可用总额统计展示"
 nodeId: jb9Y4gmKWr7lmxrahjqROMrdVGXn6lpz
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWr7lmxrahjqROMrdVGXn6lpz?utm_scene=team_space"
-updateTime: 1778734900000
-exportedAt: 2026-05-14T12:13:56.578Z
+updateTime: 1779072247000
+exportedAt: 2026-05-28T11:32:55.724Z
 source: dingtalk-document-mcp
 ---
 > **版本**：v1.1 \| **产品**：有成报销v2.0 \| **客户**：PERFECT BULK **修订记录**：v1.0(20260514)初始版本 v1.1(20260514)修正可用总额统计逻辑为跟随筛选条件动态变化   
@@ -37,7 +37,7 @@ source: dingtalk-document-mcp
 
 **位置**：单据管理 → 申请单管理 → 列表页左下角统计栏
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl952xLdr80lap/img/b4aa99cc-01f6-48ca-816e-6801567567fa.png?Expires=1778767553&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5hSjIaETiIgTL4Usad4V1yrrS2g%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl952xLdr80lap/img/b4aa99cc-01f6-48ca-816e-6801567567fa.png?Expires=1779975176&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oFte7heF%2BHTl1HBjnOvVVf3HWzY%3D "")
 
 **功能描述**：
 - 在现有"申请总额"右侧增加"可用总额"统计展示
@@ -49,7 +49,7 @@ source: dingtalk-document-mcp
 
 **功能描述**：
 - 切换筛选条件时，"申请总额"和"可用总额"同步跟随变化
-- 可用总额为负数时显示为0
+- 每张单据的可用金额为负数时显示为0
 - 开启了金额管控和未开启金额管控的申请单都纳入统计
 - 导出申请单列表时，"可用总额"不作为导出字段，仅列表页展示
 

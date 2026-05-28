@@ -1,20 +1,11 @@
 ---
 title: "e签宝对接（SaaS API V3版）"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-第三方应用-e
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAK9Z3JMGjLRb3?utm_scene=team_space
-node_id: N7dx2rn0JbZ9KxGot5vAK9Z3JMGjLRb3
-exported_at: 2026-03-22
+nodeId: N7dx2rn0JbZ9KxGot5vAK9Z3JMGjLRb3
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAK9Z3JMGjLRb3?utm_scene=team_space"
+exportedAt: 2026-04-01T02:12:39.643Z
+source: dingtalk-document-mcp
 ---
-
-# e签宝对接（SaaS API V3版）
-
-> 🔗 **原文链接**：[e签宝对接（SaaS API V3版） - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAK9Z3JMGjLRb3?utm_scene=team_space)
-
 # e签宝对接（SaaS API V3版）
 
 | **修订时间** | **版本** | **编写人** | **修订说明** |
@@ -54,11 +45,13 @@ exported_at: 2026-03-22
 **合同签署流程图：**
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/8cf484ec-643d-431d-978b-eced28242b81.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZFWkOUFITTXzuvYiHZKshlPNT%2Bs%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/8cf484ec-643d-431d-978b-eced28242b81.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KXpfZ8V70zvxCPyBLB3C3HChZVM%3D "")
 
 ## 3、涉及系统
 
 **有成报销 （易企报 & 钉钉 & 飞书 & 企微）**
+
 
 
 ## 4、功能清单
@@ -89,7 +82,8 @@ exported_at: 2026-03-22
 ##### 应用中心：展示“e签宝”应用
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/86af71ee-5823-4fad-a0fc-bf66b9bbb468.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=D3tlB2heoShrzP6qWEuo2NXEiqk%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/86af71ee-5823-4fad-a0fc-bf66b9bbb468.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xGnLTjyTGV6wPp0BYC4w4i%2Bsje0%3D "")
 
 ###### 开通
 
@@ -112,7 +106,8 @@ exported_at: 2026-03-22
 ###### 合同设置
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/177b5abb-aaab-4632-87f0-66341853d65f.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JfJg9v%2ByyREgG%2FFR79JIFcFd1D8%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/177b5abb-aaab-4632-87f0-66341853d65f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3rikKceOGP8kkj6MqtQG00GnY44%3D "")
 - 点击“合同设置”跳转如上页面，该页面支持对系统中**所有合同单据**进行“是否开启线上签署”设置
 - 线上签署开关默认为“**关闭**”状态；
 - 开启开关的同时，校验该合同单据表单中**是否存在“附件”组件**；存在：开启成功；不存在：弹窗提示“**该合同表单模板中未添加「附件」组件，无法开启线上签署**”，并支持跳转表单编辑页面
@@ -124,12 +119,14 @@ exported_at: 2026-03-22
 ###### 整体流程图
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/6ad0961e-db9d-4238-b6e0-accbf021ad7c.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2442foeIdGz8sp2Ns1Sx7dWvX3A%3D "")
+
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/6ad0961e-db9d-4238-b6e0-accbf021ad7c.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WCBZXe%2BJJn4r4Ym8VgH4fbhcDk4%3D "")
 
 ### 5.2、管理后台-支持为企业开通并充值“e签宝”合同份数
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/29e7a036-510f-4d6e-a3c6-91eb2882b171.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4Zlit7BeGAq%2FLR0uBeNfUjabACw%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/29e7a036-510f-4d6e-a3c6-91eb2882b171.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pNO%2Fx5UbJE17fe8Qb68Pjawhnno%3D "")
 1. 企业管理中-编辑类型选型增加「**e签宝开通与充值**」
 2. 开通状态开关默认“**关闭**”；只有为开启状态时才可进行充值（才展示“剩余合同数”与 充值框）
 3. “用户剩余合同数”-不可编辑；充值合同数填写范围：正整数
@@ -161,12 +158,14 @@ exported_at: 2026-03-22
 ###### 按钮展示及发起签署判断逻辑：
 
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/5e00ccc2-34fb-45a8-aff2-0f0e3df450e9.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MjxbDANIK29tXQT5SwEoOSf5y8w%3D "")
+
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/5e00ccc2-34fb-45a8-aff2-0f0e3df450e9.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AhCnnxMOmnhVuTiQj7jZ41Z5d8U%3D "")
 
 ###### 页面交互
 
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/70632733-fcff-4d22-865e-6045dcfada20.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FcVhznJ7JIsGHpb079%2BT0of5%2FTg%3D "")
+
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/70632733-fcff-4d22-865e-6045dcfada20.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GkP7Ch80h3qO4IY7XphZsg4qMss%3D "")
 
 1、在满足“**合同审批通过**”&“**该合同开启了线上签**”条件下，合同详情页 展示“**发起线上签署**”按钮、“**签署详情**”tab页
 
@@ -185,7 +184,8 @@ exported_at: 2026-03-22
 ##### 撤销签署
 
 
-![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/90f2d945-634e-49c9-9006-d05976995496.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=LbtfZh3WmCFN4xCxPWK1LP1fF4g%3D "")
+
+![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/90f2d945-634e-49c9-9006-d05976995496.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yFVb9DfxK1TeP6s3LYLnEPbmbnY%3D "")
 
 1、当签署状态为“**签署中**”，展示“**撤销签署**”按钮
 
@@ -213,19 +213,21 @@ exported_at: 2026-03-22
 |  | 操作时间 | 节点类型包括：**签署发起/签署人查看（已读）/签署结果/签署变更/签署转交/用章驳回/合同解约** |  |
 |  | 流程节点名称 |  |  |
 
-![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/0ed445bc-1f29-4715-ab9d-925abafc2ef2.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=1SSft7KyLk7ahxE1SBWxMRSLw5I%3D "")
+![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/0ed445bc-1f29-4715-ab9d-925abafc2ef2.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BZWJLKYiOgco1lbwbBbmK771pug%3D "")
 
 ###### 未发起签署，无签署状态
 
 签署详情页展示缺省图，文案“暂未发起线上签署”
 
 
-![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/3a93a01c-57db-439a-86b4-14921da294cc.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mfnSBbxNY86HF92Lsluk%2FBN9c9E%3D "")
+
+![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/3a93a01c-57db-439a-86b4-14921da294cc.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Wni9mV1WY4s%2B6vLSiP8UzO1D%2BtU%3D "")
 
 ###### 签署状态：草稿
 
 
-![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/b983bc39-4ba9-40d6-bd81-4d9a601c01fe.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XhVaynAt3iTucGpNRQYgFjZOaLQ%3D "")
+
+![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/b983bc39-4ba9-40d6-bd81-4d9a601c01fe.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F9jD9hidMHHwMwXZU5YILclZty4%3D "")
 
 1）**基础信息**展示：**发起人、签署状态**（取值逻辑见上表）
 
@@ -238,7 +240,8 @@ exported_at: 2026-03-22
 ###### 签署状态：签署中
 
 
-![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/9a6e7c5f-2aeb-4b49-befd-2e5340f67714.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=U8DwJR6WPOPonwMl2KEcvhKEISI%3D "")
+
+![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/9a6e7c5f-2aeb-4b49-befd-2e5340f67714.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wp%2Bg3ubcO2qg201o4FrG4HhIf4o%3D "")
 
 1）**基础信息**展示：**发起人、签署状态**（取值逻辑见上表）
 
@@ -256,12 +259,14 @@ exported_at: 2026-03-22
 详见：「[<u>签署回调通知接收说明</u>](https://open.esign.cn/doc/opendoc/notify3/sblzg8)」
 
 
-![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/0ed445bc-1f29-4715-ab9d-925abafc2ef2.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=1SSft7KyLk7ahxE1SBWxMRSLw5I%3D "")
+
+![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/0ed445bc-1f29-4715-ab9d-925abafc2ef2.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BZWJLKYiOgco1lbwbBbmK771pug%3D "")
 
 ###### 签署状态：已拒签、已过期、已撤销
 
 
-![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/41933725-ac5b-44a4-a3b5-2e11919a226f.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5qJxNOpB%2FDQCPhq%2B9ZGa2Rl0SKo%3D "")
+
+![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/41933725-ac5b-44a4-a3b5-2e11919a226f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zsPFTQP5CIQY2aaC%2B7Fi%2Bsc%2FfU8%3D "")
 
 签署状态为：已拒签/已撤销/已过期 时，可重新发起签署，流程同首次发起签署。（注：撤销发起签署调用发起签署接口，重新创建一个新的签署任务）
 
@@ -270,7 +275,8 @@ exported_at: 2026-03-22
 ###### 签署状态：已完成
 
 
-![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/fd2c2dd1-32d0-4b12-95ea-831a81ad5c82.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4O%2FD05v%2FJGjz9cqtw2ZsUgcTXPg%3D "")
+
+![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/fd2c2dd1-32d0-4b12-95ea-831a81ad5c82.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=V%2Byjvpmq4Ue7z0vZclCidOV2KCc%3D "")
 
 1）已完成签署的合同支持手动下载电子合同
 
@@ -289,11 +295,13 @@ exported_at: 2026-03-22
 我的-单据-全部，单据列表增加字段“签署状态”。当单据取不到签署状态时，显示为空；签署状态取e签宝签署任务状态
 
 
-![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/a7b847d3-c9b6-4d29-bff6-9c49d142035f.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FIm8kwPdLGsH6ABgDyI0VMWyOK4%3D "")
+
+![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/a7b847d3-c9b6-4d29-bff6-9c49d142035f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oxrivrnf5aiEkg5%2F1cprsO2n9dk%3D "")
 
 ##### 合同管理
 
 合同管理-应付合同/应收合同/通用合同，单据列表增加字段“签署状态”。当单据取不到签署状态时，显示为空；签署状态取e签宝签署任务状态
 
 
-![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/7f6d1415-2f14-4370-91dd-bd03a17ae65d.png?Expires=1774156467&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8OpW0shEqyxJjTm6CFXKztpwVcg%3D "")
+
+![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/7f6d1415-2f14-4370-91dd-bd03a17ae65d.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uNABYR1evof8hkSBoi79S5lfmlU%3D "")

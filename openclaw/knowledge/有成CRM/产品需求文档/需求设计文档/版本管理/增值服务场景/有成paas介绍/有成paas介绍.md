@@ -1,26 +1,18 @@
 ---
 title: "有成paas介绍"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-版本管�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeObxmXHlEP7mxAJA7depqY?utm_scene=team_space
-node_id: vy20BglGWOeObxmXHlEP7mxAJA7depqY
-exported_at: 2026-03-22
+nodeId: vy20BglGWOeObxmXHlEP7mxAJA7depqY
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeObxmXHlEP7mxAJA7depqY?utm_scene=team_space"
+exportedAt: 2026-03-31T03:46:35.293Z
+source: dingtalk-document-mcp
 ---
-
-# 有成paas介绍
-
-> 🔗 **原文链接**：[有成paas介绍 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeObxmXHlEP7mxAJA7depqY?utm_scene=team_space)
-
 # 有成paas介绍
 
 # 什么是有成PAAS
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/215dca65-22b7-4bed-a871-15cb5e94ca6a.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dXNm1zjV44VAPOfl6w%2Bb0cC%2F9ow%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/215dca65-22b7-4bed-a871-15cb5e94ca6a.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jZzClcs%2BnM52vpTVDziflN65ff0%3D "")
 
 # PAAS高级功能能做什么
 
@@ -35,15 +27,18 @@ exported_at: 2026-03-22
 - 托拉拽添加表单控件，维护0门槛，开发0成本
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/88290568-dfbd-401b-8b1d-1ec302b0b8d5.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oXwDtjR5hTX2jI%2BtdfG6ZVjL3I4%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/88290568-dfbd-401b-8b1d-1ec302b0b8d5.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l%2BZTULhDIfwSoSqPWk6Y2CmiJb4%3D "")
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/ba093cae-add4-4a9a-8023-ddcbd3569667.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=V3zurK0ximnOdrKjRKD1WYzB33w%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/ba093cae-add4-4a9a-8023-ddcbd3569667.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=agrxm0oPowB275%2BV6jquF7%2Fi56c%3D "")
 
 ## 更多高级控件
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a0e4d203-7e0c-435e-9d19-33d8d1ec9078.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=85oHwOKZcK8bexs5YVHua%2BYe%2FxY%3D "")
+
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a0e4d203-7e0c-435e-9d19-33d8d1ec9078.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9Qqq4BRj3Sq4FaEcog%2BZSNEd5YQ%3D "")
 
 #### 人员/部门
 
@@ -56,13 +51,16 @@ exported_at: 2026-03-22
 - 报表中可以人员/部门为分析对象，分析订单、回款、拜访等数据
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5403e1eb-a119-42b9-a07a-5c60082dbace.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vJmnlgopfl%2F5%2F%2BqFAgJMMLk4AFw%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5403e1eb-a119-42b9-a07a-5c60082dbace.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xHrItjeY0irY6CgBfhTYT1sngzU%3D "")
 
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/23b53dc9-37e4-495d-9373-d2255188387b.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XkBGmKJSoen6e2l%2BbKeU8NW1bts%3D "")
+
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/23b53dc9-37e4-495d-9373-d2255188387b.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xtXe%2FPiFyZATQTdCyaJwru0Ri4s%3D "")
 
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/b1ca10bd-7963-4ab0-aa87-49ced9fee922.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=38G5nK2D1gswmUEk6VDZKeEbx3Y%3D "")
+
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/b1ca10bd-7963-4ab0-aa87-49ced9fee922.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lw2HCztlbTtCwPZe6i7KOGbgUZU%3D "")
 
 #### 统计字段
 
@@ -76,7 +74,8 @@ exported_at: 2026-03-22
 - 被统计对象数据范围可设置，如统计回款金额的例子中，只统计审批通过的回款单金额
 
 
-![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/dce4c57f-5e47-4ddb-9832-9e97752d561f.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lMO8c92yZS9au113CQaAjAAJqTc%3D "")
+
+![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/dce4c57f-5e47-4ddb-9832-9e97752d561f.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6%2BAtCi7VnzELcwN3a9irzaPqM%2FQ%3D "")
 
 #### 计算字段
 
@@ -90,7 +89,8 @@ exported_at: 2026-03-22
 - 计算字段搭配日期函数，动态计算剩余天数等信息，如根据合同到期时间，动态计算合同到期天数
 
 
-![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/bf2623c8-b02e-47ef-98a2-acd2b4b2aa85.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=W47Mh46tGKyH0zrb9HxxOgpL%2FdE%3D "")
+
+![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/bf2623c8-b02e-47ef-98a2-acd2b4b2aa85.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=X09EGGqYSusTZ1tMDeQqNIKxnUQ%3D "")
 
 ## 更多流程自动化处理
 
@@ -107,10 +107,12 @@ exported_at: 2026-03-22
 - 升级旗舰版，企业自定义工作流程可增加至20个
 
 
-![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5e66b43e-5247-4637-936a-4284c46aa7b2.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZrS%2FxjBrY1dCZujWBhqTrVmPdRY%3D "")
+
+![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5e66b43e-5247-4637-936a-4284c46aa7b2.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=n09uWtbI4B0TwaUTeiHdNHm4h6E%3D "")
 
 
-![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/04b3a3c9-d8e5-4cbc-8be8-f4358b15f6af.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nbqQ2xdYjoC4P8yI7lj%2BiQkfdWo%3D "")
+
+![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/04b3a3c9-d8e5-4cbc-8be8-f4358b15f6af.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Sp4WDWMnWCCLAfn8C6inwMlTYvA%3D "")
 
 ## 更多BI报表搭建
 
@@ -126,7 +128,8 @@ exported_at: 2026-03-22
 - 升级旗舰版，企业报表总数可增加至20张（最多200张图表）
 
 
-![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/f7b16c1b-62b9-4f97-8817-e3872a30b9ca.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=szJ%2F4d%2BYHHuVr5e2%2Btq5UhqWAy0%3D "")
+
+![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/f7b16c1b-62b9-4f97-8817-e3872a30b9ca.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pt72gQ1vmYMn1QoqLgL6uYR%2FUrM%3D "")
 
 ## 更多消息机器人
 
@@ -141,10 +144,12 @@ exported_at: 2026-03-22
 - 升级旗舰版，企业自定义消息模板可增加至20个
 
 
-![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/7acb7f86-18cb-4464-83ad-d5126b016fb6.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kvSISm82XwAiyVFOIoknIDU3LYs%3D "")
+
+![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/7acb7f86-18cb-4464-83ad-d5126b016fb6.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0O0wN2rXsT3gWlY65qeEyw5ySIQ%3D "")
 
 
-![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/fda0fa97-f236-477f-b51b-2f74c04d2636.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7qND2fHgsseE9HxUzefx9Pvtgy4%3D "")
+
+![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/fda0fa97-f236-477f-b51b-2f74c04d2636.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XQK5YuR0GeC4rxrbppVUoByguoI%3D "")
 
 ## 更多视图形式
 
@@ -156,7 +161,9 @@ exported_at: 2026-03-22
 - 视图时间线信息、分组字段、展示字段均可自定义
 
 
-![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a25831b5-050d-4717-8432-f466026eaf3d.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2%2FRAEG0nblfJ0wZ3RviByRe9Pbc%3D "")
+
+![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a25831b5-050d-4717-8432-f466026eaf3d.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=U%2FYB3GFImSe7rHK5XIgsLfjslVQ%3D "")
 
 
-![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/351f6bdf-39a6-44a0-bf66-662aeb20ac1c.png?Expires=1774164998&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tSyVfQJ7w49uXdG1jPp%2BySJBn5Y%3D "")
+
+![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/351f6bdf-39a6-44a0-bf66-662aeb20ac1c.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IlEwwUBTuffMsniow9wae7vujT0%3D "")

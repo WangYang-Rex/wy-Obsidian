@@ -1,20 +1,11 @@
 ---
 title: "AI销售助理-AI悬浮"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI-产品�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJl7DXzj2hnybwXYlVdqbropQ?utm_scene=team_space
-node_id: ZX6GRezwJl7DXzj2hnybwXYlVdqbropQ
-exported_at: 2026-03-22
+nodeId: ZX6GRezwJl7DXzj2hnybwXYlVdqbropQ
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJl7DXzj2hnybwXYlVdqbropQ?utm_scene=team_space"
+exportedAt: 2026-03-31T03:50:09.582Z
+source: dingtalk-document-mcp
 ---
-
-# AI销售助理-AI悬浮
-
-> 🔗 **原文链接**：[AI销售助理-AI悬浮 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/ZX6GRezwJl7DXzj2hnybwXYlVdqbropQ?utm_scene=team_space)
-
 # 有成AI销售助理（一期）
 
 | **修订时间** | **版本** | **修订人** | **修订说明** |
@@ -25,7 +16,8 @@ exported_at: 2026-03-22
 ## 需求详情
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPQbADrqXx/img/73ddb005-2538-4a2e-9c86-7519dbf47486.png?Expires=1774165019&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2xwl%2B9CGaCBCeUhnDdXmL0A3Cas%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPQbADrqXx/img/73ddb005-2538-4a2e-9c86-7519dbf47486.png?Expires=1774934122&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=v8srx4%2B96cFeeuzlCHUvwj3O2pw%3D "")
 
 | **需求** | **描述** |
 |----------|----------|

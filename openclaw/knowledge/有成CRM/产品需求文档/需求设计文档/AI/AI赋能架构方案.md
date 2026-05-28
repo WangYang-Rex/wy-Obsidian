@@ -1,21 +1,17 @@
 ---
 title: "AI赋能架构方案"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2Nh9XPLM7oWqjMp697?utm_scene=team_space
-node_id: ydxXB52LJq7laP2Nh9XPLM7oWqjMp697
-exported_at: 2026-03-22
+nodeId: ydxXB52LJq7laP2Nh9XPLM7oWqjMp697
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2Nh9XPLM7oWqjMp697?utm_scene=team_space"
+exportedAt: 2026-03-31T03:50:47.488Z
+source: dingtalk-document-mcp
 ---
-
-# AI赋能架构方案
-
-> 🔗 **原文链接**：[AI赋能架构方案 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/ydxXB52LJq7laP2Nh9XPLM7oWqjMp697?utm_scene=team_space)
-
 [我的钉钉脑图]
+
+
+
+
+
 
 
 #  **AI 底层架构图**

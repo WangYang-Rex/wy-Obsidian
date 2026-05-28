@@ -1,20 +1,11 @@
 ---
 title: "上架WPS"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-多平台-�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/YndMj49yWjPvNlg2I0GPde1ZJ3pmz5aA?utm_scene=team_space
-node_id: YndMj49yWjPvNlg2I0GPde1ZJ3pmz5aA
-exported_at: 2026-03-22
+nodeId: YndMj49yWjPvNlg2I0GPde1ZJ3pmz5aA
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjPvNlg2I0GPde1ZJ3pmz5aA?utm_scene=team_space"
+exportedAt: 2026-03-31T04:29:56.060Z
+source: dingtalk-document-mcp
 ---
-
-# 上架WPS
-
-> 🔗 **原文链接**：[上架WPS - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/YndMj49yWjPvNlg2I0GPde1ZJ3pmz5aA?utm_scene=team_space)
-
 # 上架WPS
 
 | **修订时间** | **版本** | **修订说明** |
@@ -87,23 +78,28 @@ exported_at: 2026-03-22
 ### 3.4 以下几处二维码替换为WPS二维码/去掉联系电话---待wps提供
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/a1bd4a00-ced0-430e-b6ce-d8888c8afc23.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IDiT5cE71A7TAEoJUcz10F64WA8%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/a1bd4a00-ced0-430e-b6ce-d8888c8afc23.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oDeX644MiMUOFiaGcdwNesKellg%3D "")
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/e7025067-e0da-4659-a869-7428c94b5d8a.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Ivp12d0Zdm8Wrhr3tNkFKot9DgU%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/e7025067-e0da-4659-a869-7428c94b5d8a.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=e2Uts3Lm8CAaGef6XSDa8NN0TUc%3D "")
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/f01a89bf-09a4-4391-a854-97946bd809e1.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=x%2FeF2uV%2FWbP5pn6%2F9UH%2FOi0B8v0%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/f01a89bf-09a4-4391-a854-97946bd809e1.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J5gGcwkJLZQYg3uvtLTeVpWyKUM%3D "")
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/cb3a709c-1933-4b7e-b580-7878e35c4633.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=q5xXrDnpoRbUScuqDFbLOaPkjUQ%3D "")
+
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/cb3a709c-1933-4b7e-b580-7878e35c4633.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UWBhqEiV8hsh4%2Fqqz%2Bbgc5AXdkI%3D "")
 
 ### 3.5 运营后台企业列表、订单列表调整
 5. 运营后台-企业报表、运营后台-订单管理，新增字段“开通平台”。展示开通平台：飞书、钉钉、企业微信、羚羊、WPS
 6. 运营后台-企业报表、运营后台-订单管理新增筛选字段“开通平台”。可筛选：全部、钉钉、企业微信、羚羊、WPS
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/73181e6e-07c3-45ff-8fcc-d3cd77e49abd.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nk0%2BNNROLQsIHWzCKcQV5coJUG0%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/73181e6e-07c3-45ff-8fcc-d3cd77e49abd.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wqxT%2FZ%2BTDQotbbmsO70dphjDY%2Fk%3D "")
 
 ### 3.6 其他需要改造的点
 
@@ -114,4 +110,5 @@ exported_at: 2026-03-22
 ### 3.7 企业到期提醒：区分新平台
 
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/def8fd6f-3637-40d8-b2d8-2860a8f59720.png?Expires=1774165549&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IM2wnbWpmfN6gOkfjszHkhwV7rM%3D "")
+
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/def8fd6f-3637-40d8-b2d8-2860a8f59720.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=71KXRTV5CNxb5yMpnPf3rWA8rcE%3D "")

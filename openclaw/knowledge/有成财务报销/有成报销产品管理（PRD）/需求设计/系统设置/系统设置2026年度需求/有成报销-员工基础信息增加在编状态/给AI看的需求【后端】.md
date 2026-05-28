@@ -1,22 +1,12 @@
-------
-type: knowledge
-tags:
-  - 有成财务报销
-  - PRD
-  - 系统设置
-  - 员工信息
-  - 在编状态
-created: 2026-04-22
-source: 钉钉知识库
-original_url: https://alidocs.dingtalk.com/i/nodes/2Amq4vjg89gq1jQ5IQn0MlgBV3kdP0wQ?utm_scene=team_space
-node_id: 2Amq4vjg89gq1jQ5IQn0MlgBV3kdP0wQ
-exported_at: 2026-04-22
 ---
-
-# 给AI看的需求【后端】
-
-> **原文链接**：[给AI看的需求【后端】 - 钉钉知识库](https://alidocs.dingtalk.com/i/nodes/2Amq4vjg89gq1jQ5IQn0MlgBV3kdP0wQ?utm_scene=team_space)
-> **导出时间**：2026-04-22 | **整理时间**：2026-04-22---
+title: "给AI看的需求【后端】"
+nodeId: 2Amq4vjg89gq1jQ5IQn0MlgBV3kdP0wQ
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/2Amq4vjg89gq1jQ5IQn0MlgBV3kdP0wQ?utm_scene=team_space"
+updateTime: 1776058923000
+exportedAt: 2026-05-14T12:11:55.273Z
+source: dingtalk-document-mcp
+---
 ## **1\. 需求**
 
 ## **1.1 需求背景**
@@ -30,6 +20,7 @@ exported_at: 2026-04-22
 在员工基础信息中新增"在编状态"字段（编内/编外）。并支持在公式计算中引用该字段，实现表格组件内员工组件与其他组件的数据联动。第三方系统需要通过openApi接口获取和推送员工的【在编状态】字段
 
 
+
 ---
 
 ## **2\. 本次需求功能点**
@@ -41,8 +32,7 @@ exported_at: 2026-04-22
 | 新增 | 员工基础信息字段扩展 | 员工信息新增"在编状态"字段（空/编内/编外） | P1 |
 | 新增 | 员工信息导入导出扩展 | 员工导入/导出Excel增加"在编状态"列 | P1 |
 | 新增 | 公式引用员工子字段 | 公式引用员工子字段增加-在编状态 | P1 |
-| 新增 | openApi兼容在编状态字段 | - 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）
-- 2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson） | P1 |
+| 新增 | openApi兼容在编状态字段 | <ul><li>1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）</li><br><li>2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）</li></ul> | P1 |
 
 ### **3.2 详细功能描述**
 
@@ -50,7 +40,7 @@ exported_at: 2026-04-22
 
 **位置**：基础设置 → 员工管理 → 员工信息 → 新增/编辑员工
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/3ae0bb8b-7c66-4368-b997-00ac3148f2fd.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=k9BkLgD7ljaA1yL1W2kvuC0iNRs%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/1f089c06-f6ec-4ba0-b00a-2308d9bc6842.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YyIdE5NMJCbiTUMrOnY7DO9Mk9k%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/3ae0bb8b-7c66-4368-b997-00ac3148f2fd.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FnYYclJwYGzd9Cq9MqxRgmkQ8wc%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/1f089c06-f6ec-4ba0-b00a-2308d9bc6842.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jQTICfFT1GKvm9DsZYORVu0LfV4%3D "")
 
 后端接口地址：
 
@@ -104,6 +94,7 @@ batchStaff
 - 为空时保持为空，不自动填充
 
 
+
 **2.导出Excel**
 
 在导出文件中增加"在编状态"列，位置放在最后。
@@ -113,11 +104,12 @@ batchStaff
 /sys/permission/report/exportEmpInfoList.rjson
 
 
+
 #### **3.2.3 公式计算支持员工组件子字段（在编状态）被引用**
 
 **位置**：自定义单据 → 表单设计器 → 文本组件设置 → 默认填充值 → 公式计算
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/c33910ae-29ca-4c97-9070-5e5e86f87be4.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ncqTQ3wWD5xec7%2FDAT%2FhbXeQHT4%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/a74b8075-422d-44b3-a49a-9bbda26f60a5.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sS7yQYl8XQ9yuYVdnFzU%2FAVtrGE%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/9bd4c8ff-2d17-4359-b4ee-18da7a71bb08.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HbuIyDzEbjsEYh1FKF2yIqj%2BhPA%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/0da89bf8-0b93-4607-8b65-8f5c0756eb1e.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Y8TzWURerBa2QdnVs6speNM8iWw%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/88039297-629c-4394-ad75-8df3f52f0edc.png?Expires=1776848489&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=M9ivlPjT7ZEiP0d%2BgEbHvVG8R2A%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/c33910ae-29ca-4c97-9070-5e5e86f87be4.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6URFC0imPNrWVqQ2UM2EiBL4Ffo%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/a74b8075-422d-44b3-a49a-9bbda26f60a5.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=w52NhhMAoNtcIbVLEm7Nichb1XA%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/9bd4c8ff-2d17-4359-b4ee-18da7a71bb08.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CALqudRNw3dDqo8lTCHA77Z%2BqM8%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/0da89bf8-0b93-4607-8b65-8f5c0756eb1e.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SA94GGqWXK8%2BjWxeMOe2leGjAME%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbw3Rew0qXx/img/88039297-629c-4394-ad75-8df3f52f0edc.png?Expires=1778767378&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zRkTvfN4r04%2F5U7eEEixf3lzDHk%3D "")
 1. 已支持的公式配置入口 接口参考：
 
 /reimbursement/orderTemplate/corp/update
@@ -134,6 +126,7 @@ batchStaff
 #### **3.2.4 公有成报销api接口【获取用户列表】和【批量新增/更新企业人员】增加【在编状态】字段**
 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）
 2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）
+
 
 
 flyway：
@@ -160,6 +153,7 @@ ALTER TABLE `corp_user_info_15` ADD COLUMN `permanent_status` tinyint(1) DEFAULT
 ```
 
 
+
 2、yiqb插入在编状态公式sql
 ```json
 INSERT INTO `sys_expression_config` (`field_type`, `field_sub_type`, `field_sub_type_desc`, `rule_item_key`, `rule_item_type`, `show_name`, `explain_info`, `calculate_info`, `created`, `modified`, `enable`, `resourceFrom`) VALUES ( 'cptDetails', 'staff', '员工', 'permanentStatus', 'field', '在编状态', NULL, '{\"showName\":\"在编状态\",\"cptCustomFieldValue\":\"permanentStatus\",\"value\":\"staff\",\"fieldValueType\":\"cptValueId\",\"ruleResultTypes\":[{\"type\":\"string\"}],\"fieldDataCategory\":\"cpt\",\"ruleItemType\":\"field\"}', '2024-06-06 14:17:29', '2024-06-06 14:17:29', 1, 'server');
@@ -168,5 +162,9 @@ INSERT INTO `youcheng_yiqb`.`sys_expression_config` (`field_type`, `field_sub_ty
 
 
 ```
+
+
+
+
 
 

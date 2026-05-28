@@ -1,20 +1,11 @@
 ---
 title: "AI应用管理后台优化，报销AI版本上架钉钉甄选对接"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-管理后台
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTRbjK52YWn4qY5Pr?utm_scene=team_space
-node_id: Obva6QBXJw9lbx7RTRbjK52YWn4qY5Pr
-exported_at: 2026-03-22
+nodeId: Obva6QBXJw9lbx7RTRbjK52YWn4qY5Pr
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTRbjK52YWn4qY5Pr?utm_scene=team_space"
+exportedAt: 2026-04-01T02:14:49.176Z
+source: dingtalk-document-mcp
 ---
-
-# AI应用管理后台优化，报销AI版本上架钉钉甄选对接
-
-> 🔗 **原文链接**：[AI应用管理后台优化，报销AI版本上架钉钉甄选对接 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTRbjK52YWn4qY5Pr?utm_scene=team_space)
-
 | 修订时间 | 版本 | 修订说明 |
 |------------|------|------------|
 | 20251029 | v1.0 | 新建 |
@@ -28,7 +19,7 @@ exported_at: 2026-03-22
 
 报销更新AI能力之后，考虑到老客续费， 需要和原来的版本排列组合出新的AI组合版本，上架钉钉甄选。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/9a7d4091-3c20-408e-90f2-ae127e185213.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fgT%2BSDNKdYdivdvNSyVuJk9meCg%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/9a7d4091-3c20-408e-90f2-ae127e185213.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=K0I1v%2Fh63GEKOTnngN3jtyptrQQ%3D "")
 
 尊享版(AI基础版) DT\_GOODS\_881634267259160\_4475003
 
@@ -46,8 +37,7 @@ exported_at: 2026-03-22
 
 | 模块 | 功能点 | 备注 |
 |------|---------|------|
-| 管理后台 | 订单列表兼容新版本
-初始化，钉钉甄选传入订单，根据传入的版本初始化功能 |  |
+| 管理后台 | 订单列表兼容新版本<br>初始化，钉钉甄选传入订单，根据传入的版本初始化功能 |  |
 |  | 企业管理增加操作-AI审批规则上限调整 |  |
 |  | 管理后台企业查询新增版本列，支持展示客户最新购买的版本 |  |
 | 应用中心 | 增加AI增值卡片 |  |
@@ -57,7 +47,7 @@ exported_at: 2026-03-22
 
 ## **管理后台-企业查询-操作中增加AI应用相关功能控制**    
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/f4c96c9e-a666-4e1b-9253-52a83962094e.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yEwA%2FWBX2Q4%2F9XNirokX%2FDe9bOw%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/f4c96c9e-a666-4e1b-9253-52a83962094e.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=PieygfWw2lJuqpjZ%2B22c2qrHAWA%3D "")
 
 ~~1、模块开启/关闭-报销-AI应用下新增“AI助理”子开关。~~
 
@@ -65,14 +55,15 @@ exported_at: 2026-03-22
 
 ~~控制AI助理悬浮入口是否显示。~~
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/de99c6fd-27b0-4b68-8113-c0cc92f49624.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RhnkOpJciLpQKd1V4OuShqm3zVM%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/de99c6fd-27b0-4b68-8113-c0cc92f49624.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mFqC2uY75TYz57pHPgMjD0Y0u9Q%3D "")
 
 ~~不再需要保留原白名单控制，功能上线时通知~~@树琳(白砂)~~手工开通下历史白名单企业。~~
 
 
+
 2、AI应用下新增功能级控制
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/a5ee0c09-a971-4d9c-9f46-67b5c3b3447e.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=okaVyLFeGsWQMqi6Cvt4tqsTwvs%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/a5ee0c09-a971-4d9c-9f46-67b5c3b3447e.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BteIXhnACEX0pMRAuCDYhMYO5ok%3D "")
 
 展示三个子选项：累计消耗token上限、审批规则上限、AI助理开关。
 - 月累计消耗token上限：700000千token，用户可输入。
@@ -86,7 +77,7 @@ exported_at: 2026-03-22
 - AI助理开关：
     - 开通AI应用后，默认开启AI 助理，开启后控制AI助理悬浮入口是否显示。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/de99c6fd-27b0-4b68-8113-c0cc92f49624.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RhnkOpJciLpQKd1V4OuShqm3zVM%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/de99c6fd-27b0-4b68-8113-c0cc92f49624.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mFqC2uY75TYz57pHPgMjD0Y0u9Q%3D "")
 
 不再需要保留原白名单控制，功能上线时通知@树琳(白砂)手工开通下历史白名单企业。
     - 开启后，可见boss问数勾选项，默认不勾选。
@@ -95,7 +86,7 @@ exported_at: 2026-03-22
 
 ## **订单传入及企业初始化**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/58cbacf9-54f2-4770-ae26-5c55fd4c5820.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wWUhszA4BK7edDLnesE7Nx1Y5co%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/58cbacf9-54f2-4770-ae26-5c55fd4c5820.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WfOz0den6GC7dUWwnUfi2XO5IRk%3D "")
 
 1、管理后台订单列表，订单中传入商品兼容新增的四个版本：
 - AI智能报销基础版
@@ -110,11 +101,7 @@ exported_at: 2026-03-22
 | 有成报销产品报价 |  |  |  |  |  |  |  |  |  |
 |-------------------------------------------------------------------------------------------------------------|---|---|---|---|---|---|---|---|---|
 | 功能详情 |  | 所属平台：钉钉、企业微信、飞书 |  |  |  |  |  | **独立版** |  |
-|  |  | 尊享版 | 旗舰版 | AI智能报销基础版
-（尊享版\+AI基础版） | AI智能报销专业版
-（尊享版\+AI专业版） | AI智能费控基础版
-（旗舰版\+AI基础版） | AI智能费控专业版
-（旗舰版\+AI专业版） | **尊享版** | **旗舰版** |
+|  |  | 尊享版 | 旗舰版 | AI智能报销基础版<br>（尊享版\+AI基础版） | AI智能报销专业版<br>（尊享版\+AI专业版） | AI智能费控基础版<br>（旗舰版\+AI基础版） | AI智能费控专业版<br>（旗舰版\+AI专业版） | **尊享版** | **旗舰版** |
 |  |  | 168元/人/年 | 258元/人/年 | 708元/人/年 | 1188元/人/年 | 816元/人/年 | 1296元/人/年 | **168元/人/年** | **258元/人/年** |
 | **员工报销** | 费用申请 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 行程预定 | √ | √ | √ | √ | √ | √ | √ | √ |
@@ -125,8 +112,7 @@ exported_at: 2026-03-22
 |  | 借款核销 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 单据打印 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 单据签收 | √ | √ | √ | √ | √ | √ | √ | √ |
-| **智能拍票**
-**OCR** | OCR拍照识票 | — | √ | — | — | √ | √ | — | √ |
+| **智能拍票**<br>**OCR** | OCR拍照识票 | — | √ | — | — | √ | √ | — | √ |
 |  | 企业/个人发票夹 | √ | √ | √ | √ | √ | √ | √ | √ |
 | **对公业务** | 往来单位管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 采购申请 | √ | √ | √ | √ | √ | √ | √ | √ |
@@ -164,8 +150,7 @@ exported_at: 2026-03-22
 |  | 资金管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 发票管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 映射生成会计凭证 | √ | √ | √ | √ | √ | √ | √ | √ |
-| **单据管理**
-**（台账）** | 申请单管理 | √ | √ | √ | √ | √ | √ | √ | √ |
+| **单据管理**<br>**（台账）** | 申请单管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 借款单管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 报销单管理 | √ | √ | √ | √ | √ | √ | √ | √ |
 |  | 付款单管理 | √ | √ | √ | √ | √ | √ | √ | √ |
@@ -235,7 +220,7 @@ AI应用：开启
 
 ## **管理后台-企业查询-应用=有成报销，增加一列已购买版本**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/eb056a19-618d-4298-9d00-c3d39f8cf439.png?Expires=1774156620&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pCg4yDVY%2FjHStEyb%2F5TWKIexlFQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ybEnB5jpRGo53lP1/img/eb056a19-618d-4298-9d00-c3d39f8cf439.png?Expires=1775016889&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6xfsdWbrfNMKcVE3fUi2Me%2FBIJA%3D "")
 
 展示客户最新购买的版本，版本有：
 - 尊享版
@@ -248,10 +233,21 @@ AI应用：开启
 上方筛选器中增加版本下拉筛选框。
 
 
+
 ## **其他关联影响**
 
 线上用户续费增购入口需要增加新的版本，注意wps渠道单独的图需要替换。
 
 -等待设计出图
+
+
+
+
+
+
+
+
+
+
 
 

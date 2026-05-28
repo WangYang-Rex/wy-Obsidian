@@ -1,0 +1,27 @@
+---
+title: "AI到期企业仍展示菜单"
+nodeId: QG53mjyd80Rjq0QOCgX7pqkjV6zbX04v
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCgX7pqkjV6zbX04v?utm_scene=team_space"
+updateTime: 1779356990000
+exportedAt: 2026-05-28T11:23:20.877Z
+source: dingtalk-document-mcp
+---
+| 修订时间 | 版本 | 修订人 | 修订说明 |
+|-----------------------------------------------------------------------|-----------------------------------------------------------------|--------------------------------------------------------------------|-----------------------------------------------------------------------|
+| 2026-5-13 | v1.0 | 黄艺平 | 新建 |
+|  |  |  |  |
+
+## 需求背景
+
+AI销售助理到期企业，仍需展示AI相关功能，提升转化，但是需要通过相关控制策略，限制使用
+
+## 需求详情
+
+| 需求 | 描述 |
+|-----------------------------------------------------------------|-----------------------------------------------------------------|
+| AI值 | 1、AI值设置中增加ai标记<br>2、AI销售助理到期后仍展示设置入口<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/69427be4-2d37-413c-82d4-6ab7b73c8355.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qhOtvnx6z5EpR3b1N9aNT2HxU28%3D "")<br>3、AI销售助理到期后，新建/编辑页面，仍展示该按钮，弹窗提示，联系客服<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/6b8f76bc-3ea7-4b21-9b09-ab4e41084f52.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9ZDO%2BhDf4oVegwteGo9Vz8naDRM%3D "")<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/02a468e9-edfe-41e5-bd39-d6b5e6cd0517.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0JC9X7bf%2BNa%2BrrRyzI7SuVqJYUk%3D "")<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/94b36e34-cfbd-4437-9daa-1c28bdbf366c.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UU2KoD4ZgDfMA2aaEqWGwg9iNNU%3D "")<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/ce9936b7-bc92-4593-b49e-84837dbe86df.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yJVGqdTc596vuLpUIKnaPcIhgK0%3D "")<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/3c6f61fe-a106-4ffd-a358-4b496f068e34.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BQHI18qZUxljtNa%2BiTT6Tx5cuik%3D "") |
+| AI规则 | <ul><li>1. AI销售助理到期后，AI规则设置仍展示，AI助理不运行</li><br><li>2. 点击联系客服，弹窗提示，同上</li></ul><br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/6520f5dd-e2b9-4a87-a48d-f375950e01fc.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gIFCedRY8NiD6YVt63PQmOA7U9Y%3D "") |
+| AI会议 | <ul><li>1. AI销售助理到期后，AI会议菜单仍展示</li><br><li>2. 上传音视频，点击【保存】弹窗提示，同上--PC\+mb</li><br><li>3. 发起音视频页面时，直接弹窗提示到期--PC\+mb</li><br><li>4. AI助理设置页，增加如下提示，点击联系客服，弹窗提示，同上</li><br><li>5. ~~AI助理不运行~~</li><br><li>6. ~~钉钉A1的数据无法同步到应用中~~</li></ul><br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/2014f20c-542f-47c1-9799-90e1acfe608c.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Oy%2FUdJXuWrVOVrY4%2FQ6z8WFhsTs%3D "") |
+| AI转化分析 | <ul><li>1. AI销售助理到期后，AI转化分析菜单仍展示</li><br><li>2. 点击联系客服，弹窗提示，同上</li></ul><br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/ff6863b7-45c6-4ec5-ae55-2c1cc7796784.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Lt020AvBdwDSjbVVC43dTLjZpFc%3D "") |
+| AI复盘 | <ul><li>AI销售助理到期后，AI复盘菜单仍展示</li><br><li>AI助理设置页，增加如下提示，点击联系客服/或者销售助理的【全量分析】，弹窗提示，同上</li><br><li>AI助理不运行</li></ul><br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2bDLv9p3q4B/img/dc0538ea-1b82-4a38-803a-8b8e964c972f.png?Expires=1779974601&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VKGmriF7IpCekkeUEluwBlRkRBI%3D "") |

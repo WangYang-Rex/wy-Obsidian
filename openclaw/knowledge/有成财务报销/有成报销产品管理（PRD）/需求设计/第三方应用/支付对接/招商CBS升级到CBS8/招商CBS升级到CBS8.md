@@ -1,20 +1,11 @@
 ---
 title: "招商CBS升级到CBS8"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-第三方应用-�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAgRQ3JMGjLRb3?utm_scene=team_space
-node_id: N7dx2rn0JbZ9KxGot5vAgRQ3JMGjLRb3
-exported_at: 2026-03-22
+nodeId: N7dx2rn0JbZ9KxGot5vAgRQ3JMGjLRb3
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAgRQ3JMGjLRb3?utm_scene=team_space"
+exportedAt: 2026-04-01T02:11:42.241Z
+source: dingtalk-document-mcp
 ---
-
-# 招商CBS升级到CBS8
-
-> 🔗 **原文链接**：[招商CBS升级到CBS8 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/N7dx2rn0JbZ9KxGot5vAgRQ3JMGjLRb3?utm_scene=team_space)
-
 # 招商CBS升级到CBS8
 
 | **修订时间** | **版本** | **修订说明** |
@@ -55,17 +46,20 @@ CBS7已对接的接口：
 ---信息为客户开通时，招行线下提供
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/fb36146e-3fb6-4be5-97b5-743709ff8ccc.png?Expires=1774156400&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F6cf3eVN3y5vr0hPpcNZ30ng1B4%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/fb36146e-3fb6-4be5-97b5-743709ff8ccc.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0dNnwHJ0zah0eRQ%2F0FwbAifCfSg%3D "")
 
 #### 二、流程中的接口对接
 
 **1、发起支付\+支付状态查询**
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/01d3f0f1-0824-49e3-9e6f-6f1e20849a3d.png?Expires=1774156400&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=1JKzUWfaM1tKeOM7XwAB2sxTlaI%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/01d3f0f1-0824-49e3-9e6f-6f1e20849a3d.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SI2%2Fn3X4REm8avbPrjljomy7kGU%3D "")
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/7927a2da-e808-4635-8988-534035f7a4b4.png?Expires=1774156400&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Kfhw8IKocmIz4CqUTFqj38LGxwc%3D "")
+
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/7927a2da-e808-4635-8988-534035f7a4b4.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hAUzJgbRSeliesd1SogdXm8Vybg%3D "")
 
 1、出纳支付节点，点击支付时，选中的支付账号已授权开通招商CBS，则在支付的时候，可以勾选CBS支付：
 - 勾选上之后，若当前企业授权的是CBS8，调用招商CBS8的【批量代发】接口，发起支付将参数传给招商银行，调用成功后单据状态为“支付中”；
@@ -79,10 +73,12 @@ CBS7已对接的接口：
 - 应用中心-招商CBS-支付明细管理：将获取的支付金额字段同样填在支付明细列表中可查询到
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/5132e829-c4b5-4799-94a1-c8dd39c0f776.png?Expires=1774156400&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9YNEB4VVpw9LZL2o%2FGGgVFs2QvY%3D "")
+
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/5132e829-c4b5-4799-94a1-c8dd39c0f776.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mYjcV%2BYAYL3yqJR06Sf9iMZzRXA%3D "")
 
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/a01a9ce4-f803-4711-8316-c43fecb7bbbf.png?Expires=1774156400&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FIP%2BwqMPVbXdwpkLj396LTStOgg%3D "")
+
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/a01a9ce4-f803-4711-8316-c43fecb7bbbf.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=foQso4d7wCrREUKSkS4f6wkCyGM%3D "")
 
 **附：接口对照表：**
 

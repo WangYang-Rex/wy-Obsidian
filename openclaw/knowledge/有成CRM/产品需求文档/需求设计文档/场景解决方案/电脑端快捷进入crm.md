@@ -1,21 +1,13 @@
 ---
 title: "电脑端快捷进入crm"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-场景解�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space
-node_id: QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4
-exported_at: 2026-03-22
+nodeId: QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space"
+exportedAt: 2026-03-31T03:44:36.050Z
+source: dingtalk-document-mcp
 ---
-
-# 电脑端快捷进入crm
-
-> 🔗 **原文链接**：[电脑端快捷进入crm - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTXRlgY4XVzN67Mw4?utm_scene=team_space)
-
 钉钉链接：[https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1](https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1)
+
 
 
 **创建桌面快捷方式**

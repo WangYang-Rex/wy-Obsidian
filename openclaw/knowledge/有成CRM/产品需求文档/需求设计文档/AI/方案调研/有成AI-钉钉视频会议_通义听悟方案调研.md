@@ -1,20 +1,11 @@
 ---
 title: "有成AI-钉钉视频会议_通义听悟方案调研"
-tags:
-  - 有成CRM
-  - PRD
-  - 需求设计文档-AI-方案�
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWe7M9wKYh7OLv9AXJxkXOEP2?utm_scene=team_space
-node_id: r1R7q3QmWe7M9wKYh7OLv9AXJxkXOEP2
-exported_at: 2026-03-22
+nodeId: r1R7q3QmWe7M9wKYh7OLv9AXJxkXOEP2
+workspaceId: R2PmK2Q8rxRbeXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWe7M9wKYh7OLv9AXJxkXOEP2?utm_scene=team_space"
+exportedAt: 2026-03-31T03:52:12.362Z
+source: dingtalk-document-mcp
 ---
-
-# 有成AI-钉钉视频会议_通义听悟方案调研
-
-> 🔗 **原文链接**：[有成AI-钉钉视频会议_通义听悟方案调研 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/r1R7q3QmWe7M9wKYh7OLv9AXJxkXOEP2?utm_scene=team_space)
-
 # 有成AI-钉钉视频会议/通义听悟方案调研
 
 | **修订时间** | **版本** | **修订说明** |
@@ -65,7 +56,8 @@ exported_at: 2026-03-22
 参考有成AI的新建意图实现
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/b06ec561-cfed-4004-9092-cc307c64112f.jpeg?Expires=1774165047&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0FjuOiab%2FiyPzPspgKDBtsjQql0%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/b06ec561-cfed-4004-9092-cc307c64112f.jpeg?Expires=1774934295&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IKhzEcxyQ%2BOcFbsymbeDsEtJKE8%3D "")
 
 ## 2、通义听悟的可行性分析
 
@@ -74,7 +66,8 @@ exported_at: 2026-03-22
 [<u>通义听悟如何计费\_工作学习 AI 助手通义听悟(TINGWU)-阿里云帮助中心</u>](https://help.aliyun.com/zh/tingwu/pricing-and-billing-rules?spm=a2c4g.11186623.help-menu-454189.d_0_2_1.657b5041zDFhBH)
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/d7b6fd47-4f23-480c-9bcf-e74531331a10.png?Expires=1774165047&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VskVPc6POx3dQZhyuAgK4GXBMz4%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/d7b6fd47-4f23-480c-9bcf-e74531331a10.png?Expires=1774934295&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=etnCjExZDTzcPHQei1P9wOQsr8I%3D "")
 
 收费较贵，需用户充值额度，可只使用ASR模块，大模型能力有可替代的方案(0.6元/3600秒)
 

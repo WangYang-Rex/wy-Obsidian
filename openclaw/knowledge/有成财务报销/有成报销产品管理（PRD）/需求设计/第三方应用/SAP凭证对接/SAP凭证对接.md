@@ -1,20 +1,11 @@
 ---
 title: "SAP凭证对接"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-第三方应用-S
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL?utm_scene=team_space
-node_id: XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL
-exported_at: 2026-03-22
+nodeId: XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL?utm_scene=team_space"
+exportedAt: 2026-04-01T02:14:32.370Z
+source: dingtalk-document-mcp
 ---
-
-# SAP凭证对接
-
-> 🔗 **原文链接**：[SAP凭证对接 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL?utm_scene=team_space)
-
 # SAP凭证对接
 
 | **修订时间** | **版本** | **修订说明** | **作者** |
@@ -50,12 +41,14 @@ exported_at: 2026-03-22
 2、有成报销侧通过配置的会计科目映射规则生成凭证，再将生成的凭证同步给SAP
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/928fc3ba-1794-4504-9fad-b4dbfe3ae63c.jpeg?Expires=1774156602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jaFpTqtY11U8FQy3FI58gOH5xSk%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/928fc3ba-1794-4504-9fad-b4dbfe3ae63c.jpeg?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lF6dndfQeBnFGM0sZjqce%2FvGARU%3D "")
 
 3、当有成报销侧凭证被删除，则将对应的信息传给SAP，进行凭证冲销
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/49e69a32-276c-477d-8c99-c1ed60695edf.jpeg?Expires=1774156602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4Pv309JMFu%2FnJjOCtnUhdO7yiaM%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/49e69a32-276c-477d-8c99-c1ed60695edf.jpeg?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dA0J%2B%2BsTqqO08MU2pjRg9Q7csKU%3D "")
 
 ## 4、功能清单
 
@@ -114,7 +107,7 @@ exported_at: 2026-03-22
 |  | 机型 |  | 产品辅助核算 |
 |  | 特别总账标识 | 1123开头的科目必填     值：A |  |
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/fea64659-2148-4c40-ae9d-728fdbdaac73.png?Expires=1774156602&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=EPMb40TaD6%2BjZ9opWhDag2JjuGI%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/fea64659-2148-4c40-ae9d-728fdbdaac73.png?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fHTIIMJhplAKcWLaLl7wJKupx0Q%3D "")
 
 #### 凭证冲销
 

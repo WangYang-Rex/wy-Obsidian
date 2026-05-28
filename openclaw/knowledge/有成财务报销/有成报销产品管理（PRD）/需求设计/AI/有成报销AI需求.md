@@ -1,20 +1,11 @@
 ---
 title: "有成报销AI需求"
-tags:
-  - 有成报销
-  - PRD
-  - 需求设计-AI
-created: 2026-03-24
-source: 钉钉文档
-original_url: https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQGnOKoeV6zbX04v?utm_scene=team_space
-node_id: QG53mjyd80Rjq0QOCQGnOKoeV6zbX04v
-exported_at: 2026-03-22
+nodeId: QG53mjyd80Rjq0QOCQGnOKoeV6zbX04v
+workspaceId: R2PmK2gngjVnZXvp
+docUrl: "https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQGnOKoeV6zbX04v?utm_scene=team_space"
+exportedAt: 2026-04-01T02:10:03.902Z
+source: dingtalk-document-mcp
 ---
-
-# 有成报销AI需求
-
-> 🔗 **原文链接**：[有成报销AI需求 - 钉钉文档](https://alidocs.dingtalk.com/i/nodes/QG53mjyd80Rjq0QOCQGnOKoeV6zbX04v?utm_scene=team_space)
-
 # 有成报销AI需求
 
 ### 一、背景
@@ -43,11 +34,11 @@ exported_at: 2026-03-22
 
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/2fcfe597-7c6d-4fbf-a82a-1765dd77c20d.png?Expires=1774156285&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BZRURqyIwFkPcpTujmhF6r%2BmGDQ%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/2fcfe597-7c6d-4fbf-a82a-1765dd77c20d.png?Expires=1775016604&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8Qp5zTu6vvxBnccDYERxhe12sqc%3D "")
 
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/1ff17350-5dc8-4ec6-91f4-499331605fb2.jpeg?Expires=1774156285&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8cP2BDUbOKzKRV6rMsnq%2BuXA9z0%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/1ff17350-5dc8-4ec6-91f4-499331605fb2.jpeg?Expires=1775016604&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=EKzWnPDO5ukjfekhb4IJAtewsmA%3D "")
 
 **一、功能描述：**
 
@@ -72,10 +63,10 @@ exported_at: 2026-03-22
 
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/8edbdd36-dc48-4ada-bc1e-6e11a7491b19.png?Expires=1774156285&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2ZugThHeXs0O2Xh9i8BA0YVxB30%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/8edbdd36-dc48-4ada-bc1e-6e11a7491b19.png?Expires=1775016604&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nco1EiPb%2FMCTGKkpejcHt7U64cY%3D "")
 
 #### 第三期、AI问数
 
 
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/8f901da1-bb00-4991-ba40-677132d5737c.png?Expires=1774156285&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XJQY8fmNNYak%2BjYUQvV3e6XkGJI%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybN52N1KqwZ/img/8f901da1-bb00-4991-ba40-677132d5737c.png?Expires=1775016604&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=PlBpivZlPrl505iSBgN3NwIWLwc%3D "")
