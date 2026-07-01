@@ -1,10 +1,22 @@
 ---
+type: 需求文档
+tags: [有成CRM]
+created: 2026-07-01
+source: 钉钉知识库
+original_url: https://alidoc.dingtalk.com/doc/93NwLYZXWygl3x0wIZ1QeKr1JkyEqBQm
+exported_at: 2026-07-01T16:00:00+08:00
+---
+
+> 📎 **原文链接**: [https://alidoc.dingtalk.com/doc/93NwLYZXWygl3x0wIZ1QeKr1JkyEqBQm](https://alidoc.dingtalk.com/doc/93NwLYZXWygl3x0wIZ1QeKr1JkyEqBQm)
+> 来源：钉钉知识库 · 有成CRM
+
+---
 title: "AI智能填单"
 nodeId: 93NwLYZXWygl3x0wIZ1QeKr1JkyEqBQm
 workspaceId: R2PmK2Q8rxRbeXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/93NwLYZXWygl3x0wIZ1QeKr1JkyEqBQm?utm_scene=team_space"
-updateTime: 1781768821000
-exportedAt: 2026-06-18T08:59:00.262Z
+updateTime: 1782097895000
+exportedAt: 2026-07-01T08:03:56.571Z
 source: dingtalk-document-mcp
 ---
 | <span style="background-color: rgb(244, 245, 245);">修订时间</span> | <span style="background-color: rgb(244, 245, 245);">版本</span> | <span style="background-color: rgb(244, 245, 245);">修订人</span> | <span style="background-color: rgb(244, 245, 245);">修订说明</span> |
@@ -12,21 +24,19 @@ source: dingtalk-document-mcp
 | 2026-6-11 | v1.0 | 黄艺平 | 新建 |
 |  |  |  |  |
 
-## 需求详情
+## 需求详情  
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/feb44a7f-eab8-4655-bbd7-5ae5b4f28435.png?Expires=1781780340&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=U1vbLsbyucWWy%2FuMNMbgyQo2VnI%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/feb44a7f-eab8-4655-bbd7-5ae5b4f28435.png?Expires=1782900237&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=A9SyJ%2FKUYYc8BzmrG6fp7kmSLbk%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/36d948a8-c5a1-4c05-a407-2c68095ffcad.png?Expires=1781780340&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=L6nnRLXcT3XoGHh2oMYRvDGX2sM%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/36d948a8-c5a1-4c05-a407-2c68095ffcad.png?Expires=1782900237&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uS7N0T2%2B7trWmn35uH%2FjqGJL7jE%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/c1669d12-5bd3-4afe-a272-e44faf24604d.png?Expires=1781780340&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Y3Kxjo44844ZyauzyjzhrTqSles%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/c1669d12-5bd3-4afe-a272-e44faf24604d.png?Expires=1782900237&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7gRKLgP%2BLs88GMmT3dXX%2Fsa1C%2BM%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/f2739d1c-765d-4dfb-a521-7166fafa01db.png?Expires=1781780340&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=r2uCbrJntf8ysE0LqEVXJx5KGgU%3D "")
-
-
-
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/47aefef0-5253-4e50-bfda-8d4c5a9efee4.png?Expires=1781780340&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lly%2BzlF0RioWqnS1rpggSkuWsGs%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/f2739d1c-765d-4dfb-a521-7166fafa01db.png?Expires=1782900237&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DQT7kBmzUNELMVqPoGPUjaxTN38%3D "")
 
 
+
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZPPxMRgqxA/img/47aefef0-5253-4e50-bfda-8d4c5a9efee4.png?Expires=1782900237&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=VIJfbibwZrNnkEmCQpAFNVBqinc%3D "")
 
 | <span style="background-color: rgb(244, 245, 245);">需求</span> | <span style="background-color: rgb(244, 245, 245);">描述</span> |
 |-----------------------------------------------------------------|-----------------------------------------------------------------|
@@ -35,7 +45,7 @@ source: dingtalk-document-mcp
 
 <span style="color: linear-gradient(152deg, #C676FF 0%, #654CFF 41%, #405EFF 75%, #007FFF 99%);"><u>附1:</u></span>
 
-| <span style="color: rgb(32, 32, 32);">字段名</span> | <span style="color: rgb(32, 32, 32);">业务定义</span> | <span style="color: rgb(32, 32, 32);">提取规则</span> |
+| <span style="color: rgb(32, 32, 32);">字段名</span> | <span style="color: rgb(32, 32, 32);">填写说明</span> | <span style="color: rgb(32, 32, 32);">提取规则</span> |
 |------------------------------------------------------|---------------------------------------------------------|---------------------------------------------------------|
 | <span style="color: rgb(32, 32, 32);">合同订单编号</span> | <span style="color: rgb(32, 32, 32);">本次回款对应的合同或订单编号，用于冲销该合同/订单的应收账款、更新回款进度。需在系统合同/订单库匹配关联。</span> | <span style="color: rgb(32, 32, 32);">同义词/口语叫法：合同编号、合同号、订单编号、订单号、关联合同、合同订单、PO号、采购单号、contract no、order no</span><br><span style="color: rgb(32, 32, 32);">上下文线索：付款备注/附言里注明的合同号（如 HT-2026-001）；对账单上的合同/订单编号；聊天"按XX合同付款"；需在合同/订单库精确或模糊匹配</span><br><span style="color: rgb(32, 32, 32);">抽取示例（few-shot）：①"合同编号 HT-2026-0512"→HT-2026-0512 ②"PO号 PO-88421"→PO-88421 ③"按上次那份采购合同付的"→匹配最近关联合同</span> |
 | <span style="color: rgb(32, 32, 32);">业务日期</span> | <span style="color: rgb(32, 32, 32);">本笔回款的业务发生日期，即单据的业务归属日期，用于财务核算期间归属，可能与实际入账日期不同。</span> | <span style="color: rgb(32, 32, 32);">同义词/口语叫法：业务日期、单据日期、记账日期、核算日期、业务发生日期、归属日期</span><br><span style="color: rgb(32, 32, 32);">上下文线索：回款单/对账单的"单据日期/记账日期"栏；若无明确标注，默认取实际回款日期；需校验不可为未来、不可跨核算期</span><br><span style="color: rgb(32, 32, 32);">抽取示例（few-shot）：①"单据日期：2026-06-10"→2026-06-10 ②"记账日期 2026年6月"→2026-06 ③"（未标注，取实际回款日期）"→与实际回款日期一致</span> |
