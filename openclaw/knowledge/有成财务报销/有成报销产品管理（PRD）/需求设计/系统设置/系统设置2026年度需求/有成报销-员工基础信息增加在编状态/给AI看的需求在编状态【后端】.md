@@ -14,11 +14,9 @@ source: dingtalk-document-mcp
 员工基本信息增加是否在编字段；
 
 
-
 ### **1.2 需求描述**
 
 在员工基础信息中新增"在编状态"字段（编内/编外）。第三方系统需要通过openApi接口获取和推送员工的【在编状态】字段
-
 
 
 ---
@@ -32,7 +30,7 @@ source: dingtalk-document-mcp
 | 新增 | 员工基础信息字段扩展 | 员工信息新增"在编状态"字段（空/编内/编外） | P1 |
 | 新增 | 查看员工基础信息字段详情 | 员工信息展示新增"在编状态"字段（空/编内/编外） | P1 |
 | 新增 | 员工信息导入导出扩展 | 员工导入/导出Excel增加"在编状态"列 | P1 |
-| 新增 | openApi兼容在编状态字段 | <ul><li>1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）</li><br><li>2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）</li></ul> | P1 |
+| 新增 | openApi兼容在编状态字段 | 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson） | P1 |
 
 ### **3.2 详细功能描述**
 
@@ -94,7 +92,6 @@ batchStaff
 - 为空时保持为空，不自动填充
 
 
-
 **2.导出Excel**
 
 在导出文件中增加"在编状态"列，位置放在最后。
@@ -104,11 +101,8 @@ batchStaff
 /sys/permission/report/exportEmpInfoList.rjson
 
 
-
 #### **3.2.4 公有成报销api接口【获取用户列表】和【批量新增/更新企业人员】增加【在编状态】字段**
 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）
 2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）
-
-
 
 

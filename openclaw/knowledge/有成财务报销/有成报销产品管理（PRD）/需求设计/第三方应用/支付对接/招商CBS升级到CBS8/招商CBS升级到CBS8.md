@@ -46,7 +46,6 @@ CBS7已对接的接口：
 ---信息为客户开通时，招行线下提供
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/fb36146e-3fb6-4be5-97b5-743709ff8ccc.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0dNnwHJ0zah0eRQ%2F0FwbAifCfSg%3D "")
 
 #### 二、流程中的接口对接
@@ -54,9 +53,7 @@ CBS7已对接的接口：
 **1、发起支付\+支付状态查询**
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/01d3f0f1-0824-49e3-9e6f-6f1e20849a3d.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SI2%2Fn3X4REm8avbPrjljomy7kGU%3D "")
-
 
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/7927a2da-e808-4635-8988-534035f7a4b4.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hAUzJgbRSeliesd1SogdXm8Vybg%3D "")
@@ -73,9 +70,7 @@ CBS7已对接的接口：
 - 应用中心-招商CBS-支付明细管理：将获取的支付金额字段同样填在支付明细列表中可查询到
 
 
-
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/5132e829-c4b5-4799-94a1-c8dd39c0f776.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mYjcV%2BYAYL3yqJR06Sf9iMZzRXA%3D "")
-
 
 
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/YdgOk2b1jZQrKq4B/img/a01a9ce4-f803-4711-8316-c43fecb7bbbf.png?Expires=1775016702&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=foQso4d7wCrREUKSkS4f6wkCyGM%3D "")

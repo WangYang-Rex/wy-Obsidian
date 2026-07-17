@@ -26,7 +26,7 @@ source: dingtalk-document-mcp
 
 ## 2、业务流程/架构
 
-接口文档：[<u>https://open.esign.cn/doc/opendoc/apiv3-guide/tfb6gn</u>](https://open.esign.cn/doc/opendoc/apiv3-guide/tfb6gn)
+接口文档：[https://open.esign.cn/doc/opendoc/apiv3-guide/tfb6gn](https://open.esign.cn/doc/opendoc/apiv3-guide/tfb6gn)
 
 **对接e签宝，合同线上签署流程如下：**
 
@@ -45,13 +45,11 @@ source: dingtalk-document-mcp
 **合同签署流程图：**
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/8cf484ec-643d-431d-978b-eced28242b81.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KXpfZ8V70zvxCPyBLB3C3HChZVM%3D "")
 
 ## 3、涉及系统
 
 **有成报销 （易企报 & 钉钉 & 飞书 & 企微）**
-
 
 
 ## 4、功能清单
@@ -82,7 +80,6 @@ source: dingtalk-document-mcp
 ##### 应用中心：展示“e签宝”应用
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/86af71ee-5823-4fad-a0fc-bf66b9bbb468.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xGnLTjyTGV6wPp0BYC4w4i%2Bsje0%3D "")
 
 ###### 开通
@@ -106,7 +103,6 @@ source: dingtalk-document-mcp
 ###### 合同设置
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/177b5abb-aaab-4632-87f0-66341853d65f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=3rikKceOGP8kkj6MqtQG00GnY44%3D "")
 - 点击“合同设置”跳转如上页面，该页面支持对系统中**所有合同单据**进行“是否开启线上签署”设置
 - 线上签署开关默认为“**关闭**”状态；
@@ -114,16 +110,14 @@ source: dingtalk-document-mcp
 
 ###### 管理后台
 - 点击“管理后台”，弹窗提示“**e签宝后台可进行企业印章管理、人员权限管理等     是否跳转至e签宝后台？**”，点击“确定”，跳转“e签宝”企业控制台（免登录）
-- 企业控制台服务API：[<u>https://open.esign.cn/doc/opendoc/console/rhoap2</u>](https://open.esign.cn/doc/opendoc/console/rhoap2)
+- 企业控制台服务API：[https://open.esign.cn/doc/opendoc/console/rhoap2](https://open.esign.cn/doc/opendoc/console/rhoap2)
 
 ###### 整体流程图
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/6ad0961e-db9d-4238-b6e0-accbf021ad7c.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WCBZXe%2BJJn4r4Ym8VgH4fbhcDk4%3D "")
 
 ### 5.2、管理后台-支持为企业开通并充值“e签宝”合同份数
-
 
 
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/29e7a036-510f-4d6e-a3c6-91eb2882b171.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pNO%2Fx5UbJE17fe8Qb68Pjawhnno%3D "")
@@ -134,12 +128,12 @@ source: dingtalk-document-mcp
 ### 5.3、合同线上签署
 
 1）合同签署状态说明：
-- **草稿**：初始状态，上传合同文件发起签署，未调用「[<u>开启签署流程</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/pu4xsx)」开启签署流程，此时为“草稿”状态
+- **草稿**：初始状态，上传合同文件发起签署，未调用「[开启签署流程](https://open.esign.cn/doc/opendoc/pdf-sign3/pu4xsx)」开启签署流程，此时为“草稿”状态
 - **签署中**：发起签署，调用以上接口开启签署流程后，状态变为“签署中”
 - **已拒签**：当流程中的任一签署方拒绝签署文件后，状态变为“已拒签”
 - **已过期**：“签署中”的流程，如果超过了流程设置的截止时间，流程将自动变更为“已过期”状态
 - **已撤销**：“签署中”的流程，调用【撤销签署流程】接口成功后触发，流程将变更为“已撤销”状态
-- **已完成**：所有人签署完成，调用「[<u>完结签署流程</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/ynwqsm)」完结流程，状态变为“已完成”
+- **已完成**：所有人签署完成，调用「[完结签署流程](https://open.esign.cn/doc/opendoc/pdf-sign3/ynwqsm)」完结流程，状态变为“已完成”
 
 2）合同不同状态对应的操作：
 
@@ -158,11 +152,9 @@ source: dingtalk-document-mcp
 ###### 按钮展示及发起签署判断逻辑：
 
 
-
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/5e00ccc2-34fb-45a8-aff2-0f0e3df450e9.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AhCnnxMOmnhVuTiQj7jZ41Z5d8U%3D "")
 
 ###### 页面交互
-
 
 
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/70632733-fcff-4d22-865e-6045dcfada20.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GkP7Ch80h3qO4IY7XphZsg4qMss%3D "")
@@ -174,32 +166,31 @@ source: dingtalk-document-mcp
 - **单据中未上传附件**  点击“发起线上签署”，提示：**合同单据中未上传附件，无法发起线上签署**
 
 3、**“剩余可签署合同数\>0”&“单据中已上传附件”**，点击“发起线上签署”，弹出进度提示弹窗。发起线上签署分两步：
-- 生成待签署文件：调用「[<u>上传本地文件</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/rlh256)」，将合同中附件上传至e签宝服务端，生成待签署的PDF文件
-- 发起签署：文件上传完成后，调用「[<u>通过页面发起签署</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/lp54bn)」，跳转e签宝合同发起签署页面，进行内容填写及签署提交
+- 生成待签署文件：调用「[上传本地文件](https://open.esign.cn/doc/opendoc/pdf-sign3/rlh256)」，将合同中附件上传至e签宝服务端，生成待签署的PDF文件
+- 发起签署：文件上传完成后，调用「[通过页面发起签署](https://open.esign.cn/doc/opendoc/pdf-sign3/lp54bn)」，跳转e签宝合同发起签署页面，进行内容填写及签署提交
 
-4、发起签署成功后，调用「[<u>开启签署流程</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/pu4xsx)」，签署状态变为“**签署中**”
+4、发起签署成功后，调用「[开启签署流程](https://open.esign.cn/doc/opendoc/pdf-sign3/pu4xsx)」，签署状态变为“**签署中**”
 
 5、当签署状态为“已拒签”/“已过期”/“已撤销”，展示“**重新发起签署**”按钮，点击“重新发起签署”相当于重新创建一个签署任务
 
 ##### 撤销签署
 
 
-
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/90f2d945-634e-49c9-9006-d05976995496.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yFVb9DfxK1TeP6s3LYLnEPbmbnY%3D "")
 
 1、当签署状态为“**签署中**”，展示“**撤销签署**”按钮
 
-2、点击“撤销签署”，弹出撤销弹窗，支持输入 **撤销原因**（**非必填**），确认撤销 调用「[<u>撤销签署流程</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/klbicu)」撤销签署中的流程，签署状态变为“已**撤销**”
+2、点击“撤销签署”，弹出撤销弹窗，支持输入 **撤销原因**（**非必填**），确认撤销 调用「[撤销签署流程](https://open.esign.cn/doc/opendoc/pdf-sign3/klbicu)」撤销签署中的流程，签署状态变为“已**撤销**”
 
 ##### 签署详情
 
 签署详情包括：**基本信息、电子合同、签署方、签署流程**
 
-基本信息/签署方详情获取接口：「[<u>查询签署流程详情</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/xxk4q6)」
+基本信息/签署方详情获取接口：「[查询签署流程详情](https://open.esign.cn/doc/opendoc/pdf-sign3/xxk4q6)」
 
-签署流程    详情获取说明文档：「[<u>签署回调通知接收说明</u>](https://open.esign.cn/doc/opendoc/notify3/sblzg8)」
+签署流程    详情获取说明文档：「[签署回调通知接收说明](https://open.esign.cn/doc/opendoc/notify3/sblzg8)」
 
-电子合同  下载接口：「[<u>下载已签署文件及附属材料</u>](https://open.esign.cn/doc/opendoc/pdf-sign3/kczf8g)」
+电子合同  下载接口：「[下载已签署文件及附属材料](https://open.esign.cn/doc/opendoc/pdf-sign3/kczf8g)」
 
 | **有成报销字段** |  | **e签宝参数** | **备注** |
 |----------------------|---|-----------------|----------|
@@ -220,11 +211,9 @@ source: dingtalk-document-mcp
 签署详情页展示缺省图，文案“暂未发起线上签署”
 
 
-
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/3a93a01c-57db-439a-86b4-14921da294cc.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Wni9mV1WY4s%2B6vLSiP8UzO1D%2BtU%3D "")
 
 ###### 签署状态：草稿
-
 
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/b983bc39-4ba9-40d6-bd81-4d9a601c01fe.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F9jD9hidMHHwMwXZU5YILclZty4%3D "")
@@ -238,7 +227,6 @@ source: dingtalk-document-mcp
 4）**签署流程**缺省文案：**暂未发起签署**
 
 ###### 签署状态：签署中
-
 
 
 ![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/9a6e7c5f-2aeb-4b49-befd-2e5340f67714.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wp%2Bg3ubcO2qg201o4FrG4HhIf4o%3D "")
@@ -256,14 +244,12 @@ source: dingtalk-document-mcp
 
 需要展示的流程节点类型包括：**发起签署、签署拒签/撤销/过期、签署人已读、签署变更、签署转交、签署完成、用章审批驳回、合同发起解约/解约成功**
 
-详见：「[<u>签署回调通知接收说明</u>](https://open.esign.cn/doc/opendoc/notify3/sblzg8)」
-
+详见：「[签署回调通知接收说明](https://open.esign.cn/doc/opendoc/notify3/sblzg8)」
 
 
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/0ed445bc-1f29-4715-ab9d-925abafc2ef2.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BZWJLKYiOgco1lbwbBbmK771pug%3D "")
 
 ###### 签署状态：已拒签、已过期、已撤销
-
 
 
 ![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/41933725-ac5b-44a4-a3b5-2e11919a226f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zsPFTQP5CIQY2aaC%2B7Fi%2Bsc%2FfU8%3D "")
@@ -273,7 +259,6 @@ source: dingtalk-document-mcp
 详情展示逻辑同“签署中”
 
 ###### 签署状态：已完成
-
 
 
 ![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/fd2c2dd1-32d0-4b12-95ea-831a81ad5c82.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=V%2Byjvpmq4Ue7z0vZclCidOV2KCc%3D "")
@@ -295,13 +280,11 @@ source: dingtalk-document-mcp
 我的-单据-全部，单据列表增加字段“签署状态”。当单据取不到签署状态时，显示为空；签署状态取e签宝签署任务状态
 
 
-
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/a7b847d3-c9b6-4d29-bff6-9c49d142035f.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oxrivrnf5aiEkg5%2F1cprsO2n9dk%3D "")
 
 ##### 合同管理
 
 合同管理-应付合同/应收合同/通用合同，单据列表增加字段“签署状态”。当单据取不到签署状态时，显示为空；签署状态取e签宝签署任务状态
-
 
 
 ![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5jzyE0oDO01/img/7f6d1415-2f14-4370-91dd-bd03a17ae65d.png?Expires=1775016760&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uNABYR1evof8hkSBoi79S5lfmlU%3D "")

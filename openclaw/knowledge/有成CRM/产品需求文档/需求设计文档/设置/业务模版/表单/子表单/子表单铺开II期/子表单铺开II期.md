@@ -129,7 +129,7 @@ source: dingtalk-document-mcp
 
 | **需求** | **说明** |
 |----------|----------|
-| 说明 | 1\. 从需求池通过合并采购、多供应商采购、智能采购生成采购单的逻辑不变；2\. 选择产品的关联弹窗中，需要保留现在的特殊处理  1）可选产品1. 供应商为空  or （供应商不为空 且供应商类型为'固定供应商'）时，选择产品时展示供应商对应采购价目表产品信息（价目表须审批状态为‘已通过’、\{生效日期\}≥当前日期、状态为‘已启用’，产品要上架\+去重）2. 供应商不为空  且 供应商类型为‘临时供应商’时，选择产品时展示所有上架产品  2）采购价格填充：须结合价格策略，选择产品价格后填充对应价格（历史需求：[<u>需求</u>](http://smbding.superboss.cc/%E6%9C%89%E6%88%90CRM%EF%BC%88%E9%BB%84%E8%89%BA%E5%B9%B3%EF%BC%89/211022%E9%87%87%E8%B4%AD%E5%A4%A7%E4%BC%98%E5%8C%96/#g=1&amp;p=%E9%87%87%E8%B4%AD%E5%8D%95)）3\. 变更供应商时，需要同步变更对应的采购价格逻辑要保留； |
+| 说明 | 1\. 从需求池通过合并采购、多供应商采购、智能采购生成采购单的逻辑不变；2\. 选择产品的关联弹窗中，需要保留现在的特殊处理  1）可选产品1. 供应商为空  or （供应商不为空 且供应商类型为'固定供应商'）时，选择产品时展示供应商对应采购价目表产品信息（价目表须审批状态为‘已通过’、\{生效日期\}≥当前日期、状态为‘已启用’，产品要上架\+去重）2. 供应商不为空  且 供应商类型为‘临时供应商’时，选择产品时展示所有上架产品  2）采购价格填充：须结合价格策略，选择产品价格后填充对应价格（历史需求：[需求](http://smbding.superboss.cc/%E6%9C%89%E6%88%90CRM%EF%BC%88%E9%BB%84%E8%89%BA%E5%B9%B3%EF%BC%89/211022%E9%87%87%E8%B4%AD%E5%A4%A7%E4%BC%98%E5%8C%96/#g=1&amp;p=%E9%87%87%E8%B4%AD%E5%8D%95)）3\. 变更供应商时，需要同步变更对应的采购价格逻辑要保留； |
 | 子表单配置 | 一、业务模板-采购单产品-业务规则-下单控制：迁移到采购单的规则中采购单-业务规则界面，处理后整体效果：二、子表单移动端字段配置：根据各企业现在的配置情况 |
 | 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-采购单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购单产品’ |
@@ -238,7 +238,7 @@ source: dingtalk-document-mcp
 | **需求** | **说明** |
 |----------|----------|
 | 子表单配置 | 子表单移动端字段配置：根据各企业现在的配置情况进行迁移 |
-| 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变备注：1）批次保质期相关组件的需求保持目前线上逻辑（需求链接：[<u>需求</u>](https://tb.raycloud.com/task/61d53729ddbc4e004aafb57e)）2）多选批次保质期的需求，拆成了II期需求，还未上线，本期一起上（消息设置除外）（需求链接：[<u>需求</u>](https://tb.raycloud.com/task/6281ad731902a000760a26fb)）3）明细行产品明细为空时，批次保质期相关字段均置灰2\. 用户自定义字段则原逻辑迁移 |
+| 子表单字段配置 | 1\. 系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变备注：1）批次保质期相关组件的需求保持目前线上逻辑（需求链接：[需求](https://tb.raycloud.com/task/61d53729ddbc4e004aafb57e)）2）多选批次保质期的需求，拆成了II期需求，还未上线，本期一起上（消息设置除外）（需求链接：[需求](https://tb.raycloud.com/task/6281ad731902a000760a26fb)）3）明细行产品明细为空时，批次保质期相关字段均置灰2\. 用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-其他入库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-其他出库单产品’ |
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/877f72bf-fb9c-41f8-9c89-7fc5cd1c76b3.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oSKRchcBU9NaZhz2%2FsQR3zrRyuo%3D "")
@@ -286,7 +286,6 @@ source: dingtalk-document-mcp
 ## 14、销售出库单（已上线）
 
 
-
 ![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/bfd0a61c-b6d9-4bd0-a858-b043169ac293.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ocvt6ReureEQ6ycYBhNworgmxGA%3D "")
 
 | **需求** | **说明** |
@@ -302,7 +301,6 @@ source: dingtalk-document-mcp
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 15、开票申请（已上线）
-
 
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a8d90c1e-463f-423a-b258-29a20ccb5f19.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FY1plOzyBhUvyw9chEzZk%2FIU1x0%3D "")
@@ -326,11 +324,9 @@ source: dingtalk-document-mcp
 ## 16、工单（已上线）
 
 
-
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/d7aab9a5-455c-4a15-be07-ba08a6a9715c.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=S8eFOVpUKtU2o10a8DnZGrh5OrY%3D "")
 
 ## 17、采购申请（已上线）
-
 
 
 ![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/493742d9-b127-48cd-9e48-962ed2f4dcd3.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YH0Ld7Dcnw8%2FdnnTDVGn5%2BK5Tbk%3D "")
@@ -338,14 +334,13 @@ source: dingtalk-document-mcp
 | **需求** | **说明** |
 |----------|----------|
 | 子表单配置 | 子表单移动端字段配置：根据各企业现在的配置情况进行迁移 |
-| 子表单字段配置 | 1.系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。备注：可用库存的需求保持目前线上逻辑（参见[<u>采购申请增加可用库存</u>](https://gykj.yuque.com/vhho51/asmkvg/wm8cc7?)）备注：采购申请产品中，建议供应商有前端处理的默认带入逻辑（默认带出该产品明细的默认供应商（见设置-采购设置-默认供应商设置）），该逻辑保留。 |
+| 子表单字段配置 | 1.系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。备注：可用库存的需求保持目前线上逻辑（参见[采购申请增加可用库存](https://gykj.yuque.com/vhho51/asmkvg/wm8cc7?)）备注：采购申请产品中，建议供应商有前端处理的默认带入逻辑（默认带出该产品明细的默认供应商（见设置-采购设置-默认供应商设置）），该逻辑保留。 |
 | 角色设置 | 功能上线时：角色有采购申请的新建 or 编辑权限，补充增加产品明细-列表权限（若无） |
 | 升级引导 | 1\. 历史客户：业务模板-采购申请产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-采购申请产品’ |
 
 ![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 18、采购入库单（已上线）
-
 
 
 ![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/1b11117d-1f8d-4a78-9450-0d4f3cc47f83.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WaVtRwPlxZlnUqgAwVHtv0Zr6hk%3D "")
@@ -366,7 +361,6 @@ source: dingtalk-document-mcp
 ## 19、BOM单（已上线）
 
 
-
 ![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a1e28908-9ffa-4709-bb17-2f4580a1c145.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MZqvm21Z5mxZVlzeBUafF1ovENM%3D "")
 
 | **需求** | **说明** |
@@ -378,7 +372,6 @@ source: dingtalk-document-mcp
 ![Picture 23](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 20、组装单（已上线）
-
 
 
 ![Picture 24](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/9dc5bce6-88a0-473e-b912-155a9640a7bf.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Rmi63HrmokrKsG0TNba3Bl5l7zA%3D "")
@@ -394,7 +387,6 @@ source: dingtalk-document-mcp
 ## 21、调拨单（已上线）
 
 
-
 ![Picture 26](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81be2f38-5e9a-4b09-aece-c2fa7b79a26f.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TFaVGp4%2BFk1rbmJDfBZkhWuSlSw%3D "")
 
 | **需求** | **说明** |
@@ -408,7 +400,6 @@ source: dingtalk-document-mcp
 ![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 22、采购发票（已上线）
-
 
 
 ![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/4d62eee0-ebb6-4ad0-b4fa-6b6696dfd9c6.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HPH6XM9a1CZZWxFdTa%2FLIsMOsr8%3D "")
@@ -432,7 +423,6 @@ source: dingtalk-document-mcp
 ## 23、销售退货单（已上线）
 
 
-
 ![Picture 33](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/e30d18ff-6da6-4358-a67b-f653c2f140c7.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mrBHs%2BFyehi9Tik1TyaT7HPql80%3D "")
 
 | **需求** | **说明** |
@@ -449,7 +439,6 @@ source: dingtalk-document-mcp
 ## 24、拜访签到（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 
 ![Picture 35](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/35087930-c93f-4bcc-b555-d9671dcd504b.jpeg?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=H70NlAayvvwZO2lMzGPy3coOMJ4%3D "")

@@ -9,11 +9,6 @@ source: dingtalk-document-mcp
 [我的钉钉脑图]
 
 
-
-
-
-
-
 #  **AI 底层架构图**
 
 （层级从上到下：业务层 → AI 基础平台层 → 跨层保障层）

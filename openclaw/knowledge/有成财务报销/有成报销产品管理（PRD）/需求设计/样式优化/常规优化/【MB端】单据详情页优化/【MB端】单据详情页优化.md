@@ -18,11 +18,9 @@ source: dingtalk-document-mcp
 1、PC端-表当编辑时，字段标题较长时，内容混乱
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b59f24cd-6565-4da5-8bc0-3e11e6b02bba.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=asCYoRTgCFH9rjXfUa7%2BsIFPAU0%3D "")
 
 2、MB端-单据字段较长时，内容展示很乱，叠在一起展示；内容模块样式不统一
-
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b0ab7d5c-82f3-45fa-b704-a4bf0cfd6d63.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UK888N4peP4mMqwOAxDCjjqnxJs%3D "")
@@ -43,7 +41,7 @@ source: dingtalk-document-mcp
 
 **系统：**【有成报销】**MB端 & PC端**
 
-**UI：**[<u>https://lanhuapp.com/link/#/invite?sid=lX0FkjDc</u>](https://lanhuapp.com/link/#/invite?sid=lX0FkjDc)
+**UI：**[https://lanhuapp.com/link/#/invite?sid=lX0FkjDc](https://lanhuapp.com/link/#/invite?sid=lX0FkjDc)
 
 | **模块** | **现状** | **优化** |
 |----------|----------|----------|

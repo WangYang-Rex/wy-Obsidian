@@ -16,11 +16,11 @@ source: dingtalk-document-mcp
 
 上架WPS，获取更多流量，从而提升业绩
 
-开发文档：[<u>https://open-xz.wps.cn/pages/server/file/upload-auth/</u>](https://open-xz.wps.cn/pages/server/file/upload-auth/)
+开发文档：[https://open-xz.wps.cn/pages/server/file/upload-auth/](https://open-xz.wps.cn/pages/server/file/upload-auth/)
 
-平台规范：[<u>https://kdocs.cn/l/cokEEw9rdf3S</u>](https://kdocs.cn/l/cokEEw9rdf3S)
+平台规范：[https://kdocs.cn/l/cokEEw9rdf3S](https://kdocs.cn/l/cokEEw9rdf3S)
 
-测试后，将这个文档填写好，需要提交给WPS验收，验收文档：[<u>https://365.kdocs.cn/l/cvCcGJftyiEG</u>](https://365.kdocs.cn/l/cvCcGJftyiEG)
+测试后，将这个文档填写好，需要提交给WPS验收，验收文档：[https://365.kdocs.cn/l/cvCcGJftyiEG](https://365.kdocs.cn/l/cvCcGJftyiEG)
 
 ## 2、功能清单
 
@@ -45,21 +45,19 @@ source: dingtalk-document-mcp
 - 订单管理-订单列表-订单来源字段增加：WPS
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/3e730c8c-b900-4a79-b62b-796fa8c25a07.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oVYBC%2F8pRAa5DuxpkuvryzHnD1c%3D "")
-
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/acf7c091-4bed-4b8b-b2c2-b57a2c625a20.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2rlvumPiXkjxVJB5Fa4ca1QHj2g%3D "")
 
 ### 3.2 WPS组织架构对接
 
-[<u>https://open-xz.wps.cn/pages/server/contacts/depts/get-depts-info/</u>](https://open-xz.wps.cn/pages/server/contacts/depts/get-depts-info/)
+[https://open-xz.wps.cn/pages/server/contacts/depts/get-depts-info/](https://open-xz.wps.cn/pages/server/contacts/depts/get-depts-info/)
 1. 将组织架构对接同步到有成报销中；组织架构同钉钉，不支持新增删除
 
 ### 3.3 WPS消息推送对接
 
-[<u>https://open-xz.wps.cn/pages/server/msg-and-group/sendmsgV2/</u>](https://open-xz.wps.cn/pages/server/msg-and-group/sendmsgV2/)
+[https://open-xz.wps.cn/pages/server/msg-and-group/sendmsgV2/](https://open-xz.wps.cn/pages/server/msg-and-group/sendmsgV2/)
 2. 待办消息推送：
 3. 待办消息推送给指定的用户：
 4. 日期相关的消息提醒：
@@ -69,8 +67,8 @@ source: dingtalk-document-mcp
 8. 其他系统提醒：到期提醒、导出失败消息（待确认）
 
 ### 3.4 发票、图片、附件组件接入拍照、选取文件接口
-9. 摄像头拍照或相册选照片：[<u>https://open-xz.wps.cn/pages/client/web-apps/JSAPI/video/#1195d36b</u>](https://open-xz.wps.cn/pages/client/web-apps/JSAPI/video/#1195d36b)
-10. 选文件：[<u>https://open-xz.wps.cn/pages/client/web-apps/JSAPI/file/</u>](https://open-xz.wps.cn/pages/client/web-apps/JSAPI/file/)
+9. 摄像头拍照或相册选照片：[https://open-xz.wps.cn/pages/client/web-apps/JSAPI/video/#1195d36b](https://open-xz.wps.cn/pages/client/web-apps/JSAPI/video/#1195d36b)
+10. 选文件：[https://open-xz.wps.cn/pages/client/web-apps/JSAPI/file/](https://open-xz.wps.cn/pages/client/web-apps/JSAPI/file/)
 
 ### 3.5 应用内改造点：应用中心卡片隐藏
 
@@ -84,11 +82,9 @@ source: dingtalk-document-mcp
 二维码待WPS提供
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/836a1e73-8733-40a3-9c7a-c0555f4406a9.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4BpAkrHqi%2FoYBy0ggFgHt87PcaI%3D "")
 
 **一、首页**
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/d31cf3a4-1c1f-4105-8db6-bdb7f11fe4c3.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MdnAMhYm43rEI%2BOpBwFE%2FRWw9Vs%3D "")
@@ -96,11 +92,9 @@ source: dingtalk-document-mcp
 **二、应用中心需要联系客服的地方，点击弹窗需要打开二维码扫码的弹框：**
 
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/e6e79ea2-617e-4875-9ec6-4d5366828211.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RL%2F8HGNUF7PJ1rNsGsqjGFOYgWs%3D "")
 
 三、手机端：点击联系客服给二维码弹框，右侧的图为示例
-
 
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/1d97bf0f-39ab-4687-8cf1-ab657cde3b23.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NLsjvEQ9xB6H%2BEatVnEdgxq1h9Q%3D "")
@@ -109,8 +103,7 @@ source: dingtalk-document-mcp
 
 ### 3.7 WPS进入应用显示创建桌面快捷方式入口、
 
-[<u>https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs</u>](https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs)
-
+[https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs](https://365.kdocs.cn/l/cooGvDqdEkVB?openfrom=docs)
 
 
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/a81ca828-ac68-4592-b7ad-c7860a5cd395.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7aGGPH9s9nR5EJySuAsIfSL3NBU%3D "")
@@ -122,9 +115,7 @@ source: dingtalk-document-mcp
 再次进入应用，当前用户已经创建了桌面快捷方式的（看能否识别到？），不再展示这个入口。
 
 
-
 ![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/277c5f1e-4216-4723-ad2d-a2327af62058.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RLurr8UGaQYM0U6%2BXDL0o8%2FH2%2Fw%3D "")
-
 
 
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/aa04e0a3-31a6-4ddc-acc1-f0157b03c3e1.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lCqhld%2BzSRSEk%2FzWEvs3AK6YAK8%3D "")
@@ -133,8 +124,7 @@ source: dingtalk-document-mcp
 
 1、为满足wps平台规范，需要按照下文，进行安装授权、活跃监控接入
 
-[<u>https://www.kdocs.cn/l/cokEEw9rdf3S</u>](https://www.kdocs.cn/l/cokEEw9rdf3S)
-
+[https://www.kdocs.cn/l/cokEEw9rdf3S](https://www.kdocs.cn/l/cokEEw9rdf3S)
 
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMZdogvlWN/img/bb95a2fd-688b-43ef-a0f2-0f08e51ff0e1.png?Expires=1775016761&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hdW4lUzrIYuDq5lDpvYpsYPGHXI%3D "")

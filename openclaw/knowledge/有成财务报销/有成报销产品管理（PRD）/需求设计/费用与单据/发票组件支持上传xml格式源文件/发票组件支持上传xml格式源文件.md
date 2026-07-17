@@ -45,11 +45,9 @@ source: dingtalk-document-mcp
 2、发票上传后，发票展示：
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/6839d99c-1fb3-4837-8471-5401e4ba24b8.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BR3pZTxNZa8ENvkp%2FLz8XE6eva0%3D "")
 
 3、查看单据详情
-
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/1d63630b-a49b-409d-81f9-9a94e0a368b3.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=caUuHNHuChIVokzJngukm2T4loA%3D "")
@@ -57,11 +55,9 @@ source: dingtalk-document-mcp
 4、 查看发票详情：同系统现有逻辑，图片展示 xml 文件标识
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/9d4a1733-e6ed-4c57-b48d-9910f632184a.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ygWiDhbGXbBB3hPENvj9QAKIJak%3D "")
 
 点击图片，跳转到 xml 文件在线预览页面：
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/2671634b-a068-41ee-9a78-963e319ee8c0.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Lj4ZeiC64pkGnl1TmsV6c9Yxhec%3D "")
@@ -82,8 +78,7 @@ source: dingtalk-document-mcp
 
 关于验签：
 
-[<u>https://zhuanlan.zhihu.com/p/388299815</u>](https://zhuanlan.zhihu.com/p/388299815)
-
+[https://zhuanlan.zhihu.com/p/388299815](https://zhuanlan.zhihu.com/p/388299815)
 
 
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/8156d2de-9797-40f3-8ae0-09c32995bc36.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jpv21btCM0EtMs1KVrTVVCL%2BVZo%3D "")
@@ -127,7 +122,6 @@ source: dingtalk-document-mcp
 列表展示逻辑不变，查看发票详情时，图片展示为 xml 标记，点击图片，打开 xml 文件预览
 
 
-
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/2e67466d-61b9-445c-b536-3103a6eead65.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BJJTrlNsKXWd2dT378NH%2FZCD%2BIk%3D "")
 
 #### 附件管理：
@@ -135,7 +129,6 @@ source: dingtalk-document-mcp
 列表展示内容不变，点击查看附件详情时，打开 xml 源文件。
 
 #### 打印
-
 
 
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/54Lq35oy9NPQXl7E/img/37a02ceb-44f9-43e9-ad65-92f2cfa76fbd.png?Expires=1778767332&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=I%2FCEQzlM9H0Zu3uyeSP6Qa4LCM4%3D "")

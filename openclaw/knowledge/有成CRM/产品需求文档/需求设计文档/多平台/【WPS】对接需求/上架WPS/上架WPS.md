@@ -17,9 +17,9 @@ source: dingtalk-document-mcp
 
 上架WPS，获取更多流量，从而提升业绩
 
-开发文档：[<u>https://open-xz.wps.cn/pages/server/file/upload-auth/</u>](https://open-xz.wps.cn/pages/server/file/upload-auth/)
+开发文档：[https://open-xz.wps.cn/pages/server/file/upload-auth/](https://open-xz.wps.cn/pages/server/file/upload-auth/)
 
-平台规范：[<u>https://kdocs.cn/l/cbqQtjrkUdo4</u>](https://kdocs.cn/l/cbqQtjrkUdo4)
+平台规范：[https://kdocs.cn/l/cbqQtjrkUdo4](https://kdocs.cn/l/cbqQtjrkUdo4)
 
 ## 2、功能清单
 
@@ -37,7 +37,7 @@ source: dingtalk-document-mcp
 
 ### 3.1 WPS订单对接（对接中台）
 
-售卖流程，参考企业微信对接有成中台：[<u>https://gykj.yuque.com/vhho51/bvmmvu/nsq2nu/edit#gurKZ</u>](https://gykj.yuque.com/vhho51/bvmmvu/nsq2nu/edit#gurKZ)
+售卖流程，参考企业微信对接有成中台：[https://gykj.yuque.com/vhho51/bvmmvu/nsq2nu/edit#gurKZ](https://gykj.yuque.com/vhho51/bvmmvu/nsq2nu/edit#gurKZ)
 
 ### 3.2 WPS组织架构对接（对接中台）
 1. 对接有成中台
@@ -73,22 +73,18 @@ source: dingtalk-document-mcp
 |  | 去掉“钉钉”、“企业微信”相关文案 | 1\. PC端-设置-部门员工-“同步钉钉员工”文案改为“同步员工”2\. 角色未授权时，进入CRM的提示页面3\. 前端整理有“钉钉”文案的页面（如有遗漏，前端可继续补充）https://gykj.yuque.com/docs/share/0d88661d-ba29-4ac3-9dd2-b3e4193af0c8?# |
 |  | 钉钉、企业微信二维码替换为WPS二维码 | 参考后面的原型图 |
 |  | MB端顶部按钮调整 | 和企业微信保持一致即可 |
-|  | 前端使用钉钉、企业微信JS-API | 参考之前的文档，前端可以补充到最后一列“WPS支持情况”：[<u>https://gykj.yuque.com/docs/share/52bc04f3-3af6-4d3e-acf5-31884dfce0a4?#</u>](https://gykj.yuque.com/docs/share/52bc04f3-3af6-4d3e-acf5-31884dfce0a4?#) |
+|  | 前端使用钉钉、企业微信JS-API | 参考之前的文档，前端可以补充到最后一列“WPS支持情况”：[https://gykj.yuque.com/docs/share/52bc04f3-3af6-4d3e-acf5-31884dfce0a4?#](https://gykj.yuque.com/docs/share/52bc04f3-3af6-4d3e-acf5-31884dfce0a4?#) |
 
 ### 3.4 以下几处二维码替换为WPS二维码/去掉联系电话---待wps提供
-
 
 
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/a1bd4a00-ced0-430e-b6ce-d8888c8afc23.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oDeX644MiMUOFiaGcdwNesKellg%3D "")
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/e7025067-e0da-4659-a869-7428c94b5d8a.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=e2Uts3Lm8CAaGef6XSDa8NN0TUc%3D "")
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/f01a89bf-09a4-4391-a854-97946bd809e1.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J5gGcwkJLZQYg3uvtLTeVpWyKUM%3D "")
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/cb3a709c-1933-4b7e-b580-7878e35c4633.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UWBhqEiV8hsh4%2Fqqz%2Bbgc5AXdkI%3D "")
@@ -98,17 +94,15 @@ source: dingtalk-document-mcp
 6. 运营后台-企业报表、运营后台-订单管理新增筛选字段“开通平台”。可筛选：全部、钉钉、企业微信、羚羊、WPS
 
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/73181e6e-07c3-45ff-8fcc-d3cd77e49abd.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wqxT%2FZ%2BTDQotbbmsO70dphjDY%2Fk%3D "")
 
 ### 3.6 其他需要改造的点
 
 为满足wps平台规范，需要按照下文，进行安装授权、活跃监控接入
 
-[<u>https://kdocs.cn/l/cbqQtjrkUdo4</u>](https://kdocs.cn/l/cbqQtjrkUdo4)
+[https://kdocs.cn/l/cbqQtjrkUdo4](https://kdocs.cn/l/cbqQtjrkUdo4)
 
 ### 3.7 企业到期提醒：区分新平台
-
 
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZdvMQRlpz/img/def8fd6f-3637-40d8-b2d8-2860a8f59720.png?Expires=1774938597&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=71KXRTV5CNxb5yMpnPf3rWA8rcE%3D "")

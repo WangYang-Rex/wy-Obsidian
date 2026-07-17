@@ -39,7 +39,6 @@ source: dingtalk-document-mcp
 设计稿需增加：导航logo和网页标签logo支持用户上传后进行剪裁。
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/AJdl65Aj9v3dQOke/img/7090022f-3922-4870-bf58-ac5a69f6d6d0.png?Expires=1778767394&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=e4nXO4YmVrY2Yf%2F8dy3H5llLkrM%3D "")
 
 ##### 4.1.2 配置及控制区域说明
@@ -66,7 +65,6 @@ source: dingtalk-document-mcp
 本次新增的菜单支持功能授权，在系统设置分类里增加“主题色和logo”模块的授权，系统管理员默认勾选。
 
 
-
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/AJdl65Aj9v3dQOke/img/b0aca082-97b8-437d-8395-04b4e09be246.png?Expires=1778767394&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vidYEg4r9IQD93nfH8k%2BzbhshPk%3D "")
 
 #### 4.3 导航条logo处增加设置入口
@@ -74,9 +72,8 @@ source: dingtalk-document-mcp
 对于有权限设置主题色与logo的用户，在页面上点击导航条logo区域（红色框出的区域），直接打开主题色与logo设置页。没有权限的用户点击无效。
 
 
-
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/AJdl65Aj9v3dQOke/img/df555a5d-7058-4efa-9e22-1f6651099429.png?Expires=1778767394&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F4CZsNa6HViQuDWYiG4wtUnATZE%3D "")
 
 ## 设计稿
 
-[<u>https://www.figma.com/file/THUSQ5rRVKLafOw5E80A76/%E6%9C%89%E6%88%90%E6%8A%A5%E9%94%80-PC%E7%AB%AF?type=design&node-id=1464-59667&mode=design</u>](https://www.figma.com/file/THUSQ5rRVKLafOw5E80A76/%E6%9C%89%E6%88%90%E6%8A%A5%E9%94%80-PC%E7%AB%AF?type=design&amp;node-id=1464-59667&amp;mode=design)
+[https://www.figma.com/file/THUSQ5rRVKLafOw5E80A76/%E6%9C%89%E6%88%90%E6%8A%A5%E9%94%80-PC%E7%AB%AF?type=design&node-id=1464-59667&mode=design](https://www.figma.com/file/THUSQ5rRVKLafOw5E80A76/%E6%9C%89%E6%88%90%E6%8A%A5%E9%94%80-PC%E7%AB%AF?type=design&amp;node-id=1464-59667&amp;mode=design)

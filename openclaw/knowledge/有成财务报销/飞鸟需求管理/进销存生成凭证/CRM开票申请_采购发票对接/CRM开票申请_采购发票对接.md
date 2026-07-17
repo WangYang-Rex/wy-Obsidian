@@ -35,7 +35,6 @@ source: dingtalk-document-mcp
 用于【开票申请】借方分录
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/af04d5a2-0be9-409c-a53f-b46c65850e5a.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FrVEjA1%2FuvBZi64VOOMU5JNMJI4%3D "")
 
 一、右侧的帮助，鼠标移入显示的文案更新为“适用单据：销售出库单、销售退货入库单、实际回款单、开票申请”
@@ -67,7 +66,6 @@ source: dingtalk-document-mcp
 - 可支持勾选的字段：
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/9daf86b6-ef4d-4bc2-a706-04e4d0e4d176.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lF05qIjVclHqbq1%2FWPjjRp8ZQhE%3D "")
 
 | **字段** | **需求说明** |
@@ -85,7 +83,6 @@ source: dingtalk-document-mcp
 **用于【开票申请】贷方分录【产品科目】**
 
 **用于【采购发票】借方分录【成本科目】**
-
 
 
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/a92ae407-ca5d-4483-acf4-ba38df6ac4fe.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J8DB2T%2Bp1JkmiJgqtYE1BYxNfL0%3D "")
@@ -112,9 +109,7 @@ source: dingtalk-document-mcp
 **客户名称：浙江速泰智能技术有限公司**
 
 
-
 三、【单据类型字段】中新增枚举值：采购发票、开票申请
-
 
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/XNkOM5jVbJ7xgOY7/img/23a5b236-8975-459c-828b-b1c687bd1956.png?Expires=1778767513&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ybNS9EILxHIbFvXKwD%2FgjNbhFqc%3D "")
@@ -168,7 +163,6 @@ source: dingtalk-document-mcp
 借：应交税费\_进项税额    （税额）进项税额科目  专项税额
 
 贷：应付账款                 （供应商）设置的科目；发票金额
-
 
 
 CRM中的金额取值根据上面模版中标黄的名称去取值；

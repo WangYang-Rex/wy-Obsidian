@@ -21,7 +21,7 @@ exported_at: 2026-03-22
 1. 对接钉钉酷应用，用户可在钉钉群内直接开通有成CRM。给有成CRM带来更多流量
 2. 本次钉钉酷应用，将区分内部群、外部群。内部群、外部群将会接入不同的功能。本期设计的主要功能，是基于内部群为前提场景。少部分功能是之后内部群、外部群通用的（3.6智能表单链接分享）
 3. 钉钉会先给我们开放内部群，外部群也可能会开放
-4. 酷应用文档：[<u>https://open.dingtalk.com/document/isv/cool-application-introduction-isv</u>](https://open.dingtalk.com/document/isv/cool-application-introduction-isv)服务端API：[<u>https://open.dingtalk.com/document/isvapp-server/api-operations-for-group-applications-1</u>](https://open.dingtalk.com/document/isvapp-server/api-operations-for-group-applications-1)客户端API：[<u>https://open.dingtalk.com/document/isvapp-client/install-cool-applications-and-add-them-to-the-group</u>](https://open.dingtalk.com/document/isvapp-client/install-cool-applications-and-add-them-to-the-group)
+4. 酷应用文档：[https://open.dingtalk.com/document/isv/cool-application-introduction-isv](https://open.dingtalk.com/document/isv/cool-application-introduction-isv)服务端API：[https://open.dingtalk.com/document/isvapp-server/api-operations-for-group-applications-1](https://open.dingtalk.com/document/isvapp-server/api-operations-for-group-applications-1)客户端API：[https://open.dingtalk.com/document/isvapp-client/install-cool-applications-and-add-them-to-the-group](https://open.dingtalk.com/document/isvapp-client/install-cool-applications-and-add-them-to-the-group)
 
 ## 2、业务流程图
 
@@ -60,7 +60,7 @@ exported_at: 2026-03-22
 
 | **模块** | **说明** |
 |----------|----------|
-| 推送机制 | 1\. 群成员在有成CRM录入合同订单后，推送成交消息到群内（改为架构下的所有人员新建合同并审核通过后，都推送）2\. ~~非群成员，录入合同订单则不推送到该群~~~~背景：如公司有多个销售团队，往往会有不同的销售群。A团队的成交消息就通知到A团队的群，不同通知到B团队的群~~~~需要后端确认钉钉查询群成员的能力~~[<u>@曹书源</u>](undefined/caoshuyuan-g74ed)钉钉卡片配置效果： |
+| 推送机制 | 1\. 群成员在有成CRM录入合同订单后，推送成交消息到群内（改为架构下的所有人员新建合同并审核通过后，都推送）2\. ~~非群成员，录入合同订单则不推送到该群~~~~背景：如公司有多个销售团队，往往会有不同的销售群。A团队的成交消息就通知到A团队的群，不同通知到B团队的群~~~~需要后端确认钉钉查询群成员的能力~~[@曹书源](undefined/caoshuyuan-g74ed)钉钉卡片配置效果： |
 | 点击“查看详情” | 1\. 展示合同详情页。参考上方原型图2\. 如无权限，则提示无权限查看 |
 | 点赞 | 卡片支持点赞交互：（和业绩PK榜一致）（这个钉钉暂不支持，本期忽略点赞功能）（1）当前用户未点赞：显示“未点赞”图标   （2）当前用户已点赞：显示“已点赞”图标，并且点赞数\+1 |
 
@@ -80,9 +80,8 @@ exported_at: 2026-03-22
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jzY290VlvD/img/1f366c54-8ad2-496d-ad9f-8843728b4309.png?Expires=1774165598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CWra9PF6%2BcUfztfJHvMOTyv21vY%3D "")
 
 备注：
-5. 这里涉及到很多页面，前端确认下移动端页面支持PC端打开这块的工作量[<u>@王洋</u>](undefined/u29255)
-6. 钉钉是否提供“返回”（如没有，也可以忽略）[<u>@王洋</u>](undefined/u29255)
-
+5. 这里涉及到很多页面，前端确认下移动端页面支持PC端打开这块的工作量[@王洋](undefined/u29255)
+6. 钉钉是否提供“返回”（如没有，也可以忽略）[@王洋](undefined/u29255)
 
 ### 3.5、群吊顶
 
@@ -102,7 +101,6 @@ exported_at: 2026-03-22
 9. 发起人视角：展示“分享”按钮，点击分享可继续将链接分享给他人；点击卡片，进入表单填写页面
 10. 接收人视角：展示“立即填写”、“分享”按钮。点击“立即填写”，进入表单填写页面，可填写表单
 11. 接收人视角（已填写）：展示“再次填写”、“分享”按钮
-
 
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jzY290VlvD/img/80c00c43-2ba8-4afc-a620-f3bdcc6d2262.png?Expires=1774165598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8C1FNQ%2B2WMltNFGIwIPNOi503kA%3D "")
 

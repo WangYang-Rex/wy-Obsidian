@@ -26,7 +26,6 @@ source: dingtalk-document-mcp
 4. 火车票消费事由自动填写出发站-到达站
 5. 泛嘉接口文档：[泛嘉开放平台渠道对接接口说明精简版_20260119.docx](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7beyRRxxOBQ/att/1533cb2d-a17e-43d2-829e-df109d0f9665.docx?Expires=1781780824&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Nl7z%2B%2Be%2BhFgAn7c4Bi%2F%2BOOvNH%2B0%3D)
 
-
 ---
 
 ## 二、功能清单
@@ -51,7 +50,7 @@ source: dingtalk-document-mcp
 
 ![画布 22.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9527AGXAelap/img/b0b7c91d-4c00-43c1-b696-8f8b6f5d38db.png?Expires=1781780824&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UlRbXHVAeyan272NDNAmJsLl0Ec%3D "")
 
-**机票/酒店/火车订单：**增加展示<span style="color: #FE0300;">订单总金额，位置在结算价前</span>；个人支付金额，企业支付金额，位置在结算价后。
+**机票/酒店/火车订单：**增加展示订单总金额，位置在结算价前；个人支付金额，企业支付金额，位置在结算价后。
 
 **打车订单**：打车订单增加展示服务费、订单总金额、结算价、企业支付金额。
 
@@ -101,8 +100,6 @@ source: dingtalk-document-mcp
 
 ![PixPin_2025-11-20_15-17-20.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9527AGXAelap/img/6decb276-355d-4184-a338-0685ca040562.png?Expires=1781780824&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7zxl1TUdzixGq3rgF7%2FPlTq4slY%3D "")
 
-
-
 **城市兼容**：选到区县级时，取对应**市**传给泛嘉
 
 ### 3.3 订单同步-增加自动生成消费事由配置开关
@@ -114,8 +111,6 @@ source: dingtalk-document-mcp
 ![PixPin_2025-11-20_16-54-57.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9527AGXAelap/img/9d6fcf67-3ea4-4fe7-85f5-784974489359.png?Expires=1781780824&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=PMk%2B%2B3HiuscKc8mxrYHd3Uy81sc%3D "")
 
 ![PixPin_2025-11-20_16-54-00.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/8oLl9527AGXAelap/img/77ab97f2-e8e3-4c58-b0c5-5ee23602abc9.png?Expires=1781780824&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9cVKwZ0g8KtOF3FF52tII1EMdDE%3D "")
-
-
 
 #### 生成消费金额规则
 
@@ -138,7 +133,7 @@ source: dingtalk-document-mcp
 | 配置 | 默认 | 效果 |
 |------|------|------|
 | 不含服务费 | 不勾选 | 消费中扣除服务费 |
-| 允许个付金额生成消费 | 勾选 | 勾选状态：<br>a.个付金额生成消费，支持报销<br>b.企业支付金额（企业预付）/企业月结生成消费，消费上有“企业月结”“企业支付金额（企业预付）”标签，带入报销后不统计这部分金额<br>不勾选状态：<br>a.个付金额不生成消费<br>b.企业支付金额（企业预付）/企业月结生成消费，消费上有“企业月结”“企业支付金额（企业预付）”标签，带入报销后不统计这部分金额 |
+| 允许个付金额生成消费 | 勾选 | 勾选状态：a.个付金额生成消费，支持报销b.企业支付金额（企业预付）/企业月结生成消费，消费上有“企业月结”“企业支付金额（企业预付）”标签，带入报销后不统计这部分金额不勾选状态：a.个付金额不生成消费b.企业支付金额（企业预付）/企业月结生成消费，消费上有“企业月结”“企业支付金额（企业预付）”标签，带入报销后不统计这部分金额 |
 - 新配置只对新订单生效
 - 默认币种 **CNY**
 

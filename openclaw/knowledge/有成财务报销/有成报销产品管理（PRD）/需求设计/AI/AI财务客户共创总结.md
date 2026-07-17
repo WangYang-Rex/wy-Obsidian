@@ -73,7 +73,6 @@ source: dingtalk-document-mcp
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/83132b3e-30a2-4c77-af88-fa6daaef94ea.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l1Nm3RrOwyaSXaZj6FIz%2BZvHgu4%3D "")
 
 
-
 ## **使用效果**
 - 退单率下降80%
 - 审核时间从10分钟/单缩短到20s一单
@@ -133,7 +132,6 @@ AI经营分析：直观统计多主体的各项费用支出，支持单个主体
 - 报表生成效率提升，从一天缩短到10分钟。
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/fa5fd029-2199-4548-8b12-4e12b11b4859.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZfCOP9nvPg%2BuB1erpQbb1HHdpEk%3D "")
-
 
 
 # **重庆蓝泊湾后勤管理服务有限公司**

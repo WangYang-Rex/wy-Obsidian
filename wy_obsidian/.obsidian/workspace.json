@@ -11,12 +11,10 @@
             "id": "df61ed199f6b403a",
             "type": "leaf",
             "state": {
-              "type": "image",
-              "state": {
-                "file": "Private/钉钉MCP/attachments/Pasted image 20260323180307.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20260323180307"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -198,6 +196,7 @@
   },
   "active": "df61ed199f6b403a",
   "lastOpenFiles": [
+    "Private/钉钉MCP/attachments/Pasted image 20260323180307.png",
     "Private/钉钉MCP/钉钉文档 MCP.md",
     "Excalidraw/Drawing 2026-03-22 11.55.33.excalidraw.md",
     "Pasted image 20260323175932.png",
@@ -207,7 +206,6 @@
     "templates/日记模板.md",
     "templates/读书笔记模板.md",
     "templates/标准模板.md",
-    "Private/钉钉MCP/attachments/Pasted image 20260323180307.png",
     "openclaw/FACTS.md",
     "openclaw/Memory",
     "openclaw/index",

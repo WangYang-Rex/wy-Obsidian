@@ -59,7 +59,7 @@ exported_at: 2026-03-22
 
 \*\*资料：
 
-AI能力发布会：[<u>https://mp.weixin.qq.com/s/SiUFdpWwIw39l\_Y\_nBaBFw</u>](https://mp.weixin.qq.com/s/SiUFdpWwIw39l_Y_nBaBFw)
+AI能力发布会：[https://mp.weixin.qq.com/s/SiUFdpWwIw39l\_Y\_nBaBFw](https://mp.weixin.qq.com/s/SiUFdpWwIw39l_Y_nBaBFw)
 
 ### 每刻报
 
@@ -79,14 +79,13 @@ AI能力发布会：[<u>https://mp.weixin.qq.com/s/SiUFdpWwIw39l\_Y\_nBaBFw</u>]
 
 ### 分贝通
 
-[<u>https://maimai.cn/article/detail?fid=1858548011&efid=z3ZMALOWNfMBAgcjv2ZP2A</u>](https://maimai.cn/article/detail?fid=1858548011&amp;efid=z3ZMALOWNfMBAgcjv2ZP2A)
+[https://maimai.cn/article/detail?fid=1858548011&efid=z3ZMALOWNfMBAgcjv2ZP2A](https://maimai.cn/article/detail?fid=1858548011&amp;efid=z3ZMALOWNfMBAgcjv2ZP2A)
 
 AI助手**“小贝”**：包含「商旅AI」、「费控AI」和「CBI」三大智能体，进一步为企业提供更加智能化和差异化的差旅服务
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bBRyzXMOBQ/img/fc9ffd42-d40d-4923-857b-6a72e1738dea.png?Expires=1774157768&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nNr%2BBS0iugFei9P37U7SmX7souA%3D "")
 
-[<u>此处为语雀卡片，点击链接查看</u>](https://www.yuque.com/izoyhv/tzh23k/avr8dgwgq276mf2g#jrnI3)
+[此处为语雀卡片，点击链接查看](https://www.yuque.com/izoyhv/tzh23k/avr8dgwgq276mf2g#jrnI3)
 
 | **能力** | **角色** | **场景细分** |
 |----------|----------|----------------|
@@ -98,15 +97,11 @@ AI助手**“小贝”**：包含「商旅AI」、「费控AI」和「CBI」三�
 
 **未见自动提单的功能**
 
-
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bBRyzXMOBQ/img/69c17a01-934a-4014-83aa-605c92964cb9.png?Expires=1774157768&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GVUlUGyoi7BQOj7iQC0nw4EeUVk%3D "")
-
 
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bBRyzXMOBQ/img/7705dbd4-3448-4da4-8ae9-3abdf602becd.png?Expires=1774157768&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=w%2BWZBKKSaXY9xVmCCCk8bZiYUno%3D "")
 
-
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bBRyzXMOBQ/img/57621d13-e833-4625-9a9b-9dfa2a1083d2.png?Expires=1774157768&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FBT6%2BTERtb0pAnTbJFXKKhm0UU0%3D "")
-
 
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Mp7ld7bBRyzXMOBQ/img/05449384-38d3-4077-a510-8a16bdb1874d.png?Expires=1774157768&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZY6UCZ%2B3BuUREDJl%2FRo5iXSwJlI%3D "")
 

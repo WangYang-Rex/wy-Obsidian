@@ -45,7 +45,7 @@ source: dingtalk-document-mcp
 2、字段
 - 涉及到可见范围如核算维度，因crm侧权限组件中无‘角色’相关信息，且报表层面用不上，故不同步
 - 部分写死逻辑的字段映射，见下表（预算申请组件本期暂不同步，涉及到预算管理）
-- 两个系统间其他控件映射，参见辉俊的：[<u>链接</u>](https://gykj.yuque.com/g/vhho51/qk42sg/xi8xxirfw45o9dm0/collaborator/join?token=RbNp923rfGzKOpqh&amp;source=doc_collaborator# 《2024-04-25 报表复用方案分析》)
+- 两个系统间其他控件映射，参见辉俊的：[链接](https://gykj.yuque.com/g/vhho51/qk42sg/xi8xxirfw45o9dm0/collaborator/join?token=RbNp923rfGzKOpqh&amp;source=doc_collaborator# 《2024-04-25 报表复用方案分析》)
 - 主子对象列表字段名取值（不带模板时字段名）系统预设字段：取预设名，见各表格自定义字段（来源于常用字段）：取配置好的\{组件名称\}自定义字段（来源于自定义字段）：由于自定义字段只会在一个单据中使用，相当于该字段只会在crm中一个模板使用，故列表中直接取该自定义字段的名称即可
 
 :::

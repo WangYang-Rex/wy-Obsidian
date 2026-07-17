@@ -11,7 +11,6 @@ source: dingtalk-document-mcp
 # 什么是有成PAAS
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/215dca65-22b7-4bed-a871-15cb5e94ca6a.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jZzClcs%2BnM52vpTVDziflN65ff0%3D "")
 
 # PAAS高级功能能做什么
@@ -27,15 +26,12 @@ source: dingtalk-document-mcp
 - 托拉拽添加表单控件，维护0门槛，开发0成本
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/88290568-dfbd-401b-8b1d-1ec302b0b8d5.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l%2BZTULhDIfwSoSqPWk6Y2CmiJb4%3D "")
-
 
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/ba093cae-add4-4a9a-8023-ddcbd3569667.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=agrxm0oPowB275%2BV6jquF7%2Fi56c%3D "")
 
 ## 更多高级控件
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a0e4d203-7e0c-435e-9d19-33d8d1ec9078.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9Qqq4BRj3Sq4FaEcog%2BZSNEd5YQ%3D "")
@@ -51,13 +47,10 @@ source: dingtalk-document-mcp
 - 报表中可以人员/部门为分析对象，分析订单、回款、拜访等数据
 
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5403e1eb-a119-42b9-a07a-5c60082dbace.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xHrItjeY0irY6CgBfhTYT1sngzU%3D "")
 
 
-
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/23b53dc9-37e4-495d-9373-d2255188387b.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xtXe%2FPiFyZATQTdCyaJwru0Ri4s%3D "")
-
 
 
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/b1ca10bd-7963-4ab0-aa87-49ced9fee922.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lw2HCztlbTtCwPZe6i7KOGbgUZU%3D "")
@@ -74,7 +67,6 @@ source: dingtalk-document-mcp
 - 被统计对象数据范围可设置，如统计回款金额的例子中，只统计审批通过的回款单金额
 
 
-
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/dce4c57f-5e47-4ddb-9832-9e97752d561f.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6%2BAtCi7VnzELcwN3a9irzaPqM%2FQ%3D "")
 
 #### 计算字段
@@ -87,7 +79,6 @@ source: dingtalk-document-mcp
 - 计算字段搭配统计字段使用，动态计算剩余量等信息，如订单中未回款金额=订单金额-已回款金额
 - 计算字段搭配逻辑函数使用，动态标记单据状态，如根据客户下单总额，标记客户等级
 - 计算字段搭配日期函数，动态计算剩余天数等信息，如根据合同到期时间，动态计算合同到期天数
-
 
 
 ![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/bf2623c8-b02e-47ef-98a2-acd2b4b2aa85.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=X09EGGqYSusTZ1tMDeQqNIKxnUQ%3D "")
@@ -107,9 +98,7 @@ source: dingtalk-document-mcp
 - 升级旗舰版，企业自定义工作流程可增加至20个
 
 
-
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/5e66b43e-5247-4637-936a-4284c46aa7b2.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=n09uWtbI4B0TwaUTeiHdNHm4h6E%3D "")
-
 
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/04b3a3c9-d8e5-4cbc-8be8-f4358b15f6af.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Sp4WDWMnWCCLAfn8C6inwMlTYvA%3D "")
@@ -128,7 +117,6 @@ source: dingtalk-document-mcp
 - 升级旗舰版，企业报表总数可增加至20张（最多200张图表）
 
 
-
 ![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/f7b16c1b-62b9-4f97-8817-e3872a30b9ca.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pt72gQ1vmYMn1QoqLgL6uYR%2FUrM%3D "")
 
 ## 更多消息机器人
@@ -144,9 +132,7 @@ source: dingtalk-document-mcp
 - 升级旗舰版，企业自定义消息模板可增加至20个
 
 
-
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/7acb7f86-18cb-4464-83ad-d5126b016fb6.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0O0wN2rXsT3gWlY65qeEyw5ySIQ%3D "")
-
 
 
 ![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/fda0fa97-f236-477f-b51b-2f74c04d2636.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XQK5YuR0GeC4rxrbppVUoByguoI%3D "")
@@ -161,9 +147,7 @@ source: dingtalk-document-mcp
 - 视图时间线信息、分组字段、展示字段均可自定义
 
 
-
 ![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/a25831b5-050d-4717-8432-f466026eaf3d.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=U%2FYB3GFImSe7rHK5XIgsLfjslVQ%3D "")
-
 
 
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3M0OzeZ8j1k3Nqze/img/351f6bdf-39a6-44a0-bf66-662aeb20ac1c.png?Expires=1774933948&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IlEwwUBTuffMsniow9wae7vujT0%3D "")

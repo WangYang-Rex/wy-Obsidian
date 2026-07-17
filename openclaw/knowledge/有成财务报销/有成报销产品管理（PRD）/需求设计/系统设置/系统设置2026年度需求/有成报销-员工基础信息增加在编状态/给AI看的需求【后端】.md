@@ -20,7 +20,6 @@ source: dingtalk-document-mcp
 在员工基础信息中新增"在编状态"字段（编内/编外）。并支持在公式计算中引用该字段，实现表格组件内员工组件与其他组件的数据联动。第三方系统需要通过openApi接口获取和推送员工的【在编状态】字段
 
 
-
 ---
 
 ## **2\. 本次需求功能点**
@@ -32,7 +31,7 @@ source: dingtalk-document-mcp
 | 新增 | 员工基础信息字段扩展 | 员工信息新增"在编状态"字段（空/编内/编外） | P1 |
 | 新增 | 员工信息导入导出扩展 | 员工导入/导出Excel增加"在编状态"列 | P1 |
 | 新增 | 公式引用员工子字段 | 公式引用员工子字段增加-在编状态 | P1 |
-| 新增 | openApi兼容在编状态字段 | <ul><li>1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）</li><br><li>2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）</li></ul> | P1 |
+| 新增 | openApi兼容在编状态字段 | 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson） | P1 |
 
 ### **3.2 详细功能描述**
 
@@ -94,7 +93,6 @@ batchStaff
 - 为空时保持为空，不自动填充
 
 
-
 **2.导出Excel**
 
 在导出文件中增加"在编状态"列，位置放在最后。
@@ -102,7 +100,6 @@ batchStaff
 导出员工接口：
 
 /sys/permission/report/exportEmpInfoList.rjson
-
 
 
 #### **3.2.3 公式计算支持员工组件子字段（在编状态）被引用**
@@ -126,7 +123,6 @@ batchStaff
 #### **3.2.4 公有成报销api接口【获取用户列表】和【批量新增/更新企业人员】增加【在编状态】字段**
 1. 获取用户列表接口（https://yiqbdata.superboss.cc/reimburse/user/getUserList.rjson）
 2. 批量新增\\更新企业人员接口（https://yiqbdata.superboss.cc/reimburse/user/mutil/save.rjson）
-
 
 
 flyway：
@@ -153,7 +149,6 @@ ALTER TABLE `corp_user_info_15` ADD COLUMN `permanent_status` tinyint(1) DEFAULT
 ```
 
 
-
 2、yiqb插入在编状态公式sql
 ```json
 INSERT INTO `sys_expression_config` (`field_type`, `field_sub_type`, `field_sub_type_desc`, `rule_item_key`, `rule_item_type`, `show_name`, `explain_info`, `calculate_info`, `created`, `modified`, `enable`, `resourceFrom`) VALUES ( 'cptDetails', 'staff', '员工', 'permanentStatus', 'field', '在编状态', NULL, '{\"showName\":\"在编状态\",\"cptCustomFieldValue\":\"permanentStatus\",\"value\":\"staff\",\"fieldValueType\":\"cptValueId\",\"ruleResultTypes\":[{\"type\":\"string\"}],\"fieldDataCategory\":\"cpt\",\"ruleItemType\":\"field\"}', '2024-06-06 14:17:29', '2024-06-06 14:17:29', 1, 'server');
@@ -162,9 +157,5 @@ INSERT INTO `youcheng_yiqb`.`sys_expression_config` (`field_type`, `field_sub_ty
 
 
 ```
-
-
-
-
 
 

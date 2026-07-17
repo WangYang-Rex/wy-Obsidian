@@ -21,7 +21,6 @@ source: dingtalk-document-mcp
 自定义关联对象、子表单及数据联动铺开需求
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/32f37abc-d8ba-4e59-be53-41b641bb11cf.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=p%2FoxShIo2I6qjiO0Np4KnsmYygQ%3D "")
 
 ## 3、跟进记录（已上线）
@@ -29,18 +28,17 @@ source: dingtalk-document-mcp
 自定义关联对象、子表单及数据联动铺开需求
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/9e0a93ea-2ddb-4d35-8186-bb65bc34c7c1.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZsjewOPHghIIt%2BWT2zoiiaaU1WY%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
-| 关联对象/关联对象类型 | 一、4.4 【跟进铺开】指定关联对象支持自定义[<u>https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#</u>](https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#) 《子表单补充功能》二、公海/线索池中单据下，可以直接快捷新建跟进记录：若针对目前数据范围设置（不设置数据范围）可以直接快捷新建，则不做其他处理若不能，则需要前端处理，将线索/公海对象、数据带入 |
+| 关联对象/关联对象类型 | 一、4.4 【跟进铺开】指定关联对象支持自定义[https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#](https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#) 《子表单补充功能》二、公海/线索池中单据下，可以直接快捷新建跟进记录：若针对目前数据范围设置（不设置数据范围）可以直接快捷新建，则不做其他处理若不能，则需要前端处理，将线索/公海对象、数据带入 |
 | 关联产品 | 技术先导出近一个月有用到该功能的客户，让客成同事进行沟通，提前告知要下架 |
 | 跟进联系人数据范围配置 | 特殊处理：同目前线上流程\+ 关联客户：联系人可选择客户下的联系人\+ 关联报价单/销售机会/合同订单/协议/工单/项目：可选上述单据关联的客户，下的联系人\+ 其他：该字段隐藏 |
-| 引用客户地址 | 4.3 【跟进铺开】引用字段：支持指定关联对象/支持地址组件[<u>https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#</u>](https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#) 《子表单补充功能》 |
+| 引用客户地址 | 4.3 【跟进铺开】引用字段：支持指定关联对象/支持地址组件[https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#](https://gykj.yuque.com/vhho51/asmkvg/enxg4k?singleDoc#) 《子表单补充功能》 |
 | 字段配置 | 1.系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变2.用户自定义字段则原逻辑迁移 |
 | 交互优化 | 一、样式固定1、pc端\+ 新建编辑（直接新建&快捷新建）- 跟进内容固定在最上方，其余同模板设置（改造前关联对象也是固定在最上方的，此次需要变动）- 子表单：同其他对象\+ 单据下列表/跟进记录列表- 跟进内容固定在最上方，其余同模板设置- 点击跟进记录整个区块，可穿透查看跟进记录详情\+ 跟进记录详情（新增）- 详情tab：跟进内容固定在最上方，其余同模板设置- 其他tab：同其他对象- 根据角色权限，展示‘打印’按钮2、mb端\+ 新建编辑- 将‘跟进内容’移动到基本信息区块下（因为要添加子表单）- 跟进内容固定在最上方，其余同模板设置（同线上）- 子表单：同其他对象\+ 单据下列表/跟进记录列表- 展示内容及样式同线上- 点击跟进记录整个区块，可穿透查看跟进记录详情\+ 跟进记录详情（新增）- 详情tab：展示内容及样式同线上- 其他tab：同其他对象二、指定关联对象选择弹窗交互优化1、‘对象类型’已选择（例：客户）：选择关联弹窗中‘对象’默认=已选择对象2、支持在选择关联弹窗中变更‘对象’，变更后对应的场景、搜索字段、按钮、列表字段及数据均变更为对应对象；3、选择数据后，若‘对象’有变更，须将‘对象类型’更新 |
-| 其他 | 1、跟进记录保存草稿功能须保留2、跟进内容中支持@人员须保留3、跟进中语音、电话录音等，须保留4、拨打下一位功能须保留[<u>https://tb.raycloud.com/task/5ef312dfeeb76f3ff598d362</u>](https://tb.raycloud.com/task/5ef312dfeeb76f3ff598d362)5、呼叫中心：客户、线索列表，点击拨号后，自动进入详情页-跟进记录 功能须保留[<u>https://tb.raycloud.com/task/5ef31287110851400cc9a32d</u>](https://tb.raycloud.com/task/5ef31287110851400cc9a32d)6、跟进记录评论中支持@人员 须保留[<u>https://tb.raycloud.com/task/5fb63087a03d5c2a1f47c711</u>](https://tb.raycloud.com/task/5fb63087a03d5c2a1f47c711)7、跟进记录tab页支持内容搜索 须保留[<u>https://tb.raycloud.com/task/6268b9757bcbb500332e2176</u>](https://tb.raycloud.com/task/6268b9757bcbb500332e2176)8、跟进记录增加【批量删除】按钮\+ 未选中数据：点击按钮时toast提示‘请先选择要操作的数据’\+ 选中的数据中包含\{对象类型\}=‘客户’or ‘线索’or ‘销售机会’ or ‘合同订单’时，删除失败并toast提示‘删除失败：涉及到线索/客户回收，线索/客户/销售机会/合同订单下的跟进记录不支持批量删除’ |
+| 其他 | 1、跟进记录保存草稿功能须保留2、跟进内容中支持@人员须保留3、跟进中语音、电话录音等，须保留4、拨打下一位功能须保留[https://tb.raycloud.com/task/5ef312dfeeb76f3ff598d362](https://tb.raycloud.com/task/5ef312dfeeb76f3ff598d362)5、呼叫中心：客户、线索列表，点击拨号后，自动进入详情页-跟进记录 功能须保留[https://tb.raycloud.com/task/5ef31287110851400cc9a32d](https://tb.raycloud.com/task/5ef31287110851400cc9a32d)6、跟进记录评论中支持@人员 须保留[https://tb.raycloud.com/task/5fb63087a03d5c2a1f47c711](https://tb.raycloud.com/task/5fb63087a03d5c2a1f47c711)7、跟进记录tab页支持内容搜索 须保留[https://tb.raycloud.com/task/6268b9757bcbb500332e2176](https://tb.raycloud.com/task/6268b9757bcbb500332e2176)8、跟进记录增加【批量删除】按钮\+ 未选中数据：点击按钮时toast提示‘请先选择要操作的数据’\+ 选中的数据中包含\{对象类型\}=‘客户’or ‘线索’or ‘销售机会’ or ‘合同订单’时，删除失败并toast提示‘删除失败：涉及到线索/客户回收，线索/客户/销售机会/合同订单下的跟进记录不支持批量删除’ |
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/8fa4a173-1287-4a9e-832f-884c44a786e8.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DkHFy0y3WDUor01RlukbzQCXtus%3D "")
 
@@ -51,13 +49,12 @@ source: dingtalk-document-mcp
 自定义关联对象、子表单及数据联动铺开需求
 
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/048247e6-c025-480a-b6e4-c84dcffd5ecf.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DoeIMDSKhzXtEO0yDdMAoXwJhes%3D "")
 
 | **需求** | **说明** |
 |----------|----------|
 | 其他交互需求 | 详情页：源单明细行编码这个关联对象字段，不支持点击穿透 |
-| 子表单配置 | 一、子表单移动端字段配置根据各企业现在的配置情况进行迁移二、子表单字段配置1.系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。备注：1）批次保质期相关组件、单位成本/成本需求保持目前线上逻辑单位成本/成本：[<u>https://tb.raycloud.com/task/616cd86b933f542a1a514c7b</u>](https://tb.raycloud.com/task/616cd86b933f542a1a514c7b)2）待入库数量：\{源单明细行编码\}不为空的明细行的逻辑同目前线上；为空的，则该值为0；3）支持多仓库退货入库\+ 交互优化（参考其他入库单）- 添加一条明细：默认带出主单据的“仓库”（如主单据的“仓库”为空或隐藏，则不带出“仓库”，用户手动选择）- 变更主业务对象“仓库”：弹窗提示如下（pc\+mb）\* 用户点击“取消”后，变更仓库失败；\* 点击“确认”，变更仓库成功，并按照修改后的仓库批量变更明细行\{仓库\}信息；\+ 历史数据处理- 功能上线时，将历史其他入库单明细该字段，统一刷成主表\{仓库\}信息\+ 变更库存逻辑- 单据审核通过/编辑重新审批/删除等操作，增加/扣减库存的逻辑变更为根据明细表行仓库\+产品明细；2.用户自定义字段则原逻辑迁移 |
+| 子表单配置 | 一、子表单移动端字段配置根据各企业现在的配置情况进行迁移二、子表单字段配置1.系统字段迁移如上字段说明，未注明的即保持原字段属性及配置不变。备注：1）批次保质期相关组件、单位成本/成本需求保持目前线上逻辑单位成本/成本：[https://tb.raycloud.com/task/616cd86b933f542a1a514c7b](https://tb.raycloud.com/task/616cd86b933f542a1a514c7b)2）待入库数量：\{源单明细行编码\}不为空的明细行的逻辑同目前线上；为空的，则该值为0；3）支持多仓库退货入库\+ 交互优化（参考其他入库单）- 添加一条明细：默认带出主单据的“仓库”（如主单据的“仓库”为空或隐藏，则不带出“仓库”，用户手动选择）- 变更主业务对象“仓库”：弹窗提示如下（pc\+mb）\* 用户点击“取消”后，变更仓库失败；\* 点击“确认”，变更仓库成功，并按照修改后的仓库批量变更明细行\{仓库\}信息；\+ 历史数据处理- 功能上线时，将历史其他入库单明细该字段，统一刷成主表\{仓库\}信息\+ 变更库存逻辑- 单据审核通过/编辑重新审批/删除等操作，增加/扣减库存的逻辑变更为根据明细表行仓库\+产品明细；2.用户自定义字段则原逻辑迁移 |
 | 升级引导 | 1\. 历史客户：业务模板-销退入库单产品，统一展示提示页面如下，参考‘报价单产品’2\. 新签客户：去除‘业务模板-销退入库单产品’ |
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/b22377b7-bd93-4d4e-871e-e6a01fd777de.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XKplHxmVdQKkoLsvTlWqMZ1jdG4%3D "")
@@ -65,7 +62,6 @@ source: dingtalk-document-mcp
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 5、日报/月报/周报（一期已铺开）（已上线）
-
 
 
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/301906d8-a3a9-4146-838d-43b2eb02e87c.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=f4VBy7h1ilDVfEu5OcDx3EoXMEQ%3D "")
@@ -84,7 +80,6 @@ source: dingtalk-document-mcp
 ## 6、采购价目表（已上线）
 
 
-
 ![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/0cabbf9d-5a7f-4182-a20f-54534329456e.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hItc32I8A5d1nP8Wd8HlS7hwwb0%3D "")
 
 | **需求** | **说明** |
@@ -95,7 +90,6 @@ source: dingtalk-document-mcp
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 7、采购退货单（已上线）
-
 
 
 ![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/56556fd6-5459-4da0-80a1-bbf5321f0d96.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GgPAHgbeW2d087KaJmXWo3tkXzc%3D "")
@@ -110,7 +104,6 @@ source: dingtalk-document-mcp
 ## 8、产品/产品明细（已上线）
 
 
-
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/3e246075-e734-490b-a1b7-70ab9203197d.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gfMIPAQMqqcwbkxNcp0VJibCYcA%3D "")
 
 | **需求** | **说明** |
@@ -120,7 +113,6 @@ source: dingtalk-document-mcp
 ## 9、采退出库单（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 
 ![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/2f001d23-83e7-4787-8bb0-fbfd20b9526a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sqEdhS0Rd81K96chc%2BtMnFPFdts%3D "")
@@ -138,7 +130,6 @@ source: dingtalk-document-mcp
 ## 10、客户（已上线）
 
 
-
 ![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/e920085b-5d54-419f-a2c2-68e13112d36c.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zXmQLDN3sHE07PBrdB8Mvju0510%3D "")
 
 | **需求** | **说明** |
@@ -150,13 +141,11 @@ source: dingtalk-document-mcp
 ## 11、核算维度（已上线）
 
 
-
 ![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/1d247b75-619a-455c-8216-d556c2f96125.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gV1cO7NHgUmziYhNp8QgYnzXvck%3D "")
 
 ## 12、调拨出库单（待测试）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 
 ![Picture 23](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/2649529b-5a86-4771-bd96-09f27fa07ba8.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SXxYn5mbAGFa%2FK4slisLgqTHxkM%3D "")
@@ -174,7 +163,6 @@ source: dingtalk-document-mcp
 自定义关联对象、子表单及数据联动铺开需求
 
 
-
 ![Picture 25](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/c37caf8e-cb16-4a7b-9ab9-b83150d0128a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RS8zT9oMzzHwe40u5VIapDGLyRQ%3D "")
 
 | **需求** | **说明** |
@@ -188,7 +176,6 @@ source: dingtalk-document-mcp
 ![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 14、规格/规格值（待测试）
-
 
 
 ![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/ab87f9db-6893-4d09-99c1-31aa03b20d34.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IYIox7Nav6GnBA5dQ5UjBYdyXdE%3D "")

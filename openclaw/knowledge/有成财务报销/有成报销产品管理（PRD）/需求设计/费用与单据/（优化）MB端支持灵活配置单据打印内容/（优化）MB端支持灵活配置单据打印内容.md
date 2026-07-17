@@ -37,5 +37,4 @@ source: dingtalk-document-mcp
 - 单据默认选中，不可取消选中
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mdGL5yDn34/img/7dbc99e9-857a-453d-bee5-36c8d2d740ed.png?Expires=1778767325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=InxpiM5rrAfhYiIec2Oq5Ka4fOc%3D "")

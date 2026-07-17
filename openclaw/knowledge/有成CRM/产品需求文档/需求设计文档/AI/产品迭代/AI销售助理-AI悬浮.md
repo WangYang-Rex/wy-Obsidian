@@ -16,7 +16,6 @@ source: dingtalk-document-mcp
 ## 需求详情
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPQbADrqXx/img/73ddb005-2538-4a2e-9c86-7519dbf47486.png?Expires=1774934122&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=v8srx4%2B96cFeeuzlCHUvwj3O2pw%3D "")
 
 | **需求** | **描述** |

@@ -21,7 +21,6 @@ source: dingtalk-document-mcp
 # **2\. 业务流程/架构**
 
 
-
 # **3\. 功能清单**
 
 | 模块 | 功能点 | 备注 |
@@ -41,11 +40,9 @@ PC&MB
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobdX6bRblpj/img/726491cf-8317-43a9-a175-aa7150d3030c.png?Expires=1775016598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7UOz9XHLU8BOHR5EtAlpsca88Hw%3D "")
 
 
-
 AI审批
 
 [AI审批-1030新版重录.mp4]
-
 
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobdX6bRblpj/img/931e9bee-0dbd-4fdb-8375-ec1d3224ac9d.png?Expires=1775016598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CEw%2FxPj9da4GpoC5O1I0%2Bj1AdgI%3D "")
@@ -55,9 +52,6 @@ AI分析
 [AI经营分析（新2）.mp4]
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobdX6bRblpj/img/bc3c5aac-644a-472a-862a-9b085d4b16a7.png?Expires=1775016598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GeVz4ATdWC4zTV0otGVtY7j2A%2FA%3D "")
-
-
-
 
 
 ## **试用策略**
@@ -101,7 +95,6 @@ AI分析
 点击“联系客服开通”，e和未开通用户一样展示客户联系电话/WPS客服二维码。
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/KM7qeobdX6bRblpj/img/37409252-6811-4caa-a95d-8ce355ba386a.png?Expires=1775016598&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=EmjeaLVSXHw3m3Mr%2FQ0fNXRq9bc%3D "")
-
 
 
 正式购买AI应用后，正常展示功能模块。

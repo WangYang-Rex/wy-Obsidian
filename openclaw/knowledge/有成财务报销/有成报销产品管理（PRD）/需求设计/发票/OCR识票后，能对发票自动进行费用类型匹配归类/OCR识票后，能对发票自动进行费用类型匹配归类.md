@@ -45,7 +45,6 @@ source: dingtalk-document-mcp
 增加「费用设置」tab页
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/549d3fef-5800-4fab-be50-bfa8cff85d11.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=x9lel7Dc2Go4wY1pZqAcM6D7pj8%3D "")
 
 图1
@@ -63,7 +62,6 @@ source: dingtalk-document-mcp
 注：用户原来设置的数据需要同步
 
 
-
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/4b30e9ae-e2b0-4ac9-9561-3019aaf87d3f.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=b7%2Bayv6PhQNewjmmDYtosgTFT%2F0%3D "")
 
 图2
@@ -74,7 +72,6 @@ source: dingtalk-document-mcp
 
 2、自定义费用页给出提示及引导（图3）
 - 点击“去设置”跳转 全局设置—费用设置
-
 
 
 ![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/d06ad59d-105b-422c-8ae3-125b8c278f74.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IAg00qCC4ve6OcYHQA3cAdGJ0Mc%3D "")
@@ -91,14 +88,12 @@ source: dingtalk-document-mcp
 - **OCR识票后，有三种情况：匹配到一个消费类型、未匹配到消费类型、匹配到多个消费类型**匹配到一个消费类型，如（图8）未匹配到消费类型，不做页面提示匹配到多个费用类型，如（图9）
 
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/4d9693d9-2907-4ab9-ba02-0ca53fdd3f04.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wRh1dC1FrE5CQ77bpSdgp1yxu7Y%3D "")
 
 ![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/2fa4020d-8418-44d6-9e8d-e0f14ea99a00.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4QMYREV4um0I67cb4muEcR7AO6o%3D "")
 
-\<font style="background-color:#FBDE28;"\>图8\</font\>                                                                 \<font style="background-color:#FBDE28;"\>图9\</font\>
+\图8\                                                                 \图9\
 - **逐条生成消费**场景一：勾选的所有发票都已匹配到费用类型按已匹配到的费用类型逐条生成消费场景二：勾选发票中，部分未匹配到费用类型已匹配到发票按匹配到的费用类型生成消费，其他需手动选择费用类型后生成消费（图10）提示：发票：「住宿服务住宿费」「XX商品名称」未匹配到费用类型，无法生成消费。是否继续对其他发票生成消费？场景三：勾选的所有发票未匹配到费用类型展示“费用类型选择浮窗”，选择费用类型后，生成消费（和当前逻辑一样）
-
 
 
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbM4zBWjlWN/img/3e0c228e-3b76-4eaf-9b46-bed66eb8d0a9.png?Expires=1778767249&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TZecMAm8mb4V%2BI2anGvPonHoDBg%3D "")

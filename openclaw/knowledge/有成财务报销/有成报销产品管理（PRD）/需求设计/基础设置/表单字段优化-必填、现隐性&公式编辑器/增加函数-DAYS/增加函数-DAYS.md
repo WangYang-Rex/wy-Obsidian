@@ -21,8 +21,7 @@ source: dingtalk-document-mcp
 
 ## 2、需求详情
 
-[<u>https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz</u>](https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz) 《编辑器字段、函数库》
-
+[https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz](https://gykj.yuque.com/izoyhv/tzh23k/prlqphhhdlh531ye?singleDoc#ciOz) 《编辑器字段、函数库》
 
 
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/05a9a1ab-9a4f-4636-a207-65a60af04418.png?Expires=1778766845&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=THSX6lBlosSQKxx7k4BqnCTA%2FR8%3D "")
@@ -38,11 +37,9 @@ source: dingtalk-document-mcp
 比如：202407至202408，转换为：2024-07-01至2024-08-31202407至2024-09，转换为：2024-07-01至2024-09-30
 
 
-
 实现东艾计算天数的函数示例：
 
 =DAYS(结束日期,开始日期)\+1
-
 
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1wvqrebLm8VbMnak/img/2c2f9b20-4f26-477d-a4f9-cda1b72c8edd.png?Expires=1778766845&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sGg47MJ1eIg%2BYDK%2BHNc3w4%2BBVdo%3D "")

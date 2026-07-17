@@ -30,11 +30,9 @@ P1-基础能力，未购买AI应用的用户也能够使用。
 2. 支持根据附件类型中的某些字段进行查重。
 
 
-
 P2-AI
 3. AI根据选择的附件类型，自动填写附件详情
 4. mcp\_tools增加查询附件详情-AI审批
-
 
 
 P3-AI，支付截图生成消费
@@ -42,12 +40,10 @@ P3-AI，支付截图生成消费
 6. AI可以识别附件类型，用户上传附件后，AI完成识别类型-填写详情-生成消费的链路，后接消费-行程-填单流程。
 
 
-
 后续规划：
 - 支持附件\+发票关联到同一笔费用
 - 放开附件类型、附件详情字段自定义
 - 对公场景，附件智能填单
-
 
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/6df5c342-8263-43ae-8fa5-1ff2f56f0379.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DD%2Buh7ICO17ude61uXHfgmgF7og%3D "")
@@ -78,14 +74,13 @@ prompt：
 试了十来张不同样式的支付宝/微信支付截图，准确率100%。
 
 
-
 # **3\. 功能清单**
 
 | 模块 | 功能点 | 备注 |
 |------|---------|------|
 | 全局设置 | 新增附件设置，支持设置附件查重、AI识别 |  |
 | 费用、单据上传附件、附件中心 | 支持编辑附件类型：支付截图、支付截图 |  |
-|  | 支持上传时AI自动识别附件类型<br>支持AI识别附件自动识别附件类型 |  |
+|  | 支持上传时AI自动识别附件类型支持AI识别附件自动识别附件类型 |  |
 | 附件管理 | 支持查看附件类型 |  |
 | AI审核 | MCP-tools支持查询附件详情 |  |
 
@@ -101,10 +96,10 @@ prompt：
 
 | ~~字段~~ | ~~说明~~ |
 |----------|----------|
-| ~~附件类型~~ | ~~单选必选，~~<br>~~可选项：收款截图、支付截图~~<br>~~多条规则的附件类型不能重复。直接过滤。~~<br>~~切换附件类型时清空“查重字段”。~~ |
-| ~~查重字段~~ | ~~多选必选~~<br>~~可选项：根据附件类型展示不同的字段。~~<br>~~收款截图可选：收款单号、收款日期、收款金额、付款方名称~~<br>~~支付截图可选：支付单号、支付日期、支付金额、收款方名称~~ |
-| ~~适用单据类型~~ | ~~多选必选~~<br>~~可选项：报销单、借款单、申请单、收款单、付款单、合同、项目~~ |
-| ~~预警规则~~ | ~~单选必选~~<br>~~可选项：预警提醒、预警禁止~~ |
+| ~~附件类型~~ | ~~单选必选，~~~~可选项：收款截图、支付截图~~~~多条规则的附件类型不能重复。直接过滤。~~~~切换附件类型时清空“查重字段”。~~ |
+| ~~查重字段~~ | ~~多选必选~~~~可选项：根据附件类型展示不同的字段。~~~~收款截图可选：收款单号、收款日期、收款金额、付款方名称~~~~支付截图可选：支付单号、支付日期、支付金额、收款方名称~~ |
+| ~~适用单据类型~~ | ~~多选必选~~~~可选项：报销单、借款单、申请单、收款单、付款单、合同、项目~~ |
+| ~~预警规则~~ | ~~单选必选~~~~可选项：预警提醒、预警禁止~~ |
         1. ~~规则全部完整后失焦入库，否则提示：请设置【附件类型】的【必填未填字段名称】。~~
         2. ~~删除规则时无需二次确认。~~
     2. ~~首次开启需要初始化两条查重规则。：~~
@@ -121,8 +116,8 @@ prompt：
 
 | ~~字段~~ | ~~说明z~~ |
 |----------|-----------|
-| ~~附件类型~~ | ~~单选必选，~~<br>~~可选项：收款截图、支付截图~~<br>~~多条设置的附件类型不能重复。直接过滤。~~<br>~~切换附件类型时清空“限制提交人编辑字段”。~~ |
-| ~~限制提交人编辑字段~~ | ~~提示文案：~~<br>> ~~此处设置的字段只能由AI自动识别，不允许提交人手工编辑。~~   <br>~~多选必选~~<br>~~可选项：根据附件类型展示不同的字段。~~<br>~~收款截图可选：收款单号、收款日期、收款金额、付款方名称~~<br>~~支付截图可选：支付单号、支付日期、支付金额、收款方名称~~ |
+| ~~附件类型~~ | ~~单选必选，~~~~可选项：收款截图、支付截图~~~~多条设置的附件类型不能重复。直接过滤。~~~~切换附件类型时清空“限制提交人编辑字段”。~~ |
+| ~~限制提交人编辑字段~~ | ~~提示文案：~~> ~~此处设置的字段只能由AI自动识别，不允许提交人手工编辑。~~   ~~多选必选~~~~可选项：根据附件类型展示不同的字段。~~~~收款截图可选：收款单号、收款日期、收款金额、付款方名称~~~~支付截图可选：支付单号、支付日期、支付金额、收款方名称~~ |
             1. ~~设置全部完整后失焦入库，否则提示：请设置【附件类型】的【必填未填字段名称】。~~
             2. ~~删除设置时无需二次确认~~
         9. ~~首次开启“AI自动识别”时需要初始化两条限制编辑设置。：~~
@@ -134,7 +129,6 @@ prompt：
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/0b067d5b-197e-4574-a4d1-00a3d9b2ecd0.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=F7O9C%2F3hwT4xz2d36HX2BBp5vdU%3D "")
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/bd68682d-1ff5-4083-ae50-08ce9a141ac3.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KKSuFn5fKyrSumx6NiA9Ld0E1Sg%3D "")
-
 
 
 ### **支持编辑附件类型**
@@ -155,8 +149,8 @@ prompt：
 
 | ~~字段~~ | ~~说明~~ |
 |----------|----------|
-| ~~文件名~~ | ~~文本，上限50，必填~~<br>~~有附件编辑权限的用户都可以编辑。~~ |
-| ~~支付单号~~ | ~~文本，上限50，必填~~<br>~~当未启用AI自动识别时，提交人可编辑。~~<br>~~当启用了AI自动识别时，根据配置的附件类型下“~~~~限制提交人编辑字段~~~~”中的设置，判断提交人是否可编辑。~~<br>~~以下字段可编辑判断都是这个逻辑。~~ |
+| ~~文件名~~ | ~~文本，上限50，必填~~~~有附件编辑权限的用户都可以编辑。~~ |
+| ~~支付单号~~ | ~~文本，上限50，必填~~~~当未启用AI自动识别时，提交人可编辑。~~~~当启用了AI自动识别时，根据配置的附件类型下“~~~~限制提交人编辑字段~~~~”中的设置，判断提交人是否可编辑。~~~~以下字段可编辑判断都是这个逻辑。~~ |
 | ~~支付日期~~ | ~~yyyy-mm-dd，必填~~ |
 | ~~支付金额~~ | ~~小数点前9后2，CNY，必填~~ |
 | ~~收款方名称~~ | ~~文本，上限100，非必填。~~ |
@@ -164,7 +158,7 @@ prompt：
 
 | ~~字段~~ | ~~说明~~ |
 |----------|----------|
-| ~~文件名~~ | ~~文本，上限50，必填~~<br>~~有附件编辑权限的用户都可以编辑。~~ |
+| ~~文件名~~ | ~~文本，上限50，必填~~~~有附件编辑权限的用户都可以编辑。~~ |
 | ~~收款单号~~ | ~~文本，上限50，必填~~ |
 | ~~收款日期~~ | ~~yyyy-mm-dd，必填~~ |
 | ~~收款金额~~ | ~~小数点前9后2，CNY，必填~~ |
@@ -235,11 +229,9 @@ prompt：
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/da70a1db-7c81-4b31-9fe1-70b68e2fe2c7.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=1345pce4MjaGAwEZX6tHYLPmjp0%3D "")
 
 
-
 ## **移动端编辑附件、查看附件交互**
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/2533998f-207d-4874-b0df-4bfaf0b7d224.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hnxdYsStehmcoZUZeYJFa8l%2FLa0%3D "")
-
 
 
 ## **AI审核，mcp能力拓展**
@@ -252,11 +244,6 @@ AI审核mcp，新增查询单据上/单据的费用上/单据子表单上附件�
 - 单据的消费明细组件中，如果费用上的附件组件上传了“支付截图”类型的附件，则该附件上的支付金额必须和对应费用金额一致。
 
 
-
-
-
-
-
 ## **开放附件类型可编辑，整合相关规则维护**
 
 【部分内容会延用上方原文档，有调整的会重新说明】
@@ -267,11 +254,11 @@ AI审核mcp，新增查询单据上/单据的费用上/单据子表单上附件�
 
 | **功能** | **具体描述** | **图示** |
 |----------|----------------|----------|
-| 附件类型 | 左侧类型列表：展示所有维护好的类型<br><ul><li>1. 固定展示“未分类”，点击右侧展示“历史附件统一归属于【未分类】”【图1】【后续可以做成维护条件，系统定时刷数据，赋值历史附件对应的类型】</li><br><li>2. 新增类型按钮：默认常亮。点击后弹出弹窗【图2】</li><br><li style="margin-left:1em">1. 类型名称：必填，文本框，20字符上限。</li><br><li style="margin-left:1em">2. 类型说明：必填，文本框，50字符上限。</li><br><li style="margin-left:1em">3. 保存时校验“类型名称”是否重复。确认不重复则左侧列表生成相应的新附件类型，并且右侧直接展示该附件类型的详情内容【图3】</li><br><li>3. 会在功能上线后初始化的时候，创建“支付截图、收款截图”两类</li></ul> | 图1:<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/12b8e98e-c970-4f48-b2fa-06a5c6169488.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0UTHIlNXzOXLDQcp6vbj2s6jO6s%3D "")<br>图2:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c0cec1a7-9757-49a2-8281-8511611e2854.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=THRGDZMJAw5yhpQeqjkMZrGmhTA%3D "")<br>图3:<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c6670514-63e8-49bf-9d7a-85eb6c92d72d.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9y1j1A9zToc7foZ%2FUAaq5JWfNKw%3D "") |
-| 右侧附件类型详情内容 | 页面按钮：<br><ul><li>1. 编辑：按钮常亮，点击将页面变更为可编辑状态【部分字段可编辑，部分不可以】同时按钮变为“保存和取消”</li><br><li style="margin-left:1em">1. 点击保存统一校验所有必填项是否填写：</li><br><li style="margin-left:2em">1. 有一个不通过则所有内容都不保存，提示“存在必填项未填写”</li><br><li style="margin-left:2em">2. 全部通过后才会保存，同时更新操作人、最近一次操作时间字段</li><br><li style="margin-left:1em">2. 点击取消视为并未编辑返回原状态</li><br><li>2. 删除：按钮常亮，点击后判断是否部分配置字段已经存在值</li><br><li style="margin-left:1em">3. 若存在则不允许删除，提示“当前附件类型内的部分字段已经存在数据，无法删除”</li><br><li style="margin-left:1em">4. 若不存在则弹出二次确认弹窗【右图】</li></ul> | ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/e06fc5e1-a0da-4276-9bd5-80866b5ae132.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=g%2FFGiQoWvuaMSqqisUdzJNJEv7M%3D "") |
-|  | 基础信息-非编辑态：【图1】<br><ul><li>1. 类型名称：创建时填写的名称</li><br><li>2. 类型说明：创建时填写的类型说明</li><br><li>3. 创建时间：该类型初次创建的时间</li><br><li>4. 操作人：最近一次操作的操作人员姓名</li><br><li>5. 最近一次操作时间：最近一次操作保存成功的时间</li><br>基础信息-编辑态：【图2】<br><li>1. 类型名称：不可编辑</li><br><li>2. 类型说明：文本框，回显填写内容</li></ul> | 图1:<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/b1c9a2bb-db66-4b73-bb4d-18f37e2e6490.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2Fa%2FWDIqZtWAT9dGz9BlkQfuE5JA%3D "")<br>图2：<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/8119c941-6b69-484e-a2cb-361bb7fc5c1e.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qlqdjGhRyTFDcV6zhgftEN6FG5M%3D "") |
-|  | 字段信息-非编辑态：【图1】<br><ul><li>1. 字段名称：英文属性名，唯一ID</li><br><li>2. 字段显示名称：中文名</li><br><li>3. 字段类型：填写字段类型限制</li><br><li>4. 字段格式：填写字段格式/长度限制</li><br><li>5. 是否必填：字段填写限制</li><br><li>6. 填写方式：字段填写规则限制</li><br><li>7. 字段描述：纯文本，解释备注</li><br><li>8. 是否可编辑：后续业务控制使用</li><br><li>9. 是否查重使用：后续业务控制使用</li><br>字段信息-编辑态：【图2】<br><li>1. 字段名称：文本框，40字符上限。可编辑时需要填写保存后校验是否与系统中其他类型下字段名称重复，若重复则提示“与“附件类型”内的“字段名称”重复”，若不重复则正常保存</li><br><li>2. 字段显示名称：文本框，20字符上限。可编辑时需要填写保存后校验是否与系统中其他类型下字段显示名称重复，若重复则提示“与“附件类型”内的“字段显示名称”重复”，若不重复则正常保存</li><br><li>3. 字段类型：下拉单选框，枚举值“文本、日期、数字”。</li><br>注：字段名称、字段显示名称、字段类型这三个值在未被使用并生成数据时，是可以进行删除修改的，而一旦生成了数据就不能再修改了【第一个是唯一编码，字段类型一旦存了数据再改会对历史数据存在影响】<br><li>4. 字段格式：根据所选字段类型做相应的可选内容展示。</li><br><li style="margin-left:1em">1. 字段类型为文本：文本框，底色提示语“填写字符长度上限”</li><br><li style="margin-left:1em">2. 字段类型为日期：下拉单选框，枚举值“YYYY-MM-DD、YYYY.MM.DD、YYYYMMDD、YYYY/MM/DD”</li><br><li style="margin-left:1em">3. 字段类型为数字：文本框，底色提示语“填写“位数，小数点后几位””</li><br><li>5. 是否必填：下拉单选框，枚举值“必填、非必填”</li><br><li>6. 填写方式：下拉单选框，枚举值“AI识别、人工填写”</li><br><li style="margin-left:1em">4. AI识别：附件详情弹窗中系统自动获取采集内容补充该字段</li><br><li style="margin-left:1em">5. 人工填写：附件详情弹窗中需要手动维护该字段时</li><br><li>7. 字段描述：文本框，50字符上限</li><br><li>8. 是否可编辑：下拉单选框，枚举值“是、否”</li><br><li style="margin-left:1em">6. 是：在附件详情弹窗中，只要具备附件编辑权限的人员都可以编辑。（就算是AI识别后也可以编辑）</li><br><li style="margin-left:1em">7. 否：在附件详情弹窗中，AI识别后则不再允许提交人手动编辑，但是审批人可以根据权限判断编辑</li><br><li style="margin-left:1em">8. 存在鼠标悬浮提示语“若不可编辑，则只能由AI自动识别补充，不允许提交人手动编辑，审批人能否编辑则需要按照审批流中的附件编辑权限控制”</li><br><li>9. 是否查重使用：下拉单选框，枚举值“是、否”</li><br><li style="margin-left:1em">9. 是：则在查重校验时，会根据当前字段来判断是否重复</li><br><li style="margin-left:1em">10. 否：则在查重校验时不会使用当前字段</li><br><li style="margin-left:1em">11. 存在鼠标悬浮提示语“查重字段完全一致时，视为同一份附件。查重字段自动选择必填”</li><br>注：标记为查重字段时，是否必填会自动选择“是”<br><li>10. 按钮：每一行左侧都有添加删除按钮，若仅有一行的时候只有添加【即：最少要有一个字段】</li><br><li style="margin-left:1em">12. 添加：在当前行下新增一行，全部为空值</li><br><li style="margin-left:1em">13. 删除：点击判断当前行字段是否已经存储数据，若已经存在则不允许删除，若不存在则弹出二次确认弹窗【图3】</li></ul><br>注：除字段描述外，均必填 | 图1:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/0296b3f9-570b-4ccb-9458-6a02ec30f63f.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Vm79vct4P2B1U7%2F8PkGSTHylkJY%3D "")<br>图2:<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c87046a1-c43d-4b1c-8578-c064f5f27245.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uLClEyD7Fmq9Qs9siJsU8kCJktM%3D "")<br>图3:<br>![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/e06fc5e1-a0da-4276-9bd5-80866b5ae132.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=g%2FFGiQoWvuaMSqqisUdzJNJEv7M%3D "") |
-|  | 查重规则维护：<br><ul><li>1. ~~查重单据类型：多选必选；可选项：报销单、借款单、申请单、收款单、付款单、合同、项目~~</li><br><li>2. 查重预警规则：单选必选；可选项：预警提醒、预警禁止</li></ul> | ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/6ced69aa-32f8-4ba7-adb0-27d4c227c4c0.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=n42BlxNddO71T7uKWqfHxGLdbLM%3D "") |
+| 附件类型 | 左侧类型列表：展示所有维护好的类型1. 固定展示“未分类”，点击右侧展示“历史附件统一归属于【未分类】”【图1】【后续可以做成维护条件，系统定时刷数据，赋值历史附件对应的类型】2. 新增类型按钮：默认常亮。点击后弹出弹窗【图2】1. 类型名称：必填，文本框，20字符上限。2. 类型说明：必填，文本框，50字符上限。3. 保存时校验“类型名称”是否重复。确认不重复则左侧列表生成相应的新附件类型，并且右侧直接展示该附件类型的详情内容【图3】3. 会在功能上线后初始化的时候，创建“支付截图、收款截图”两类 | 图1:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/12b8e98e-c970-4f48-b2fa-06a5c6169488.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0UTHIlNXzOXLDQcp6vbj2s6jO6s%3D "")图2:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c0cec1a7-9757-49a2-8281-8511611e2854.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=THRGDZMJAw5yhpQeqjkMZrGmhTA%3D "")图3:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c6670514-63e8-49bf-9d7a-85eb6c92d72d.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9y1j1A9zToc7foZ%2FUAaq5JWfNKw%3D "") |
+| 右侧附件类型详情内容 | 页面按钮：1. 编辑：按钮常亮，点击将页面变更为可编辑状态【部分字段可编辑，部分不可以】同时按钮变为“保存和取消”1. 点击保存统一校验所有必填项是否填写：1. 有一个不通过则所有内容都不保存，提示“存在必填项未填写”2. 全部通过后才会保存，同时更新操作人、最近一次操作时间字段2. 点击取消视为并未编辑返回原状态2. 删除：按钮常亮，点击后判断是否部分配置字段已经存在值3. 若存在则不允许删除，提示“当前附件类型内的部分字段已经存在数据，无法删除”4. 若不存在则弹出二次确认弹窗【右图】 | ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/e06fc5e1-a0da-4276-9bd5-80866b5ae132.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=g%2FFGiQoWvuaMSqqisUdzJNJEv7M%3D "") |
+|  | 基础信息-非编辑态：【图1】1. 类型名称：创建时填写的名称2. 类型说明：创建时填写的类型说明3. 创建时间：该类型初次创建的时间4. 操作人：最近一次操作的操作人员姓名5. 最近一次操作时间：最近一次操作保存成功的时间基础信息-编辑态：【图2】1. 类型名称：不可编辑2. 类型说明：文本框，回显填写内容 | 图1:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/b1c9a2bb-db66-4b73-bb4d-18f37e2e6490.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2Fa%2FWDIqZtWAT9dGz9BlkQfuE5JA%3D "")图2：![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/8119c941-6b69-484e-a2cb-361bb7fc5c1e.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qlqdjGhRyTFDcV6zhgftEN6FG5M%3D "") |
+|  | 字段信息-非编辑态：【图1】1. 字段名称：英文属性名，唯一ID2. 字段显示名称：中文名3. 字段类型：填写字段类型限制4. 字段格式：填写字段格式/长度限制5. 是否必填：字段填写限制6. 填写方式：字段填写规则限制7. 字段描述：纯文本，解释备注8. 是否可编辑：后续业务控制使用9. 是否查重使用：后续业务控制使用字段信息-编辑态：【图2】1. 字段名称：文本框，40字符上限。可编辑时需要填写保存后校验是否与系统中其他类型下字段名称重复，若重复则提示“与“附件类型”内的“字段名称”重复”，若不重复则正常保存2. 字段显示名称：文本框，20字符上限。可编辑时需要填写保存后校验是否与系统中其他类型下字段显示名称重复，若重复则提示“与“附件类型”内的“字段显示名称”重复”，若不重复则正常保存3. 字段类型：下拉单选框，枚举值“文本、日期、数字”。注：字段名称、字段显示名称、字段类型这三个值在未被使用并生成数据时，是可以进行删除修改的，而一旦生成了数据就不能再修改了【第一个是唯一编码，字段类型一旦存了数据再改会对历史数据存在影响】4. 字段格式：根据所选字段类型做相应的可选内容展示。1. 字段类型为文本：文本框，底色提示语“填写字符长度上限”2. 字段类型为日期：下拉单选框，枚举值“YYYY-MM-DD、YYYY.MM.DD、YYYYMMDD、YYYY/MM/DD”3. 字段类型为数字：文本框，底色提示语“填写“位数，小数点后几位””5. 是否必填：下拉单选框，枚举值“必填、非必填”6. 填写方式：下拉单选框，枚举值“AI识别、人工填写”4. AI识别：附件详情弹窗中系统自动获取采集内容补充该字段5. 人工填写：附件详情弹窗中需要手动维护该字段时7. 字段描述：文本框，50字符上限8. 是否可编辑：下拉单选框，枚举值“是、否”6. 是：在附件详情弹窗中，只要具备附件编辑权限的人员都可以编辑。（就算是AI识别后也可以编辑）7. 否：在附件详情弹窗中，AI识别后则不再允许提交人手动编辑，但是审批人可以根据权限判断编辑8. 存在鼠标悬浮提示语“若不可编辑，则只能由AI自动识别补充，不允许提交人手动编辑，审批人能否编辑则需要按照审批流中的附件编辑权限控制”9. 是否查重使用：下拉单选框，枚举值“是、否”9. 是：则在查重校验时，会根据当前字段来判断是否重复10. 否：则在查重校验时不会使用当前字段11. 存在鼠标悬浮提示语“查重字段完全一致时，视为同一份附件。查重字段自动选择必填”注：标记为查重字段时，是否必填会自动选择“是”10. 按钮：每一行左侧都有添加删除按钮，若仅有一行的时候只有添加【即：最少要有一个字段】12. 添加：在当前行下新增一行，全部为空值13. 删除：点击判断当前行字段是否已经存储数据，若已经存在则不允许删除，若不存在则弹出二次确认弹窗【图3】注：除字段描述外，均必填 | 图1:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/0296b3f9-570b-4ccb-9458-6a02ec30f63f.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Vm79vct4P2B1U7%2F8PkGSTHylkJY%3D "")图2:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/c87046a1-c43d-4b1c-8578-c064f5f27245.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uLClEyD7Fmq9Qs9siJsU8kCJktM%3D "")图3:![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/e06fc5e1-a0da-4276-9bd5-80866b5ae132.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=g%2FFGiQoWvuaMSqqisUdzJNJEv7M%3D "") |
+|  | 查重规则维护：1. ~~查重单据类型：多选必选；可选项：报销单、借款单、申请单、收款单、付款单、合同、项目~~2. 查重预警规则：单选必选；可选项：预警提醒、预警禁止 | ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/6ced69aa-32f8-4ba7-adb0-27d4c227c4c0.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=n42BlxNddO71T7uKWqfHxGLdbLM%3D "") |
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Q35O851RVLjMJl9V/img/8636393b-ea43-4551-a5e8-4f0b770af6a4.png?Expires=1775556936&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oZ8vOUQ3I07kgjtCYOTUu0XYJNc%3D "")
 

@@ -19,9 +19,7 @@ exported_at: 2026-03-22
 
 **销售链路和采购链路中的合同、计划、收付款有做特殊的单据关联核销逻辑，其他的单据同步都是单个单据同步，没有关联核销逻辑**
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZX11MZBqxA/img/ae2dd24c-f431-49bf-8a98-ba0c10b0d3b9.png?Expires=1774157692&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hYeuUTs%2BxXR3c7%2F1S9xH6bQ89Pg%3D "")
-
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZX11MZBqxA/img/6a299506-f24d-48c5-8ce9-f1b4f34cfb2a.png?Expires=1774157692&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ck880EJnRt1gt2SIq9dDhoJO9sE%3D "")
 
@@ -46,8 +44,7 @@ exported_at: 2026-03-22
 
 #### 四、历史需求链接
 
-[<u>https://gykj.yuque.com/izoyhv/mlbhnb/bzu0g2bol6qetbz9?singleDoc#</u>](https://gykj.yuque.com/izoyhv/mlbhnb/bzu0g2bol6qetbz9?singleDoc#) 《辅助核算与表单同步映射》
-
+[https://gykj.yuque.com/izoyhv/mlbhnb/bzu0g2bol6qetbz9?singleDoc#](https://gykj.yuque.com/izoyhv/mlbhnb/bzu0g2bol6qetbz9?singleDoc#) 《辅助核算与表单同步映射》
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4EZlweZX11MZBqxA/img/bddfc553-94f1-41ca-9a28-a80713531628.png?Expires=1774157692&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=M%2F9odTF0oYlGp%2BC9W%2FUaW3iU0Rg%3D "")
 
@@ -83,6 +80,6 @@ exported_at: 2026-03-22
 | **需求** | **需求链接** | **状态** |
 |----------|----------------|----------|
 | 飞鸟报表 |  | 进行中 |
-| 报销审批状态同步 | [<u>https://tb.raycloud.com/task/66f6171c27b92a001d6653bc</u>](https://tb.raycloud.com/task/66f6171c27b92a001d6653bc) | 待提测 |
-| 部门组件支持同步 | [<u>https://tb.raycloud.com/task/66da674bf5425f001d80fad2</u>](https://tb.raycloud.com/task/66da674bf5425f001d80fad2) | 测试中 |
-| 员工组件支持同步 | [<u>https://tb.raycloud.com/task/66d7cfdd27b92a001d165abf</u>](https://tb.raycloud.com/task/66d7cfdd27b92a001d165abf) | 待提测 |
+| 报销审批状态同步 | [https://tb.raycloud.com/task/66f6171c27b92a001d6653bc](https://tb.raycloud.com/task/66f6171c27b92a001d6653bc) | 待提测 |
+| 部门组件支持同步 | [https://tb.raycloud.com/task/66da674bf5425f001d80fad2](https://tb.raycloud.com/task/66da674bf5425f001d80fad2) | 测试中 |
+| 员工组件支持同步 | [https://tb.raycloud.com/task/66d7cfdd27b92a001d165abf](https://tb.raycloud.com/task/66d7cfdd27b92a001d165abf) | 待提测 |

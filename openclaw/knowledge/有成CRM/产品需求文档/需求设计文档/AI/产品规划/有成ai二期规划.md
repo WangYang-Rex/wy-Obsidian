@@ -59,7 +59,6 @@ source: dingtalk-document-mcp
 ▸ 亮点3：无法总结出模型，可交给ai协助创建
 
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8QkgJ9LqLX/img/0dec038d-bfd9-4122-ad3f-2e6b29a45202.png?Expires=1774934224&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KvFqmFPz6tnOQeAsAf66kRfR4gg%3D "")
 
 # 二、跟进行为模型（sop模型）
@@ -77,7 +76,6 @@ source: dingtalk-document-mcp
 ## 3、产品设计
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8QkgJ9LqLX/img/3fd382e0-ade8-4000-aad4-3010271247b9.png?Expires=1774934224&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qqBzuRjGzWNo21VZ3%2FljLsWRmd4%3D "")
 
 # 三、自定义企业AI机器人
@@ -93,7 +91,6 @@ source: dingtalk-document-mcp
 ▸ 话术推荐
 
 ## 3、产品设计
-
 
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8QkgJ9LqLX/img/3a708ea1-1238-499a-b119-e8af689b7482.png?Expires=1774934224&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CPUj%2F96cXiuM1lRWb292Wp688pk%3D "")

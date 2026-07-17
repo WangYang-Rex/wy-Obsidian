@@ -42,9 +42,7 @@ source: dingtalk-document-mcp
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlK5jN7YxveqDv/img/f7273ec8-9c5b-4aad-9365-51d32ca5c830.png?Expires=1778767278&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Str5WAFttFf4AdOyXWWdoZBtqpk%3D "")
 
 
-
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlK5jN7YxveqDv/img/d405257e-dc54-4c74-a33b-905a09b04081.png?Expires=1778767278&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rChxRlH08IKCTkVDFuMbW0FiU3I%3D "")
-
 
 
 ![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/NpQlK5jN7YxveqDv/img/5f06a72b-c882-4e57-a142-c208bdbdfc5b.png?Expires=1778767278&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=aap7nRJ8CRtPAN5amoJtlUQ4Mxg%3D "")

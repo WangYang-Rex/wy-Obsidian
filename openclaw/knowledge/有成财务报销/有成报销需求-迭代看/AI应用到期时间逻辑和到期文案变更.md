@@ -25,13 +25,11 @@ source: dingtalk-document-mcp
 |------|---------|------|---|
 | 1、存量报销老客户未付费ai的 | 报销的付费未到期客户且未付费ai的客户（无ai订单），把ai应用的到期时间刷成报销产品到期时间一致，剔除ai的付费客户名单（名单在下面） | 刷数据 | 湖南立羽文化发展有限公司 |
 | 2、新开通和新下单的报销的客户 | 默认开通ai应用和ai助理悬浮窗，且ai的到期时间为报销软件到期时间 | 开通下单逻辑 |  |
-| 3、文案修改 | <ul><li>新文案：【公告：限时赠送1万点AI额度使用，额度用尽后如需继续使用，欢迎联系客服】</li><br><li>上面已付费AI应用客户的公告不显示</li></ul> |  |  |
+| 3、文案修改 | 新文案：【公告：限时赠送1万点AI额度使用，额度用尽后如需继续使用，欢迎联系客服】上面已付费AI应用客户的公告不显示 |  |  |
 
 刷数据初始化：
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75k7mV8NylAK/img/677e1fdb-117c-4a2d-8c29-b1136cf3cd14.png?Expires=1779975175&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=nIT%2BAdGXn5oP5B3vdS8v3HVCJP8%3D "")
-
-
 
 已经付费名单如下：
 
@@ -50,5 +48,4 @@ source: dingtalk-document-mcp
 **功能描述：**
 - 新文案：【公告：限时赠送1万点AI额度使用，额度用尽后如需继续使用，欢迎联系客服】
 - 上面已付费AI应用客户的公告不显示
-
 
