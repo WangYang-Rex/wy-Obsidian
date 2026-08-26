@@ -31,10 +31,8 @@ source: dingtalk-document-mcp
 
 [知识库API指南](https://bailian.console.aliyun.com/?switchAgent=11506108&amp;productCode=p_efm&amp;tab=doc#/doc/?type=app&amp;url=https%3A%2F%2Fhelp.aliyun.com%2Fdocument_detail%2F2852772.html&amp;renderType=iframe)
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxebXQxyJZO8j/img/db7e4289-2a67-4a74-923b-0bc4d44d966d.png?Expires=1774934300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jU14LO1BIx6HL3ReVDpCcwP8eOw%3D "")
 
 ### 4.2 全企业知识库文件个数限制
-
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxebXQxyJZO8j/img/16b55926-bbb2-4b67-85d5-c7a876a57040.png?Expires=1774934300&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NQP4Z%2BDT7aAp7QXKe36CIZGjMvA%3D "")

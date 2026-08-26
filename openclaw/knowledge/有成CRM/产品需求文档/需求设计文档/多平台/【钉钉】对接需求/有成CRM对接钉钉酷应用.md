@@ -74,7 +74,6 @@ source: dingtalk-document-mcp
 5. 这里涉及到很多页面，前端确认下移动端页面支持PC端打开这块的工作量[@王洋](undefined/u29255)
 6. 钉钉是否提供“返回”（如没有，也可以忽略）[@王洋](undefined/u29255)
 
-
 ### 3.5、群吊顶
 
 | **模块** | **说明** |
@@ -93,7 +92,6 @@ source: dingtalk-document-mcp
 9. 发起人视角：展示“分享”按钮，点击分享可继续将链接分享给他人；点击卡片，进入表单填写页面
 10. 接收人视角：展示“立即填写”、“分享”按钮。点击“立即填写”，进入表单填写页面，可填写表单
 11. 接收人视角（已填写）：展示“再次填写”、“分享”按钮
-
 
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jzY290VlvD/img/80c00c43-2ba8-4afc-a620-f3bdcc6d2262.png?Expires=1774938732&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XZvb45C755PQYKiKkwZf%2FnfqaKk%3D "")
 

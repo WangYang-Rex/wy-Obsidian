@@ -8,7 +8,6 @@ source: dingtalk-document-mcp
 ---
 钉钉链接：[https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1](https://app4290.eapps.dingtalkcloud.com/pc/index.xhtml?platform=dingtalk&isInBrowser=1#/noleft/qrcodelogin?isInBrowser=1)
 
-
 **创建桌面快捷方式**
     - **Windows系统**：
         1. 右键桌面空白处，选择"新建" -\> "快捷方式"
@@ -23,5 +22,4 @@ source: dingtalk-document-mcp
         9. 保存为应用程序即可
 
 [mac电脑桌面快捷进入crm.mov]
-
 

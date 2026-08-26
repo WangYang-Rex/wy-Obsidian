@@ -4,7 +4,7 @@ nodeId: a9E05BDRVQ6L3R7yHqMj3rGxJ63zgkYA
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/a9E05BDRVQ6L3R7yHqMj3rGxJ63zgkYA?utm_scene=team_space"
 updateTime: 1756864613000
-exportedAt: 2026-05-14T12:10:23.583Z
+exportedAt: 2026-08-05T04:27:53.140Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |
@@ -36,6 +36,6 @@ PC：我的-发票页面，发票总额格式优化为千分位两位小数。�
 
 MB：交互修改见图。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jWpWQbQlvD/img/42364977-28a5-4af7-9c78-147a671ab9d0.png?Expires=1778767242&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sQHF%2B%2B%2BivQJT3wTmVIlhu6k7yqM%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/J9LnW6jWpWQbQlvD/img/42364977-28a5-4af7-9c78-147a671ab9d0.png?Expires=1785911106&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=bxnwGg%2BRkDfCG5ZkR4UPtuWajK8%3D "")
 
 

@@ -4,7 +4,7 @@ nodeId: vy20BglGWOeObxmXHlEkjeOOJA7depqY
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/vy20BglGWOeObxmXHlEkjeOOJA7depqY?utm_scene=team_space"
 updateTime: 1751427333000
-exportedAt: 2026-05-14T12:12:09.139Z
+exportedAt: 2026-08-05T04:29:45.351Z
 source: dingtalk-document-mcp
 ---
 # 钉钉侧产品走查UI交互优化二期
@@ -15,7 +15,7 @@ source: dingtalk-document-mcp
 
 基础设置中的【返回】按钮文案也改成【返回列表】；
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qjdd6QqLX/img/eae680ed-48c1-4c56-aba8-d3fb7bf9c5b3.png?Expires=1778767401&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=J8UxGLV%2BsSZ9EqSDXovcfMWWjw8%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qjdd6QqLX/img/eae680ed-48c1-4c56-aba8-d3fb7bf9c5b3.png?Expires=1785911283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=L8QVDDuqGivotZqkpG4cBjTOb0A%3D "")
 
 ### 二、预算管理：
 
@@ -23,4 +23,4 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qjdd6QqLX/img/30cbfcf4-0dc1-4981-ab26-cbbb03093161.png?Expires=1778767401&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FNBErPz%2B3015z6cKOZEvSjeqwEI%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/WgZOZA8Qjdd6QqLX/img/30cbfcf4-0dc1-4981-ab26-cbbb03093161.png?Expires=1785911283&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5NpCLpkZtyL926r6kIHt2H3VVDw%3D "")

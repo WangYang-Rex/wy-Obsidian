@@ -3,7 +3,8 @@ title: "MB端_PC端待办流程优化"
 nodeId: Obva6QBXJw9lbx7RTlgY1yKGWn4qY5Pr
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/Obva6QBXJw9lbx7RTlgY1yKGWn4qY5Pr?utm_scene=team_space"
-exportedAt: 2026-04-01T02:15:00.114Z
+updateTime: 1751427277000
+exportedAt: 2026-08-12T04:19:36.256Z
 source: dingtalk-document-mcp
 ---
 # MB端/PC端待办流程优化
@@ -47,7 +48,7 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/6ed7292d-4dd5-48cd-b30d-f4256389443b.png?Expires=1775016900&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YcjGGUHI0IJNWcptGUq0xWkkBQY%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/6ed7292d-4dd5-48cd-b30d-f4256389443b.png?Expires=1786515450&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YcmMO2s0YBCPze5m9xyK3IUjR4o%3D "")
 
 3、“我的单据”模块支持配置打开关闭：
 - 默认打开
@@ -63,7 +64,7 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/19d747ba-e7c5-445a-9fe1-7bf637e3a7df.png?Expires=1775016900&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KzCkUTUV3x7cMpd0AoNE9kzqLL4%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/19d747ba-e7c5-445a-9fe1-7bf637e3a7df.png?Expires=1786515450&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=BTk7yT4dKl5hdBwSyiI2us4nt70%3D "")
 
 2、可切换为”**列表模式**“：切换之后，当前选中的这些待办事项，在手机端的展示形式更改为列表形式，具体形式见手机端的图：
 - 编辑页面，更改显示形式后，步骤二中的显示也需要跟着配置自动变更显示
@@ -77,7 +78,7 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/941dfc03-218e-4584-8beb-603ec93daeaa.png?Expires=1775016900&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qNk%2BpF3NBXLz2siIltXtf7bSKfI%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/941dfc03-218e-4584-8beb-603ec93daeaa.png?Expires=1786515450&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=LsoKTvwEZwoq90HNmJ8BXbcNq%2Fs%3D "")
 
 ### 4.2、MB端单据列表 
 
@@ -112,4 +113,4 @@ source: dingtalk-document-mcp
 
 ---测试时看一下这个页面在PC端的呈现效果，有问题可及时沟通
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/2661cc52-5391-4e51-881b-88b86716db9a.png?Expires=1775016900&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4aPei%2FJ1RmX4ER82MtQ4hImpniY%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kbkk2NbqDQ/img/2661cc52-5391-4e51-881b-88b86716db9a.png?Expires=1786515450&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XBVFKQ9J5t2BIZ6znOcJUp9cDYM%3D "")

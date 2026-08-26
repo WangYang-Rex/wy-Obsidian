@@ -3,7 +3,8 @@ title: "SAP凭证对接"
 nodeId: XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3RXE4Q3CE0z29L3WAgozOKL?utm_scene=team_space"
-exportedAt: 2026-04-01T02:14:32.370Z
+updateTime: 1751427253000
+exportedAt: 2026-08-12T04:19:23.430Z
 source: dingtalk-document-mcp
 ---
 # SAP凭证对接
@@ -27,12 +28,12 @@ source: dingtalk-document-mcp
 
 将成本中心、项目（内部订单）、供应商同步至辅助核算【全量同步至有成】
 
-| **成本中心** | **成本中心：**[http://172.16.0.100:8000/sap/api\_request?sap-client=310](http://172.16.0.100:8000/sap/api_request?sap-client=310) | **1、成本中心****2、成本中心长文本** |
+| **成本中心** | **成本中心：**[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/api\_request?sap-client=310</u></span>](http://172.16.0.100:8000/sap/api_request?sap-client=310) | **1、成本中心****2、成本中心长文本** |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------|
-| 项目 | 内部订单接口：[http://172.16.0.100:8000/sap/api\_request?sap-client=310](http://172.16.0.100:8000/sap/api_request?sap-client=310) | 1、工单编号2、工单描述 |
-| 供应商 | 供应商接口：[http://172.16.0.100:8000/sap/api\_request?sap-client=310](http://172.16.0.100:8000/sap/api_request?sap-client=310) | 1、供应商/债权人账号2、名称3、供应商账户组 |
-| 销售订单\+产品 | 销售订单\+产品：[http://172.16.0.100:8000/sap/apirequest?sap-client=310](http://172.16.0.100:8000/sap/apirequest?sap-client=310) | 销售订单号\+行项目编号\+物料名称 |
-| 产品 | 费控机型查询：http://172.16.0.100:8000/sap/api\_request?sap-client=310 | 编码编码和名称都是编码即可 |
+| 项目 | 内部订单接口：[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/api\_request?sap-client=310</u></span>](http://172.16.0.100:8000/sap/api_request?sap-client=310) | 1、工单编号2、工单描述 |
+| 供应商 | 供应商接口：[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/api\_request?sap-client=310</u></span>](http://172.16.0.100:8000/sap/api_request?sap-client=310) | 1、供应商/债权人账号2、名称3、供应商账户组 |
+| 销售订单\+产品 | 销售订单\+产品：[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/apirequest?sap-client=310</u></span>](http://172.16.0.100:8000/sap/apirequest?sap-client=310) | 销售订单号\+行项目编号\+物料名称 |
+| 产品 | 费控机型查询：<span style="color: #0563C1;">http://172.16.0.100:8000/sap/api\_request?sap-client=310</span> | 编码编码和名称都是编码即可 |
 
 科目信息同步至有成侧
 
@@ -41,12 +42,14 @@ source: dingtalk-document-mcp
 2、有成报销侧通过配置的会计科目映射规则生成凭证，再将生成的凭证同步给SAP
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/928fc3ba-1794-4504-9fad-b4dbfe3ae63c.jpeg?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lF6dndfQeBnFGM0sZjqce%2FvGARU%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/928fc3ba-1794-4504-9fad-b4dbfe3ae63c.jpeg?Expires=1786515429&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FNwTjGOlFYRcrO6%2FcmDnrJ%2FgSkY%3D "")
 
 3、当有成报销侧凭证被删除，则将对应的信息传给SAP，进行凭证冲销
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/49e69a32-276c-477d-8c99-c1ed60695edf.jpeg?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dA0J%2B%2BsTqqO08MU2pjRg9Q7csKU%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/49e69a32-276c-477d-8c99-c1ed60695edf.jpeg?Expires=1786515429&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OuGrlJHyDUZ1fnIuTGt13QuMAEs%3D "")
 
 ## 4、功能清单
 
@@ -54,7 +57,7 @@ source: dingtalk-document-mcp
 |----------|-------------|----------|
 | 接口清单 | 1、费控内部订单查询接口2、费控财务凭证创建接口3、费控财务凭证冲销接口4、费控成本中心查询接口5、费控销售订单\+产品查询接口6、费控会计科目查询接口7、费控供应商查询接口8、费控机型查询 |  |
 | 接口文档 | SAP与费控接口技术说明书\_20221025\_V1.0.pdf (附件: attachments/SAP与费控接口技术说明书\_20221025\_V1.0\_20250701\_142922.pdf)九安医疗项目\_财务组\_接口文档\_费控（有成）\_冲销接口\_V1.0.xlsx (附件: attachments/九安医疗项目\_财务组\_接口文档\_费控（有成）\_冲销接口\_V1.0\_20250701\_142923.xlsx)九安医疗项目\_财务组\_接口文档\_费控（有成）\_生凭接口\_V1.0.xlsx (附件: attachments/九安医疗项目\_财务组\_接口文档\_费控（有成）\_生凭接口\_V1.0\_20250701\_142923.xlsx) |  |
-| 外网访问 | [http://60.28.55.130:1060/sap/api\_request?sap-client=310](http://60.28.55.130:1060/sap/api_request?sap-client=310) |  |
+| 外网访问 | [<span style="color: #0000FF;"><u>http://60.28.55.130:1060/sap/api\_request?sap-client=310</u></span>](http://60.28.55.130:1060/sap/api_request?sap-client=310) |  |
 
 ## 5、需求详情
 
@@ -64,7 +67,7 @@ source: dingtalk-document-mcp
 
 生成凭证有四种场景：员工借款、员工还款、费用报销-财务生凭、费用报销--财务生凭
 
-接口地址：[http://172.16.0.100:8000/sap/api\_request?sap-client=310](http://172.16.0.100:8000/sap/api_request?sap-client=310)
+接口地址：[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/api\_request?sap-client=310</u></span>](http://172.16.0.100:8000/sap/api_request?sap-client=310)
 
 | **SAP入参** | **会计凭证抬头** |  | **有成报销** |
 |-------------|----------------------|---|----------------|
@@ -105,11 +108,11 @@ source: dingtalk-document-mcp
 |  | 机型 |  | 产品辅助核算 |
 |  | 特别总账标识 | 1123开头的科目必填     值：A |  |
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/fea64659-2148-4c40-ae9d-728fdbdaac73.png?Expires=1775016873&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=fHTIIMJhplAKcWLaLl7wJKupx0Q%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/vBPlN5jLXk7E9OdG/img/fea64659-2148-4c40-ae9d-728fdbdaac73.png?Expires=1786515429&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UL%2FffW3AzvEgHZnvp5Gknrxu1Qs%3D "")
 
 #### 凭证冲销
 
-接口地址：[http://172.16.0.100:8000/sap/api\_request?sap-client=310](http://172.16.0.100:8000/sap/api_request?sap-client=310)
+接口地址：[<span style="color: #0000FF;"><u>http://172.16.0.100:8000/sap/api\_request?sap-client=310</u></span>](http://172.16.0.100:8000/sap/api_request?sap-client=310)
 
 | **SAP入参** |  |  |
 |-------------|---|---|
@@ -140,10 +143,10 @@ source: dingtalk-document-mcp
 
 **BX2405131316593519--天津九安**
 
-凭证行上的币种：
+<span style="color: #2E3033;">凭证行上的币种：</span>
 
-1、凭证货币金额=科目对应的币种金额
+<span style="color: #2E3033;">1、凭证货币金额=科目对应的币种金额</span>
 
-2、本位币金额 = 帐套本位币金额
+<span style="color: #2E3033;">2、本位币金额 = 帐套本位币金额</span>
 
-3、币种：科目对应的币种
+<span style="color: #2E3033;">3、币种：科目对应的币种</span>

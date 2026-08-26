@@ -285,7 +285,6 @@ source: dingtalk-document-mcp
 
 ## 14、销售出库单（已上线）
 
-
 ![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/bfd0a61c-b6d9-4bd0-a858-b043169ac293.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ocvt6ReureEQ6ycYBhNworgmxGA%3D "")
 
 | **需求** | **说明** |
@@ -301,7 +300,6 @@ source: dingtalk-document-mcp
 ![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 15、开票申请（已上线）
-
 
 ![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a8d90c1e-463f-423a-b258-29a20ccb5f19.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FY1plOzyBhUvyw9chEzZk%2FIU1x0%3D "")
 
@@ -323,11 +321,9 @@ source: dingtalk-document-mcp
 
 ## 16、工单（已上线）
 
-
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/d7aab9a5-455c-4a15-be07-ba08a6a9715c.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=S8eFOVpUKtU2o10a8DnZGrh5OrY%3D "")
 
 ## 17、采购申请（已上线）
-
 
 ![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/493742d9-b127-48cd-9e48-962ed2f4dcd3.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YH0Ld7Dcnw8%2FdnnTDVGn5%2BK5Tbk%3D "")
 
@@ -341,7 +337,6 @@ source: dingtalk-document-mcp
 ![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 18、采购入库单（已上线）
-
 
 ![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/1b11117d-1f8d-4a78-9450-0d4f3cc47f83.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=WaVtRwPlxZlnUqgAwVHtv0Zr6hk%3D "")
 
@@ -360,7 +355,6 @@ source: dingtalk-document-mcp
 
 ## 19、BOM单（已上线）
 
-
 ![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/a1e28908-9ffa-4709-bb17-2f4580a1c145.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MZqvm21Z5mxZVlzeBUafF1ovENM%3D "")
 
 | **需求** | **说明** |
@@ -373,7 +367,6 @@ source: dingtalk-document-mcp
 
 ## 20、组装单（已上线）
 
-
 ![Picture 24](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/9dc5bce6-88a0-473e-b912-155a9640a7bf.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Rmi63HrmokrKsG0TNba3Bl5l7zA%3D "")
 
 | **需求** | **说明** |
@@ -385,7 +378,6 @@ source: dingtalk-document-mcp
 ![Picture 25](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 21、调拨单（已上线）
-
 
 ![Picture 26](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/81be2f38-5e9a-4b09-aece-c2fa7b79a26f.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TFaVGp4%2BFk1rbmJDfBZkhWuSlSw%3D "")
 
@@ -400,7 +392,6 @@ source: dingtalk-document-mcp
 ![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/714a4ffc-571c-4279-859b-bc590b6fad97.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=t1clBGunbQ3JtYuk3jUmPcdf0Qo%3D "")
 
 ## 22、采购发票（已上线）
-
 
 ![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/4d62eee0-ebb6-4ad0-b4fa-6b6696dfd9c6.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=HPH6XM9a1CZZWxFdTa%2FLIsMOsr8%3D "")
 
@@ -422,7 +413,6 @@ source: dingtalk-document-mcp
 
 ## 23、销售退货单（已上线）
 
-
 ![Picture 33](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/e30d18ff-6da6-4358-a67b-f653c2f140c7.png?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mrBHs%2BFyehi9Tik1TyaT7HPql80%3D "")
 
 | **需求** | **说明** |
@@ -439,7 +429,6 @@ source: dingtalk-document-mcp
 ## 24、拜访签到（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 ![Picture 35](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXbMLGeDPlWN/img/35087930-c93f-4bcc-b555-d9671dcd504b.jpeg?Expires=1774937810&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=H70NlAayvvwZO2lMzGPy3coOMJ4%3D "")
 

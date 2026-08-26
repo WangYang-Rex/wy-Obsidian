@@ -4,7 +4,7 @@ nodeId: Qnp9zOoBVBZzNDrmtL2mk6bXV1DK0g6l
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/Qnp9zOoBVBZzNDrmtL2mk6bXV1DK0g6l?utm_scene=team_space"
 updateTime: 1784020317000
-exportedAt: 2026-07-16T11:09:10.307Z
+exportedAt: 2026-08-12T04:21:27.137Z
 source: dingtalk-document-mcp
 ---
 > **版本**：v1.0 \| **产品**：有成报销v2.0 \| **客户**：北京智源   
@@ -37,7 +37,7 @@ source: dingtalk-document-mcp
 
 **位置：**mb端 → 单据详情 → 审批历史（收起）
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5z3XwNJ2nKa/img/f19c33d4-8335-405b-92e7-03e7705c7886.png?Expires=1784207350&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ujbv1HNutMljlfkoGOJmDbDmAiA%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5z3XwNJ2nKa/img/f19c33d4-8335-405b-92e7-03e7705c7886.png?Expires=1786515613&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SRIs0ry%2BYnvH2VM9G9qEnhv5d7Q%3D "")
 
 **功能描述**：
 - **mb端单据详情：**审批历史（收起）展示上一节点审批信息

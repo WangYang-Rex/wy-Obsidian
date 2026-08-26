@@ -85,7 +85,6 @@ source: dingtalk-document-mcp
 
 [接口对比表](https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0lZOdIoZ7rKzeWakx1Z5N?utm_scene=team_space&iframeQuery=sheet_range%3Dkgqie6hm_0_0_1_1)
 
-
 下面这个文件残缺，不需要：
 
 | **接口类型** | **功能模块** | **旧接口名称** | **旧接口地址** | **旧接口入参(必传)** | **旧接口出参** | **新接口名称** | **新接口地址** | **新接口入参(必传)** | **新接口出参** | **新接口链接** | **差异分析** |
@@ -104,5 +103,4 @@ source: dingtalk-document-mcp
 | **签署流程类** | 获取签署人签署地址 | 获取签署人签署地址 | POST /v1/ding/process/start | corpId(是)taskId(是) | pcUrlmobileUrl | 获取签署人签署地址 | POST /v3/sign-url | signFlowId(是)accountId(是) | signUrl | [V3文档](https://open.esign.cn/doc/opendoc/sign-flow3/xp856s) | **参数简化**V3简化了参数，signFlowId和accountId替代了V1的多个参数 |
 | **签署流程类** | 获取对应流程任务详情 | 获取对应流程任务详情 | GET /v1/ding/order/detail | corpId(是)taskId(是) | flowStatus**logs**operatorAccountNamelogTypeoperateDescriptionoperateTime | 查询签署流程详情 | GET /v3/sign-flow/\{signFlowId\} | signFlowId(path) | signFlowInfosignTaskInfosfileInfos | [V3文档](https://open.esign.cn/doc/opendoc/sign-flow3/kn380p) | **信息更丰富**V3返回更详细的流程信息和签署状态 |
 | **签署流程类** | 获取流程任务合同列表 | 获取流程任务合同列表 | GET /v1/ding/flow/docs | corpId(是)taskId(是) | **docs**fileIdfileNamefileUrl | 查询合同列表 | GET /v3/contracts | contractIds(是) | contracts | [V3文档](https://open.esign.cn/doc/opendoc/contract3/ln452t) | **功能增强**V3支持更多合同查询和管理功能 |
-
 

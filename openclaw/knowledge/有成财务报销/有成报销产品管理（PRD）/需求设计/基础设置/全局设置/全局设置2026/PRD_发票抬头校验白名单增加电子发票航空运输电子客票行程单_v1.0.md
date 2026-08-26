@@ -4,7 +4,7 @@ nodeId: dpYLaezmVNLO0RakHGgLmXZN8rMqPxX6
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/dpYLaezmVNLO0RakHGgLmXZN8rMqPxX6?utm_scene=team_space"
 updateTime: 1784019350000
-exportedAt: 2026-07-16T11:09:35.442Z
+exportedAt: 2026-08-12T04:22:08.199Z
 source: dingtalk-document-mcp
 ---
 > **版本**：v1.0 \| **产品**：有成报销 \| **客户**：广州睿本信息科技有限公司   
@@ -56,12 +56,12 @@ source: dingtalk-document-mcp
 
 **位置**：PC端 → 全局设置 → 发票设置 → 发票抬头校验 → 发票类目白名单配置
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5byjEj2Blxo/img/432f71b3-295d-4d12-8530-8763981aa190.png?Expires=1784207375&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=toMFdtPO1nU%2F6EZAsRdPM6mdPus%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5byjEj2Blxo/img/432f71b3-295d-4d12-8530-8763981aa190.png?Expires=1786515683&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=taUHnAmdcbWH7bRIz%2Bxy1KDG%2B8Y%3D "")
 
 **功能描述**：
 - 上传电子发票（航空运输电子客票行程单）或电子发票（铁路电子客票）时，分别通过ocr识别返回参数的"type：10506\+"electronic\_mark":"1"或"type：10503\+"electronic\_mark":"1"判断这个发票去匹配本次发票类目白名单里新增的选项
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5byjEj2Blxo/img/a47052ff-9669-4d4a-900c-b93ed0b8bb11.png?Expires=1784207375&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TOXK4eCvt2qpfMB8PHiD1i8zzaE%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/r4mlQ5byjEj2Blxo/img/a47052ff-9669-4d4a-900c-b93ed0b8bb11.png?Expires=1786515683&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=KDIMhzKqc%2FwVKciZs9WMtwWAtNg%3D "")
 - 发票类目选择弹框中，增加「电子发票（航空运输电子客票行程单）」和电子发票（铁路电子客票）默认选项，增加的选项默认未勾选
 - 管理员勾选后，员工上传该类目的发票时根据配置规则生效后跳过抬头校验，不再提示校验不通过
 - 按单据类型和按单据模板两种模式下均生效

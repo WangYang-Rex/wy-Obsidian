@@ -22,7 +22,6 @@ source: dingtalk-document-mcp
   企业希望查看附件详情时可快速上一张/下一张切换查看附件详情；企业客户希望可以自行展示收缩附件字段信息；
 
 
-
 # **功能清单**
 
 | 模块 | 功能点 | 备注 |
@@ -38,7 +37,6 @@ source: dingtalk-document-mcp
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mxaXw4Bn34/img/d6b30651-f6a1-4481-8031-2b87a3a20731.png?Expires=1779975179&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=47f%2FPf6zDF7d2oXja4JG4B89Onw%3D "")
 
 
-
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mxaXw4Bn34/img/9e4e4f95-720b-4e75-9ab4-a300cedb7b58.png?Expires=1779975179&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QtgrLuWruY6URhwDMKomjqD5yqk%3D "")
 
 查看模式下：上一张下一张按钮固定在左侧底端，设计图已修改
@@ -51,7 +49,6 @@ source: dingtalk-document-mcp
 
 **默认状态**：
 - **查看模式**：打开弹窗时，右侧字段区**默认收起**，预览区占满可用宽度
-
 
 
 ## 编辑附件详情-收起/展开
@@ -70,14 +67,12 @@ source: dingtalk-document-mcp
 - **编辑模式**：打开弹窗时，右侧字段区**默认收起**，预览区占满可用宽度
 
 
-
 ### **附件切换规则：上一张 / 下一张**
 - 仅查看附件有该功能
 - 按附件在单据中的排列顺序切换
 - 当前为第一个附件时，「上一张」按钮**置灰不可点**
 - 当前为最后一个附件时，「下一张」按钮**置灰不可点**
 - 所有附件类型均支持切换（图片、PDF、Word、Excel 等）
-
 
 
 ### **附件格式不支持预览的文件-查看/编辑：**

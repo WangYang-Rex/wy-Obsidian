@@ -3,7 +3,8 @@ title: "工作台后台-ocr统计使用量，增加发票版式文件查询接�
 nodeId: QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTBNYPA00VzN67Mw4?utm_scene=team_space"
-exportedAt: 2026-04-01T02:14:50.201Z
+updateTime: 1753259867000
+exportedAt: 2026-08-12T04:19:30.765Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |
@@ -35,4 +36,4 @@ source: dingtalk-document-mcp
 
 3、发票版式文件调用量-电票
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mjgy5EZn34/img/f52ce6bf-8227-46eb-8c44-e0ef2a6bb7b8.png?Expires=1775016890&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QD8dMdTf6DHsqJsPZOBr33a1JsY%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mjgy5EZn34/img/f52ce6bf-8227-46eb-8c44-e0ef2a6bb7b8.png?Expires=1786515441&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lbb%2FAnzFgz%2BNLCa2FBfEyvcS87A%3D "")

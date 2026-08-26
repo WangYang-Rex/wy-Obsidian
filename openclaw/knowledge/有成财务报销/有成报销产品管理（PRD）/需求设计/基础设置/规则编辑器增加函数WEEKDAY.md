@@ -3,7 +3,8 @@ title: "规则编辑器增加函数WEEKDAY"
 nodeId: Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8D3mXMgZTnOYX5pQJxLq0Ee4?utm_scene=team_space"
-exportedAt: 2026-04-01T02:20:09.653Z
+updateTime: 1761204977000
+exportedAt: 2026-08-12T04:22:16.951Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |

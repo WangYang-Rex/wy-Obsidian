@@ -20,4 +20,3 @@ source: dingtalk-document-mcp
 | 增加说明 | 付费企业，在后台有下正式订单（剔除已作废订单），说明内容隐藏![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5j8R3GdGlpz/img/04205494-89ea-4201-a472-aafa2eba449e.png?Expires=1774934031&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=242KqI4KoAjsrQKYh639AiBRYgw%3D "") |
 | 增加功能宣传页（仅pc） | ui：[https://www.figma.com/design/z48HU1flOaZxM8PuxxVJfc/%E6%9C%89%E6%88%90CRM-PC2024?node-id=1772-32067&t=sh2PSXsCA7N5kzul-1](https://www.figma.com/design/z48HU1flOaZxM8PuxxVJfc/%E6%9C%89%E6%88%90CRM-PC2024?node-id=1772-32067&t=sh2PSXsCA7N5kzul-1)![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5j8R3GdGlpz/img/5b632ab1-e4a4-42b2-b26e-0e1f68d84b41.png?Expires=1774934031&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=q6jJjwA%2FMOMCX3Zz%2FrU%2Bba%2FKm6Y%3D "") |
 
-

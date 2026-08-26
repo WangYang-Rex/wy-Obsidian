@@ -4,7 +4,7 @@ nodeId: m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/m9bN7RYPWdlgvydeFogBE2vYWZd1wyK0?utm_scene=team_space"
 updateTime: 1751427322000
-exportedAt: 2026-05-14T12:11:19.709Z
+exportedAt: 2026-08-05T04:28:56.429Z
 source: dingtalk-document-mcp
 ---
 # （优化）MB端支持灵活配置单据打印内容
@@ -31,10 +31,11 @@ source: dingtalk-document-mcp
 
 ### 4.1、需求说明1
 
-**系统：**【有成报销】MB端
+**系统：**【<span style="color: #2F8EF4;">有成报销</span>】<span style="color: #2F8EF4;">MB</span>端
 
 **解决方案**：单据详情—打印—打印设置弹窗（如下图）
-- 单据默认选中，不可取消选中
+- <span style="color: #DF2A3F;">单据默认选中，不可取消选中</span>
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mdGL5yDn34/img/7dbc99e9-857a-453d-bee5-36c8d2d740ed.png?Expires=1778767325&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=InxpiM5rrAfhYiIec2Oq5Ka4fOc%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05mdGL5yDn34/img/7dbc99e9-857a-453d-bee5-36c8d2d740ed.png?Expires=1785911205&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9lLU%2Fi4sFrhHsv%2FxAtjmAViVoyo%3D "")

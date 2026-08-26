@@ -3,7 +3,8 @@ title: "PC端字段显示优化"
 nodeId: dQPGYqjpJYg0lZOdIdE4D0B5Wakx1Z5N
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/dQPGYqjpJYg0lZOdIdE4D0B5Wakx1Z5N?utm_scene=team_space"
-exportedAt: 2026-04-01T02:16:40.311Z
+updateTime: 1751427288000
+exportedAt: 2026-08-12T04:20:25.331Z
 source: dingtalk-document-mcp
 ---
 # PC端字段显示优化
@@ -22,7 +23,7 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/51dd4a67-dc79-4d10-9d30-5a4a2b0d1acd.png?Expires=1775017000&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=v%2FXITs6%2FIHEgLAeEwhkpYAKe0WI%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/51dd4a67-dc79-4d10-9d30-5a4a2b0d1acd.png?Expires=1786515529&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FrVuBKNMCj3G%2FrzV8%2BC7ALL26mI%3D "")
 
 ## 3、功能清单
 
@@ -54,8 +55,8 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/e637db05-4fe4-4670-861f-5152b049dbe8.png?Expires=1775017000&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=5Koe1VwNJmfRUVc7jAQKZG192iY%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/e637db05-4fe4-4670-861f-5152b049dbe8.png?Expires=1786515529&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QOpFoMYszYZ775TMyEDUAoh9TaE%3D "")
 
 
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/41a59485-3d1a-4e00-859c-30c8fa8f7183.png?Expires=1775017000&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tYsD%2FTZGVPl4noP7IEw8y3m7LoY%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/1GXn45Kb1kQKkqDQ/img/41a59485-3d1a-4e00-859c-30c8fa8f7183.png?Expires=1786515529&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=REk04eLV%2BhJRM2Ivg89Lw9FkhJ0%3D "")

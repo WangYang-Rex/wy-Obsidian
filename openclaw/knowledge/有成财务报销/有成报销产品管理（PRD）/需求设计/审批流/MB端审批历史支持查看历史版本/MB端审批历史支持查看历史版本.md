@@ -3,7 +3,8 @@ title: "MB端审批历史支持查看历史版本"
 nodeId: P7QG4Yx2Jp7NZxpnhY5aP2RLV9dEq3XD
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/P7QG4Yx2Jp7NZxpnhY5aP2RLV9dEq3XD?utm_scene=team_space"
-exportedAt: 2026-04-01T02:19:30.717Z
+updateTime: 1751427304000
+exportedAt: 2026-08-12T04:21:52.544Z
 source: dingtalk-document-mcp
 ---
 # MB端审批历史支持查看历史版本
@@ -36,8 +37,8 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/af00151a-a23f-46c0-b19c-4f07bed013f1.png?Expires=1775017171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gp8SQa1C4hGeVlDD6x8EGvWyGe8%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/af00151a-a23f-46c0-b19c-4f07bed013f1.png?Expires=1786515658&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uFSZggU6uCHTUUYOqIjRbHMTGQo%3D "")
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/a9f775c2-f9ce-4deb-bdc9-30e54b89dc19.png?Expires=1775017171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kIAYXSzd2zi%2BGaQK4GOcieMksdo%3D "")
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/a9f775c2-f9ce-4deb-bdc9-30e54b89dc19.png?Expires=1786515658&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Ed8af7UGKSdcXjlni7omTJyB5RI%3D "")
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/5a0260e3-ea58-481e-8e5b-346af9ba25ed.png?Expires=1775017171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2Fn7kjS1%2BdFKUr1j9C57BJ9hSk4k%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZgbPa4lpz/img/5a0260e3-ea58-481e-8e5b-346af9ba25ed.png?Expires=1786515658&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SchJ5n0ebV3cYgHgRcshcKAfazI%3D "")

@@ -21,19 +21,9 @@ source: dingtalk-document-mcp
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/2M9qP5j2AE9bmO01/img/612bf64a-45d0-4ea6-9cf3-0c765aea9cca.png?Expires=1784207081&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BZIsl%2B6oNPbdWTrxfAi8gs5Ef3E%3D "")
 
-
-
-
-
-
-
 e签宝（通用）接口V3
 
 [https://open.esign.cn/doc/opendoc/helper/si1ih3va3oilpd24?searchText=%E8%87%AA%E5%8A%A8%E8%90%BD%E7%AB%A0](https://open.esign.cn/doc/opendoc/helper/si1ih3va3oilpd24?searchText=%E8%87%AA%E5%8A%A8%E8%90%BD%E7%AB%A0)
-
-
-
-
 
 接入流程】其中应用接入规范请重点阅读：[https://open.esign.cn/doc/detail?id=opendoc%2Fhelper%2Fszivwh&namespace=opendoc%2Fhelper](https://open.esign.cn/doc/detail?id=opendoc%2Fhelper%2Fszivwh&namespace=opendoc%2Fhelper)，
 
@@ -45,13 +35,9 @@ e签宝（通用）接口V3
 
 ③开通沙箱：[https://open.esign.cn/doc/detail?id=opendoc%2Fhelper%2Fcan05q&namesp](https://open.esign.cn/doc/detail?id=opendoc%2Fhelper%2Fcan05q&namesp)
 
-
-
 【SaaS API 标准版】接口文档地址
 
 [https://open.esign.cn/doc/detail?id=opendoc%2Fsaas\_api%2Fxuanyuan&namespace=opendoc%2Fsaas\_api&searchText=](https://open.esign.cn/doc/detail?id=opendoc%2Fsaas_api%2Fxuanyuan&namespace=opendoc%2Fsaas_api&searchText=)
-
-
 
 【常用地址】
 

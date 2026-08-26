@@ -3,7 +3,8 @@ title: "prompt 参考"
 nodeId: QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTbYPLXePVzN67Mw4?utm_scene=team_space"
-exportedAt: 2026-04-01T02:09:49.223Z
+updateTime: 1766136507000
+exportedAt: 2026-08-19T04:13:35.138Z
 source: dingtalk-document-mcp
 ---
 ```

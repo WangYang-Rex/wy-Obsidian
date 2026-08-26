@@ -4,7 +4,7 @@ nodeId: Gl6Pm2Db8D3mXMgZT9p5bYLYJxLq0Ee4
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/Gl6Pm2Db8D3mXMgZT9p5bYLYJxLq0Ee4?utm_scene=team_space"
 updateTime: 1784019992000
-exportedAt: 2026-07-16T11:06:24.068Z
+exportedAt: 2026-08-19T04:13:29.783Z
 source: dingtalk-document-mcp
 ---
 > **版本**：v1.0 \| **产品**：有成报销v4.1 \| **客户**：内部通用 **修订记录**：v1.0(20250910)初始版本   
@@ -49,9 +49,9 @@ source: dingtalk-document-mcp
 
 ## 三、功能需求
 
-![画布 96.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxeb7djx9NO8j/img/74809a17-a70e-4519-9d9e-1eb485dd8f5b.png?Expires=1784207184&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yEBZF4s3RthOh33gZcLE%2FN1pNsw%3D "")
+![画布 96.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxeb7djx9NO8j/img/74809a17-a70e-4519-9d9e-1eb485dd8f5b.png?Expires=1787120010&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=4ZHuMbIW7ERgRWuaEX9wGKbqMLQ%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxeb7djx9NO8j/img/e0e43654-2c30-4669-bc88-06ebd9fba11d.png?Expires=1784207184&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oG0Kddvbf2Bmsx48MSsQx9x8ao0%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/MAeqxeb7djx9NO8j/img/e0e43654-2c30-4669-bc88-06ebd9fba11d.png?Expires=1787120010&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=lyn34jKReaYmIlpKhe18rYPNQq4%3D "")
 
 ### 3.1 AI运行看板-风险统计
 

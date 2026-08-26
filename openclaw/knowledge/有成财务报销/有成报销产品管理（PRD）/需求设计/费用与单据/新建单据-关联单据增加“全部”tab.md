@@ -3,7 +3,8 @@ title: "新建单据-关联单据增加“全部”tab"
 nodeId: XPwkYGxZV3RXE4Q3ClLYNrQkWAgozOKL
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/XPwkYGxZV3RXE4Q3ClLYNrQkWAgozOKL?utm_scene=team_space"
-exportedAt: 2026-04-01T02:24:42.031Z
+updateTime: 1760932115000
+exportedAt: 2026-08-05T04:28:11.125Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |
@@ -37,7 +38,7 @@ source: dingtalk-document-mcp
 
 收付款单，关联单据增加“全部”下拉选项，默认为全部。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/AJdl65Avod8jmOke/img/246865c7-5043-4e34-bfd2-0cf8424badda.png?Expires=1775017482&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vdwwbqWZ2gtWOMiw%2BTjySbvpazk%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/AJdl65Avod8jmOke/img/246865c7-5043-4e34-bfd2-0cf8424badda.png?Expires=1785911137&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Mz5SghKRMeL1pQgtlXuYWoPuGfs%3D "")
 
 
 

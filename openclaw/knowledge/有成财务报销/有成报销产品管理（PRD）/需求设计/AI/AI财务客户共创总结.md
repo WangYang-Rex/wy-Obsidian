@@ -3,7 +3,8 @@ title: "AI财务客户共创总结"
 nodeId: Y1OQX0akWm3gpzNXTaEazDP4JGlDd3mE
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/Y1OQX0akWm3gpzNXTaEazDP4JGlDd3mE?utm_scene=team_space"
-exportedAt: 2026-04-01T02:09:58.668Z
+updateTime: 1765157697000
+exportedAt: 2026-08-19T04:13:45.278Z
 source: dingtalk-document-mcp
 ---
 # 浙江同心妇幼产品发展有限公司（**基诺浦**）
@@ -68,9 +69,10 @@ source: dingtalk-document-mcp
 3. **AI 经营分析师**：解决多维度数据汇总难、分析滞后、无风险决策的问题
 - 按照门店维度，生成分析报表，分析存在问题的门店、具体问题项和决策建议。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/70cf99a2-d2df-45ef-8479-2d93f94145b7.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=qdl0YQWw4idGxft8q2xccphhGRI%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/b6c5e4b2-6911-4da6-84ce-e222bf9f2d7b.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Q6BXyiH8RFA0tNlpeITSZGvj4g4%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/70cf99a2-d2df-45ef-8479-2d93f94145b7.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Q2bErdARNq7v%2Fybhdk2%2Bu18aviE%3D "")![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/b6c5e4b2-6911-4da6-84ce-e222bf9f2d7b.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=maxJ9c7k%2FfeEQg7EzLEjLoDdrfY%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/83132b3e-30a2-4c77-af88-fa6daaef94ea.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=l1Nm3RrOwyaSXaZj6FIz%2BZvHgu4%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/83132b3e-30a2-4c77-af88-fa6daaef94ea.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UOx7rLwBazaAjW5P9EYmCcKRFxg%3D "")
+
 
 
 ## **使用效果**
@@ -131,7 +133,8 @@ AI经营分析：直观统计多主体的各项费用支出，支持单个主体
 ## **使用效果**
 - 报表生成效率提升，从一天缩短到10分钟。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/fa5fd029-2199-4548-8b12-4e12b11b4859.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZfCOP9nvPg%2BuB1erpQbb1HHdpEk%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/fa5fd029-2199-4548-8b12-4e12b11b4859.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=wIyds%2FYUppyWVzf%2Bd%2Fa5ICn7GOc%3D "")
+
 
 
 # **重庆蓝泊湾后勤管理服务有限公司**
@@ -162,7 +165,7 @@ AI经营分析：直观统计多主体的各项费用支出，支持单个主体
 
 物业后勤公司的对于的费用细项很多，一共有42类费用细项，都要核算到学校-校区-园区维度。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/7cce9c8a-2a7a-4d78-85d4-5be9e42a349a.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Eix5EMZNFkLPF7Gsy535sf2VdGk%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/7cce9c8a-2a7a-4d78-85d4-5be9e42a349a.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=8LObFaErOPOeskZBSAc6TMDLbt8%3D "")
 
 ## 客户财务费控痛点和诉求
 
@@ -187,9 +190,9 @@ AI报销：
 AI分析：
 - 能够细化到学校-校区-园区维度，统计园区的收入、各项明细支出、净利润、社保占比，发现企业在经营过程中存在的潜在问题并给出落地建议。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/ecfaca26-7d24-498e-9292-06b8bdb21393.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=uDBfMOI1JwiFrgJO%2FwuS41R%2BK2E%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/ecfaca26-7d24-498e-9292-06b8bdb21393.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=YmfgPgyac6NcH2r1lfE5kRi9LI0%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/2cbf0818-6d3f-4f08-b7d0-d3087bbdb2b0.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=w02Q4KUmTQAnPcHVmhhcGY0RBks%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/2cbf0818-6d3f-4f08-b7d0-d3087bbdb2b0.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hEZP3337vkZW4ntal7FfnI3Nwm0%3D "")
 
 ## **使用效果**
 - 不合规发票拦截率100%
@@ -243,9 +246,9 @@ AI预算分析专家：
 AI经营分析专家：
 - 支持按照项目，分析项目财务核算维度、现金流维度的指标数据，并以高可视化报告的方式呈现。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/e08e13b5-1bff-4412-a7d2-5428143df9af.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xfUfxkyqaHQ8v7eEn8hHJ9xMJuk%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/e08e13b5-1bff-4412-a7d2-5428143df9af.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NJM3nSzxSRouje577oAzQBIQc9k%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/8b777364-39c2-489e-9e67-67c5d017a65b.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FIzX1r9d2xiGjocHfIN6EJ19XXI%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/8b777364-39c2-489e-9e67-67c5d017a65b.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mY1kzit6TMlTGC18zBNBJc1dJwM%3D "")
 
 ## **使用效果**
 - 报表生成效率提升，从两天缩短到10分钟。
@@ -256,7 +259,7 @@ AI经营分析专家：
 - 企业规模50-200人的**制造业、信息技术服务业、建筑业**
 - 企业规模200-500人的**商业服务业**、零售业、制造业、信息技术服务业、建筑业
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/15be2f19-4614-491e-b345-5489442b91ee.png?Expires=1775016599&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Y2F%2BYi3wI4AruVF602pHJXnSkrs%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4maOgXb9XaBYVlWN/img/15be2f19-4614-491e-b345-5489442b91ee.png?Expires=1787120025&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Cs1vwyeamjtFPye7qzLbXVWwpWg%3D "")
 
 ## **共性需求，可以广泛应用**
 - 提议与钉钉联合推出**行业垂直场景包**（如零售多门店、制造多主体、物业多园区）。

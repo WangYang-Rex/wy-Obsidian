@@ -20,13 +20,11 @@ source: dingtalk-document-mcp
 
 自定义关联对象、子表单及数据联动铺开需求
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/32f37abc-d8ba-4e59-be53-41b641bb11cf.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=p%2FoxShIo2I6qjiO0Np4KnsmYygQ%3D "")
 
 ## 3、跟进记录（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/9e0a93ea-2ddb-4d35-8186-bb65bc34c7c1.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ZsjewOPHghIIt%2BWT2zoiiaaU1WY%3D "")
 
@@ -48,7 +46,6 @@ source: dingtalk-document-mcp
 
 自定义关联对象、子表单及数据联动铺开需求
 
-
 ![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/048247e6-c025-480a-b6e4-c84dcffd5ecf.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DoeIMDSKhzXtEO0yDdMAoXwJhes%3D "")
 
 | **需求** | **说明** |
@@ -62,7 +59,6 @@ source: dingtalk-document-mcp
 ![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 5、日报/月报/周报（一期已铺开）（已上线）
-
 
 ![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/301906d8-a3a9-4146-838d-43b2eb02e87c.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=f4VBy7h1ilDVfEu5OcDx3EoXMEQ%3D "")
 
@@ -79,7 +75,6 @@ source: dingtalk-document-mcp
 
 ## 6、采购价目表（已上线）
 
-
 ![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/0cabbf9d-5a7f-4182-a20f-54534329456e.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hItc32I8A5d1nP8Wd8HlS7hwwb0%3D "")
 
 | **需求** | **说明** |
@@ -90,7 +85,6 @@ source: dingtalk-document-mcp
 ![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 7、采购退货单（已上线）
-
 
 ![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/56556fd6-5459-4da0-80a1-bbf5321f0d96.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=GgPAHgbeW2d087KaJmXWo3tkXzc%3D "")
 
@@ -103,7 +97,6 @@ source: dingtalk-document-mcp
 
 ## 8、产品/产品明细（已上线）
 
-
 ![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/3e246075-e734-490b-a1b7-70ab9203197d.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gfMIPAQMqqcwbkxNcp0VJibCYcA%3D "")
 
 | **需求** | **说明** |
@@ -113,7 +106,6 @@ source: dingtalk-document-mcp
 ## 9、采退出库单（已上线）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 ![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/2f001d23-83e7-4787-8bb0-fbfd20b9526a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sqEdhS0Rd81K96chc%2BtMnFPFdts%3D "")
 
@@ -129,7 +121,6 @@ source: dingtalk-document-mcp
 
 ## 10、客户（已上线）
 
-
 ![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/e920085b-5d54-419f-a2c2-68e13112d36c.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zXmQLDN3sHE07PBrdB8Mvju0510%3D "")
 
 | **需求** | **说明** |
@@ -140,13 +131,11 @@ source: dingtalk-document-mcp
 
 ## 11、核算维度（已上线）
 
-
 ![Picture 22](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/1d247b75-619a-455c-8216-d556c2f96125.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gV1cO7NHgUmziYhNp8QgYnzXvck%3D "")
 
 ## 12、调拨出库单（待测试）
 
 自定义关联对象、子表单及数据联动铺开需求
-
 
 ![Picture 23](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/2649529b-5a86-4771-bd96-09f27fa07ba8.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=SXxYn5mbAGFa%2FK4slisLgqTHxkM%3D "")
 
@@ -162,7 +151,6 @@ source: dingtalk-document-mcp
 
 自定义关联对象、子表单及数据联动铺开需求
 
-
 ![Picture 25](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/c37caf8e-cb16-4a7b-9ab9-b83150d0128a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RS8zT9oMzzHwe40u5VIapDGLyRQ%3D "")
 
 | **需求** | **说明** |
@@ -176,7 +164,6 @@ source: dingtalk-document-mcp
 ![Picture 27](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/f8e196ea-36b0-42ad-b734-49bc2b4e065a.png?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=N7qwpx0bCRmDm29XIBBItdE3VAc%3D "")
 
 ## 14、规格/规格值（待测试）
-
 
 ![Picture 28](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/meonarbPXxwKrqXx/img/ab87f9db-6893-4d09-99c1-31aa03b20d34.jpeg?Expires=1774937835&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IYIox7Nav6GnBA5dQ5UjBYdyXdE%3D "")
 

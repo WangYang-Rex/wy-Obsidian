@@ -3,7 +3,8 @@ title: "九安SAP一次性供应商新增"
 nodeId: o14dA3GK8g5NgQvGF9QyxY0MV9ekBD76
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/o14dA3GK8g5NgQvGF9QyxY0MV9ekBD76?utm_scene=team_space"
-exportedAt: 2026-04-01T02:14:34.123Z
+updateTime: 1751427253000
+exportedAt: 2026-08-12T04:19:24.161Z
 source: dingtalk-document-mcp
 ---
 # 九安SAP一次性供应商新增
@@ -20,7 +21,7 @@ source: dingtalk-document-mcp
 
 方案一：有成侧作为一次性供应商的数据源，SAP主动获取有成侧数据
 
-\预估工时：0.5d(包含联调)\改动点：1、有成侧不再主动拉取SAP的一次性供应商数据
+\<font style="background-color:#FBDE28;"\>预估工时：0.5d(包含联调)\</font\>改动点：1、有成侧不再主动拉取SAP的一次性供应商数据
 
 2、有成侧辅助核算接口增加筛选条件
 
@@ -32,7 +33,7 @@ source: dingtalk-document-mcp
 
 方案三：有成侧支持新增供应商并将数据推送给SAP
 
-\预估工时：5d(3d开发\+1d联调\+1d测试)\
+\<font style="background-color:#FBDE28;"\>预估工时：5d(3d开发\+1d联调\+1d测试)\</font\>
 
 改动点：辅助核算新增入口【新建单据】、【辅助核算列表】
 

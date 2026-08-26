@@ -3,7 +3,8 @@ title: "AI审批增加必填控制，增加规则导出、助手复制"
 nodeId: ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/ZgpG2NdyVXrOqRxzHbYq1pGn8MwvDqPk?utm_scene=team_space"
-exportedAt: 2026-04-22T06:56:11.071Z
+updateTime: 1776148045000
+exportedAt: 2026-08-19T04:13:42.085Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |
@@ -35,13 +36,13 @@ AI审批上线后，因系统发布或大模型问题，重试后依然可能存
 
 ## **审批流，AI审批节点保存时增加审批流流程监督员必填校验。**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/2c1d3036-385d-4143-8834-f2b2bb31b973.png?Expires=1776848171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=efnI%2FSyicpySwZ1glzk3IIFw77s%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/2c1d3036-385d-4143-8834-f2b2bb31b973.png?Expires=1787120022&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=40usYH0A%2Fjv%2Bmsw06XjJG6IxVx4%3D "")
 1. AI审批节点增加超时设置，20分钟之后如果依然还在审批中，则处理为审批失败。
 2. 审批流，AI审批节点保存时增加审批流流程监督员必填校验，“AI审批”
 
 ## **审批助手支持复制**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/d9d8f6a7-3e81-4c89-b283-c333c1b7c878.png?Expires=1776848171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9IBE%2FK9zuQ6FYevzbmAOoxBPdHo%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/d9d8f6a7-3e81-4c89-b283-c333c1b7c878.png?Expires=1787120022&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=yHc3KPQNZXhjScoPz856fYimwoQ%3D "")
 1. AI审批助手列表，操作列增加“复制”，点击弹出复制AI审批助手弹框。其中：
 - AI审批助手名称默认为空，需要用户输入。
 - 审批详情数据权限默认带出原助手的审批详情数据权限，允许修改。
@@ -49,7 +50,7 @@ AI审批上线后，因系统发布或大模型问题，重试后依然可能存
 
 ## **审批规则批量编辑细节优化**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/743815e1-27c8-45f3-8ba6-c12d4c8eeeb3.png?Expires=1776848171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zmHrkO7hkkvIi6NfBuvSDgcnVx0%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/743815e1-27c8-45f3-8ba6-c12d4c8eeeb3.png?Expires=1787120022&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=7GNId7IpqDkUO9KBPMzN%2BtIMls0%3D "")
 1. 去掉批量编辑审批规则中，适用单据和风险强度的必填。
 2. 风险强度允许不选，默认不选。
 3. 适用单据为空时，点击确定，不覆盖选中规则的适用单据；
@@ -57,7 +58,7 @@ AI审批上线后，因系统发布或大模型问题，重试后依然可能存
 
 ## **审批规则支持导出**
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/78cacf9c-5c42-4530-93d2-7435ee5c11fe.png?Expires=1776848171&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Mhki24vAvmT%2B3LbWZFc8N%2BF6kCU%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kYQj6BylAK/img/78cacf9c-5c42-4530-93d2-7435ee5c11fe.png?Expires=1787120022&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=CJHYLz%2FaG7JEtMnIXQgtinos040%3D "")
 
 导出当前审批助手所有的审批规则。
 - 模板名称：【AI审批助手名称】-审批规则.xls

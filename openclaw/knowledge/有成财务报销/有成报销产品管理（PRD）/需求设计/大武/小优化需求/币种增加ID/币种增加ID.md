@@ -4,7 +4,7 @@ nodeId: jb9Y4gmKWr7lmxrahaKOR0REVGXn6lpz
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/jb9Y4gmKWr7lmxrahaKOR0REVGXn6lpz?utm_scene=team_space"
 updateTime: 1751427293000
-exportedAt: 2026-05-14T12:07:20.254Z
+exportedAt: 2026-08-12T04:20:45.878Z
 source: dingtalk-document-mcp
 ---
 # 币种增加ID
@@ -35,6 +35,6 @@ source: dingtalk-document-mcp
 
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5zrvko3KnKa/img/1377723f-bd87-4afd-a82c-a6bb12e7675f.png?Expires=1778766711&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=mlMtTnuzwVEh4IysNMHE1X0CbHs%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/mxPOG5zrvko3KnKa/img/1377723f-bd87-4afd-a82c-a6bb12e7675f.png?Expires=1786515555&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FxheOLoTDBjeGLBV2bjre99nAo8%3D "")
 3. 列表展示增加ID的展示，没有填写则默认为空；
 4. 接口对接时，如果没有编码则使用ID进行币种的传输；

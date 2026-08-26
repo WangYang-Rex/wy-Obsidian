@@ -19,8 +19,6 @@ source: dingtalk-document-mcp
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05m1Do4YZn34/img/0bb3e27d-09fe-46c6-8c25-df29aba018f4.png?Expires=1781014820&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=oAC%2F1rAY3vs6TuYxbXR5r%2B6KQ3Q%3D "")
 
-
-
 ## **操作步骤**
 
 ### **步骤一：重新授权**
@@ -63,7 +61,4 @@ source: dingtalk-document-mcp
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05m1Do4YZn34/img/8d94e11a-de4b-4a41-a0d1-0cf0df31bb2a.png?Expires=1781014820&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=FJyz%2BnVQLbIDbuwy2ItWk3Y4FsY%3D "")
 
 ![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/ZWGl05m1Do4YZn34/img/bd1f2ef8-0f21-4d04-b5a6-cc585f32acf2.png?Expires=1781014820&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=6UBhPbKzwpY3EDeEYp1P8Czx4rM%3D "")
-
-
-
 

@@ -4,7 +4,7 @@ nodeId: YQBnd5ExVEwmpjMyigPAgyb68yeZqMmz
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/YQBnd5ExVEwmpjMyigPAgyb68yeZqMmz?utm_scene=team_space"
 updateTime: 1784021010000
-exportedAt: 2026-07-16T11:10:52.621Z
+exportedAt: 2026-08-05T04:28:06.584Z
 source: dingtalk-document-mcp
 ---
 版本：v1.0 \| 产品：有成报销v2.0 \| 客户：重庆顺泰生活服务
@@ -40,9 +40,9 @@ source: dingtalk-document-mcp
 
 位置：合同管理 → 应收合同 → 导入模版下载
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/d3a05c09-7116-47c0-b5b6-2a016eb8aa02.png?Expires=1784207453&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=QzyJ3cKo6I7Wn%2Bu3mf8IvmDV0dE%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/d3a05c09-7116-47c0-b5b6-2a016eb8aa02.png?Expires=1785911129&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DSZqCqgmn1VLBN4BTLHnPaxTcgY%3D "")
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/838befd0-37a4-4999-95f2-2def1c2d42fa.png?Expires=1784207453&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2FR8pu76PIG661JaEVZ4e5T2qwCs%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/838befd0-37a4-4999-95f2-2def1c2d42fa.png?Expires=1785911129&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=04nqwy2jGLsSPUv%2F%2Fb1SEEBanLE%3D "")
 
 **功能描述：**
 1. **删除原导入模版内“回款计划”和“支付计划”相关字段列“计划金额”“计划日期”“计划备注”**
@@ -62,6 +62,6 @@ source: dingtalk-document-mcp
     4. **不支持“计划状态”和“合同发票”导入，导入的合同内计划的“计划状态”默认为未完成**
 3. 导入合同弹框提示文案修改：11.支付/回款计划：再导入模版的sheet页中填写对应支付/回款计划的明细，能够支持的字段及格式要求同上。
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/af0e71c5-aea8-4abc-82bb-218c0e796cf3.png?Expires=1784207453&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0tJSKHPR8Mu9jfXsVX5kwY2hYtY%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/oJGq75kJevzaAlAK/img/af0e71c5-aea8-4abc-82bb-218c0e796cf3.png?Expires=1785911129&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=NXkti%2BrxXVOeYHwicSbkiwrxgiE%3D "")
 
 

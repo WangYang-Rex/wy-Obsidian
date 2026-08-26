@@ -4,7 +4,7 @@ nodeId: MNDoBb60VLrO7YzkHrM65dX68lemrZQ3
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/MNDoBb60VLrO7YzkHrM65dX68lemrZQ3?utm_scene=team_space"
 updateTime: 1784019382000
-exportedAt: 2026-07-16T11:06:16.367Z
+exportedAt: 2026-08-19T04:13:14.157Z
 source: dingtalk-document-mcp
 ---
 | 修订时间 | 版本 | 修订说明 |
@@ -40,14 +40,14 @@ source: dingtalk-document-mcp
 1. ~~若未传appkey仅传了手机号，~~
     1. ~~没有匹配到已开通企业：您尚未加入企业或企业未开通产品，请联系管理员（正常来说不会有这个情况，兜底一下）~~
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybp1Ev3KqwZ/img/253cd7f7-7602-44f2-b355-bd4d6e1517ed.png?Expires=1784207176&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OraB0xnnFSKi9UxiTKJ4%2FBh5WyQ%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybp1Ev3KqwZ/img/253cd7f7-7602-44f2-b355-bd4d6e1517ed.png?Expires=1787119994&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2F%2FrJmFacKnGZEBECBplJdftWGBc%3D "")
     2. ~~匹配到一个已开通企业：直接进入产品内~~
     3. ~~匹配到多个已开通企业：选择企业中间页~~
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybp1Ev3KqwZ/img/1a588238-11a8-4570-af20-92b2a2d9675d.png?Expires=1784207176&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sUwAKYQA5EFpBTVZocO2TzTJujA%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/3BMqYybp1Ev3KqwZ/img/1a588238-11a8-4570-af20-92b2a2d9675d.png?Expires=1787119994&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=0V%2BgakZvSNFwS2U9JNGwFfLuQso%3D "")
 2. 若appkey和手机号都传了：——快麦本期按照这种模式对接。
-    4. 若企业未开通：（正常来说不会有这个情况，兜底一下）企业尚未开通产品，请联系管理员
-    5. 若企业已开通，但手机号不在组织架构中：您尚未加入企业，请联系管理员
-    6. ~~若企业已开通，但手机号在组织架构中且未激活：您的手机号尚未激活，请联系管理员~~
+    1. 若企业未开通：（正常来说不会有这个情况，兜底一下）企业尚未开通产品，请联系管理员
+    2. 若企业已开通，但手机号不在组织架构中：您尚未加入企业，请联系管理员
+    3. ~~若企业已开通，但手机号在组织架构中且未激活：您的手机号尚未激活，请联系管理员~~
 
 source参数用于记录流量，方便后续统计。

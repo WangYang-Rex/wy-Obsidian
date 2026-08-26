@@ -55,7 +55,6 @@ source: dingtalk-document-mcp
 
 参考有成AI的新建意图实现
 
-
 ![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/b06ec561-cfed-4004-9092-cc307c64112f.jpeg?Expires=1774934295&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=IKhzEcxyQ%2BOcFbsymbeDsEtJKE8%3D "")
 
 ## 2、通义听悟的可行性分析
@@ -63,7 +62,6 @@ source: dingtalk-document-mcp
 ### 2.1、计费说明
 
 [通义听悟如何计费\_工作学习 AI 助手通义听悟(TINGWU)-阿里云帮助中心](https://help.aliyun.com/zh/tingwu/pricing-and-billing-rules?spm=a2c4g.11186623.help-menu-454189.d_0_2_1.657b5041zDFhBH)
-
 
 ![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/Yvenve5bJjVWVloy/img/d7b6fd47-4f23-480c-9bcf-e74531331a10.png?Expires=1774934295&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=etnCjExZDTzcPHQei1P9wOQsr8I%3D "")
 

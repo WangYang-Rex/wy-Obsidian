@@ -4,7 +4,7 @@ nodeId: amweZ92PV6vZeDLpIdZjB1B0VxEKBD6p
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/amweZ92PV6vZeDLpIdZjB1B0VxEKBD6p?utm_scene=team_space"
 updateTime: 1751427322000
-exportedAt: 2026-05-14T12:11:10.894Z
+exportedAt: 2026-08-05T04:28:47.845Z
 source: dingtalk-document-mcp
 ---
 # MB端手签功能优化—签名板区域变大
@@ -31,7 +31,7 @@ source: dingtalk-document-mcp
 
 ### 4.1、需求说明1
 
-**系统：**【有成报销】MB端
+**系统：**【<span style="color: #2F8EF4;">有成报销</span>】<span style="color: #2F8EF4;">MB端</span>
 
 **系统路径**：MB—待审批—签名
 
@@ -39,4 +39,4 @@ source: dingtalk-document-mcp
 - 加大原签名框
 - 增加【全屏】按钮，交互如下图
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZEbbeNlpz/img/94fabc7b-4f8b-49fc-a711-65033ec806ab.png?Expires=1778767311&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=aWJxRmV9IDpFFCgzl24BZzKvi%2FA%3D "")
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jZEbbeNlpz/img/94fabc7b-4f8b-49fc-a711-65033ec806ab.png?Expires=1785911192&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=szPxLpzIh8Ud571%2FI1bvcemBpIg%3D "")

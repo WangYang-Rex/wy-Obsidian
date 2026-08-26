@@ -4,10 +4,10 @@ nodeId: QOG9lyrgJP3OYPnGTzr7ay1wVzN67Mw4
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/QOG9lyrgJP3OYPnGTzr7ay1wVzN67Mw4?utm_scene=team_space"
 updateTime: 1778664603000
-exportedAt: 2026-05-14T12:05:26.161Z
+exportedAt: 2026-08-19T04:13:30.727Z
 source: dingtalk-document-mcp
 ---
-[AI季度考核表.xlsx](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/att/d32c9b32-1cb3-4e6b-8d8c-50d4fb406df6.xlsx?Expires=1778766584&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=tBcpzU5DtER1KhNt2WrUx0QE%2B2A%3D)
+[AI季度考核表.xlsx](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/att/d32c9b32-1cb3-4e6b-8d8c-50d4fb406df6.xlsx?Expires=1787120011&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=JGiBFeMCbZ9psSa%2FTXtYXjt0dl4%3D)
 
 1、新签AI客户数
 
@@ -17,11 +17,11 @@ source: dingtalk-document-mcp
 
 订单金额大于1的算
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/img/65282ee6-6e90-4300-ace4-0b1cd9d360cc.png?Expires=1778766584&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=PwW3KNc5KIYe9b0vdWll8Djboss%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/img/65282ee6-6e90-4300-ace4-0b1cd9d360cc.png?Expires=1787120011&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=jLdYZXVOUYkr6Ca4HGuXiBed3gg%3D "")
 
 技术需求：
 
-![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/img/19ec215e-907c-4f12-8cf0-e531b578a5f1.png?Expires=1778766584&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=XacJoO8LZGhC4nJnhr9gTIEpr9k%3D "")
+![image.png](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/eYVOL5jBzDBKmlpz/img/19ec215e-907c-4f12-8cf0-e531b578a5f1.png?Expires=1787120011&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=DurOku2HYn7n6inT5VIoXHp0Wvs%3D "")
 
 
 

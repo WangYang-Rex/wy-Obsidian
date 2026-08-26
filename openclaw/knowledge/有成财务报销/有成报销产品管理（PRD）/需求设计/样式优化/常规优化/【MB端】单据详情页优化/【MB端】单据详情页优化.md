@@ -4,7 +4,7 @@ nodeId: YndMj49yWjPvNlg2I0Gjx0AbJ3pmz5aA
 workspaceId: R2PmK2gngjVnZXvp
 docUrl: "https://alidocs.dingtalk.com/i/nodes/YndMj49yWjPvNlg2I0Gjx0AbJ3pmz5aA?utm_scene=team_space"
 updateTime: 1751427288000
-exportedAt: 2026-05-14T12:07:07.808Z
+exportedAt: 2026-08-12T04:20:33.023Z
 source: dingtalk-document-mcp
 ---
 # 【MB端】单据详情页优化
@@ -18,12 +18,14 @@ source: dingtalk-document-mcp
 1、PC端-表当编辑时，字段标题较长时，内容混乱
 
 
-![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b59f24cd-6565-4da5-8bc0-3e11e6b02bba.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=asCYoRTgCFH9rjXfUa7%2BsIFPAU0%3D "")
+
+![Picture 1](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b59f24cd-6565-4da5-8bc0-3e11e6b02bba.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hbCkgr4PK8yW8nTadIQYWpE11H4%3D "")
 
 2、MB端-单据字段较长时，内容展示很乱，叠在一起展示；内容模块样式不统一
 
 
-![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b0ab7d5c-82f3-45fa-b704-a4bf0cfd6d63.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=UK888N4peP4mMqwOAxDCjjqnxJs%3D "")
+
+![Picture 2](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b0ab7d5c-82f3-45fa-b704-a4bf0cfd6d63.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=We9PSr%2FeSPaILB1YVlUuhIcuW1k%3D "")
 
 ## 2、业务流程/架构
 
@@ -39,9 +41,9 @@ source: dingtalk-document-mcp
 
 ### 4.1、需求说明
 
-**系统：**【有成报销】**MB端 & PC端**
+**系统：**【<span style="color: #2F8EF4;">有成报销</span>】**MB端 & PC端**
 
-**UI：**[https://lanhuapp.com/link/#/invite?sid=lX0FkjDc](https://lanhuapp.com/link/#/invite?sid=lX0FkjDc)
+**UI：**[<span style="color: #0000FF;"><u>https://lanhuapp.com/link/#/invite?sid=lX0FkjDc</u></span>](https://lanhuapp.com/link/#/invite?sid=lX0FkjDc)
 
 | **模块** | **现状** | **优化** |
 |----------|----------|----------|
@@ -55,40 +57,40 @@ source: dingtalk-document-mcp
 | MB单据详情-“产品明细”组件 |  | 同“消费明细” |
 | PC-表单编辑 | 标题过长时，会覆盖下面的字段展示 | 字段过长时换行展示，该字段上下间距增大 |
 
-![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/38abd096-c45d-4dbc-884a-f113710a82d5.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=aeR7prGDxaERLlqbLMy4a07oUdk%3D "")
+![Picture 3](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/38abd096-c45d-4dbc-884a-f113710a82d5.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=Fk%2BMfiyCJWOpvp4DfZtNt%2B7Bh5A%3D "")
 
-![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/e9eda543-b074-4699-99a9-5304f34064af.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=i1B0%2BbTpXet76Mo2LmW7wHkmPZ4%3D "")
+![Picture 4](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/e9eda543-b074-4699-99a9-5304f34064af.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=vc72Aa8QVrcSywHqAacCu0gfZAE%3D "")
 
-![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/4050b591-2cdb-4f42-a6d7-217a512d8601.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=RIQ5B%2FuxHJYXik8bJfAb7HeOOA4%3D "")
+![Picture 5](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/4050b591-2cdb-4f42-a6d7-217a512d8601.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2PBjyFwy70p7CCV2zstIDE1VpbA%3D "")
 
-![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/32157b7f-ae63-4a89-bc91-2652703d8be8.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=EN97Z93GfwxwmXUyWqXKbiLzC4A%3D "")
+![Picture 6](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/32157b7f-ae63-4a89-bc91-2652703d8be8.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=R204XN0EOKVKxHHkPWqps7KFou4%3D "")
 
-![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/9ec3312c-f41f-4d07-97b7-d50676d11243.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=ugSTlzMEAX%2F0r%2FIvtb%2FfMVHI9KI%3D "")
+![Picture 7](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/9ec3312c-f41f-4d07-97b7-d50676d11243.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=AuaQYKAy8PpkJI2EWr58igd47tA%3D "")
 
-![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/eb4c8d07-bf70-4863-a135-c3a2cf9099b0.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=P8YmcquPzf7xrTTGYTUzQwwnXqQ%3D "")
+![Picture 8](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/eb4c8d07-bf70-4863-a135-c3a2cf9099b0.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=sqroSC77tNlk9EGdbTb0KPYublg%3D "")
 
-![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/27727fd4-76af-499c-9f3c-ba66a6b26d5b.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xYCbY9h0KeIBnXU8sy6vF8x3YkM%3D "")
+![Picture 9](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/27727fd4-76af-499c-9f3c-ba66a6b26d5b.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=No7f8HbRzIR8QUigBC475ykc8rc%3D "")
 
-![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/2bf26b1a-51f7-40a8-9946-15bd344a635d.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MCAeRSEASAabuwiRcxl8f9Niuuo%3D "")
+![Picture 10](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/2bf26b1a-51f7-40a8-9946-15bd344a635d.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=dbwri%2BblO0wpfCEcMk0n8xkVNa4%3D "")
 
-![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/957799b6-0152-46c6-a774-b3c2304e64a1.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=n58PtnAzpGZQ0e3d0f0Jk56vrQE%3D "")
+![Picture 11](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/957799b6-0152-46c6-a774-b3c2304e64a1.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=xj1cQzAhncWq0f4guy2UOwe%2FFxY%3D "")
 
-![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/5efde71e-ee9e-4ca1-91e0-246cd4b485e0.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=pbeHyXeD8RvGQ8xgcxsghuvGJMA%3D "")
+![Picture 12](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/5efde71e-ee9e-4ca1-91e0-246cd4b485e0.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=OQvBNftpvCiB76QvMXhIfnm75Ew%3D "")
 
-![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/57322381-d931-4b5c-98e9-d3777758e900.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=TaduScXYwhv1RtISWXVo8KheBZE%3D "")
+![Picture 13](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/57322381-d931-4b5c-98e9-d3777758e900.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=%2BNO%2FmveGbnzlE%2FT1ku3YxQoA1TM%3D "")
 
-![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/c498c3d1-5024-411c-85e5-56f42d5f189e.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=kh%2BKtXMnEfovw%2B%2BoQ9L%2B0BygVPM%3D "")
+![Picture 14](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/c498c3d1-5024-411c-85e5-56f42d5f189e.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=MaYs6CqWsFLiP04EjbJLlnLKvaI%3D "")
 
-![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/da3cc207-da99-4b88-a1e9-bd9e22dacf5d.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=zXZ1Q8mLYJAZr%2BoFdW8af%2F%2BP%2BHU%3D "")
+![Picture 15](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/da3cc207-da99-4b88-a1e9-bd9e22dacf5d.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=LYaCgz9pX8M%2BwUK%2BeRtR3IPZmiM%3D "")
 
-![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/9a270280-7ae4-43a4-b102-228a5432a30f.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9KWp%2Brw8CPX%2BYjVSQbCvpr3Lw7Y%3D "")
+![Picture 16](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/9a270280-7ae4-43a4-b102-228a5432a30f.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=rgHpkNaSMHiCPK5tYc%2F%2FalDPEHs%3D "")
 
-![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/f4eb401d-0f69-4039-a9c9-1a44b9953ba8.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=2sdrd%2BSJUaUT%2FCBAXEheXMRObwc%3D "")
+![Picture 17](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/f4eb401d-0f69-4039-a9c9-1a44b9953ba8.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=g%2Fa2AJb038Hs6K2wFGY3Zor7%2F8o%3D "")
 
-![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/123db089-ec14-4f7a-9d6c-9172374af1ab.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=9DzNirkZMn7tdMwJ%2FL%2FfRyO2K2M%3D "")
+![Picture 18](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/123db089-ec14-4f7a-9d6c-9172374af1ab.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=p4pJgNx1magnwsb5k8atBbkHxwg%3D "")
 
-![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b59f24cd-6565-4da5-8bc0-3e11e6b02bba.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=asCYoRTgCFH9rjXfUa7%2BsIFPAU0%3D "")
+![Picture 19](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/b59f24cd-6565-4da5-8bc0-3e11e6b02bba.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=hbCkgr4PK8yW8nTadIQYWpE11H4%3D "")
 
-MB端原型：
+<span style="color: #DF2A3F;">MB端原型：</span>
 
-![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/246c18bd-9d1f-495a-848e-c39b50a97928.png?Expires=1778766694&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=eaXQ%2FNpQ4gdBD1z%2FbfH6EXYOPGo%3D "")
+![Picture 20](https://alidocs2.oss-cn-zhangjiakou.aliyuncs.com/res/4jKqm0bvDDRebnw1/img/246c18bd-9d1f-495a-848e-c39b50a97928.png?Expires=1786515536&OSSAccessKeyId=LTAI5tKTjg4Kq1HCdBJ8qpSp&Signature=gRnvFhXvb7XLhm6rL3DsXOjsp1o%3D "")
